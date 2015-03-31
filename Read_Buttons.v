@@ -1,11 +1,26 @@
 // Read_Buttons.v
 // N64.v
-module Read_Buttons(clk, reset, Din, Dout);
-    input clk;
-    input reset;
-    input Din;
-    output reg Dout;
-    
+module Read_Buttons(input PCLK, // clock
+input PRESERN, // system reset
+//APB3 BUS INTERFACE
+input PSEL, // peripheral select
+input PENABLE, // distinguishes access phase
+output wire PREADY, // peripheral ready signal
+output wire PSLVERR, // error signal
+input PWRITE, // read/write control bit 
+input [31:0] PADDR, // IO address
+input wire [31:0] PWDATA, // (processor) bus is writing data to
+                          //this device 32 bits
+output reg [31:0] PRDATA, // (processor) bus is reading data from this device 
+input Din, output reg Dout);
+
+    assign PSLVERR = 0; //assumes no error generation
+    assign PREADY = 1; //assumes zero wait
+    wire write_enable = (PENABLE && PWRITE && PSEL);
+    //decodes APB3 write cycle
+    wire read_enable = (!PWRITE && PSEL);
+    //decode APB3 read cycle
+
     assign reset = 0;
 
     reg [32:0] controller_data;
@@ -14,7 +29,7 @@ module Read_Buttons(clk, reset, Din, Dout);
     reg [6:0] bit_access;
 
     // counter == 100 represents 1 us.
-    always @(posedge clk)
+    always @(posedge PCLK)
     begin
         //3600 for sending 0x01
         //3601 - 3800 wait
@@ -56,16 +71,12 @@ module Read_Buttons(clk, reset, Din, Dout);
         // Within the 400 clock cycles where one bit is broadcasted, you should sample at the 225th tick.
         if(((counter - 3750) % 400) == 225 && counter >= 3750)
         begin
-            if(Din == 1)
-            begin
-                
-            end
-            else
-            begin
-
-            end
-            controller_data[bit_access] = Din;
+            controller_data[bit_access] <= Din;
             bit_access <= bit_access + 1;
+        end
+        if(counter > 17000)
+        begin
+            
         end
         
     end

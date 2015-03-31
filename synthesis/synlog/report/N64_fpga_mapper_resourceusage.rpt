@@ -1,0 +1,78 @@
+Target Part: A2F200M3F_FBGA484_-1
+Report for cell N64.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2     5      1.0        5.0
+              AND3    19      1.0       19.0
+               AO1    11      1.0       11.0
+              AO13     8      1.0        8.0
+              AO18     7      1.0        7.0
+              AO1A     5      1.0        5.0
+              AO1C     1      1.0        1.0
+              AO1D     1      1.0        1.0
+              AOI1     2      1.0        2.0
+             AOI1B     1      1.0        1.0
+               AX1     2      1.0        2.0
+              AX1A     2      1.0        2.0
+              AX1B     6      1.0        6.0
+              AX1D     3      1.0        3.0
+              BUFF     1      1.0        1.0
+               GND     6      0.0        0.0
+               INV     1      1.0        1.0
+              MAJ3     7      1.0        7.0
+           MSS_APB     1      0.0        0.0
+           MSS_CCC     1      0.0        0.0
+               MX2    32      1.0       32.0
+              MX2A     1      1.0        1.0
+              NOR2    20      1.0       20.0
+             NOR2A    50      1.0       50.0
+             NOR2B    35      1.0       35.0
+              NOR3     2      1.0        2.0
+             NOR3A    15      1.0       15.0
+             NOR3B     4      1.0        4.0
+             NOR3C    37      1.0       37.0
+               OA1    16      1.0       16.0
+              OA1A     5      1.0        5.0
+              OA1B     3      1.0        3.0
+              OA1C     3      1.0        3.0
+               OR2    34      1.0       34.0
+              OR2A    33      1.0       33.0
+              OR2B     6      1.0        6.0
+               OR3    20      1.0       20.0
+              OR3A     8      1.0        8.0
+              OR3B     2      1.0        2.0
+              OR3C     3      1.0        3.0
+             RCOSC     1      0.0        0.0
+               VCC     6      0.0        0.0
+               XA1     3      1.0        3.0
+              XA1A    29      1.0       29.0
+              XA1C     1      1.0        1.0
+             XNOR2    31      1.0       31.0
+             XNOR3    12      1.0       12.0
+              XOR2    50      1.0       50.0
+              XOR3    10      1.0       10.0
+
+
+              DFN1    52      1.0       52.0
+            DFN1E0     7      1.0        7.0
+            DFN1E1    64      1.0       64.0
+                   -----          ----------
+             TOTAL   685               670.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     1
+         INBUF_MSS     2
+            OUTBUF     1
+        OUTBUF_MSS     1
+                   -----
+             TOTAL     5
+
+
+Core Cells         : 670 of 4608 (15%)
+IO Cells           : 5
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+

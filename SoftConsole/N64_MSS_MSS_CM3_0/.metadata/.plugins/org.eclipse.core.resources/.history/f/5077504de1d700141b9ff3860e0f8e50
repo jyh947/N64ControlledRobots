@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <inttypes.h>
+#include "drivers/mss_uart/mss_uart.h"
+
+int main()
+{
+	while( 1 )
+	{
+		uint32_t input = *(0x40050000);
+        printf("Output: %u\r\n", MYTIMER_getCounterVal()); // Standard printf() now work
+
+	}
+	return 0;
+}

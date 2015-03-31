@@ -1,0 +1,822 @@
+Timing Violation Report Max Delay Analysis
+
+SmartTime Version v11.4
+Microsemi Corporation - Microsemi Libero Software Release v11.4 (Version 11.4.0.112)
+Date: Tue Mar 31 18:53:37 2015
+
+
+Design: N64
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+Temperature: COM
+Voltage: COM
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Condition: BEST
+Max Operating Condition: WORST
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+Path 1
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[17]:D
+  Delay (ns):                  68.631
+  Slack (ns):                  -59.055
+  Arrival (ns):                73.776
+  Required (ns):               14.721
+
+Path 2
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[19]:D
+  Delay (ns):                  68.612
+  Slack (ns):                  -59.033
+  Arrival (ns):                73.757
+  Required (ns):               14.724
+
+Path 3
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[6]:D
+  Delay (ns):                  68.603
+  Slack (ns):                  -59.032
+  Arrival (ns):                73.748
+  Required (ns):               14.716
+
+Path 4
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[1]:D
+  Delay (ns):                  68.603
+  Slack (ns):                  -59.032
+  Arrival (ns):                73.748
+  Required (ns):               14.716
+
+Path 5
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[13]:D
+  Delay (ns):                  68.591
+  Slack (ns):                  -59.010
+  Arrival (ns):                73.736
+  Required (ns):               14.726
+
+Path 6
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[2]:D
+  Delay (ns):                  68.531
+  Slack (ns):                  -58.999
+  Arrival (ns):                73.676
+  Required (ns):               14.677
+
+Path 7
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[11]:D
+  Delay (ns):                  68.551
+  Slack (ns):                  -58.980
+  Arrival (ns):                73.696
+  Required (ns):               14.716
+
+Path 8
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[5]:D
+  Delay (ns):                  68.380
+  Slack (ns):                  -58.822
+  Arrival (ns):                73.525
+  Required (ns):               14.703
+
+Path 9
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[17]:D
+  Delay (ns):                  68.306
+  Slack (ns):                  -58.755
+  Arrival (ns):                73.476
+  Required (ns):               14.721
+
+Path 10
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[19]:D
+  Delay (ns):                  68.287
+  Slack (ns):                  -58.733
+  Arrival (ns):                73.457
+  Required (ns):               14.724
+
+Path 11
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[6]:D
+  Delay (ns):                  68.278
+  Slack (ns):                  -58.732
+  Arrival (ns):                73.448
+  Required (ns):               14.716
+
+Path 12
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[1]:D
+  Delay (ns):                  68.278
+  Slack (ns):                  -58.732
+  Arrival (ns):                73.448
+  Required (ns):               14.716
+
+Path 13
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[17]:D
+  Delay (ns):                  68.267
+  Slack (ns):                  -58.716
+  Arrival (ns):                73.437
+  Required (ns):               14.721
+
+Path 14
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[13]:D
+  Delay (ns):                  68.266
+  Slack (ns):                  -58.710
+  Arrival (ns):                73.436
+  Required (ns):               14.726
+
+Path 15
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[17]:D
+  Delay (ns):                  68.279
+  Slack (ns):                  -58.703
+  Arrival (ns):                73.424
+  Required (ns):               14.721
+
+Path 16
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[2]:D
+  Delay (ns):                  68.206
+  Slack (ns):                  -58.699
+  Arrival (ns):                73.376
+  Required (ns):               14.677
+
+Path 17
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[19]:D
+  Delay (ns):                  68.248
+  Slack (ns):                  -58.694
+  Arrival (ns):                73.418
+  Required (ns):               14.724
+
+Path 18
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[6]:D
+  Delay (ns):                  68.239
+  Slack (ns):                  -58.693
+  Arrival (ns):                73.409
+  Required (ns):               14.716
+
+Path 19
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[1]:D
+  Delay (ns):                  68.239
+  Slack (ns):                  -58.693
+  Arrival (ns):                73.409
+  Required (ns):               14.716
+
+Path 20
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[19]:D
+  Delay (ns):                  68.260
+  Slack (ns):                  -58.681
+  Arrival (ns):                73.405
+  Required (ns):               14.724
+
+Path 21
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[11]:D
+  Delay (ns):                  68.226
+  Slack (ns):                  -58.680
+  Arrival (ns):                73.396
+  Required (ns):               14.716
+
+Path 22
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[6]:D
+  Delay (ns):                  68.251
+  Slack (ns):                  -58.680
+  Arrival (ns):                73.396
+  Required (ns):               14.716
+
+Path 23
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[1]:D
+  Delay (ns):                  68.251
+  Slack (ns):                  -58.680
+  Arrival (ns):                73.396
+  Required (ns):               14.716
+
+Path 24
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[13]:D
+  Delay (ns):                  68.227
+  Slack (ns):                  -58.671
+  Arrival (ns):                73.397
+  Required (ns):               14.726
+
+Path 25
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[2]:D
+  Delay (ns):                  68.167
+  Slack (ns):                  -58.660
+  Arrival (ns):                73.337
+  Required (ns):               14.677
+
+Path 26
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[13]:D
+  Delay (ns):                  68.239
+  Slack (ns):                  -58.658
+  Arrival (ns):                73.384
+  Required (ns):               14.726
+
+Path 27
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[2]:D
+  Delay (ns):                  68.179
+  Slack (ns):                  -58.647
+  Arrival (ns):                73.324
+  Required (ns):               14.677
+
+Path 28
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[11]:D
+  Delay (ns):                  68.187
+  Slack (ns):                  -58.641
+  Arrival (ns):                73.357
+  Required (ns):               14.716
+
+Path 29
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[11]:D
+  Delay (ns):                  68.199
+  Slack (ns):                  -58.628
+  Arrival (ns):                73.344
+  Required (ns):               14.716
+
+Path 30
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[5]:D
+  Delay (ns):                  68.055
+  Slack (ns):                  -58.522
+  Arrival (ns):                73.225
+  Required (ns):               14.703
+
+Path 31
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[5]:D
+  Delay (ns):                  68.016
+  Slack (ns):                  -58.483
+  Arrival (ns):                73.186
+  Required (ns):               14.703
+
+Path 32
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[5]:D
+  Delay (ns):                  68.028
+  Slack (ns):                  -58.470
+  Arrival (ns):                73.173
+  Required (ns):               14.703
+
+Path 33
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[4]:D
+  Delay (ns):                  67.985
+  Slack (ns):                  -58.432
+  Arrival (ns):                73.130
+  Required (ns):               14.698
+
+Path 34
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[29]:D
+  Delay (ns):                  67.982
+  Slack (ns):                  -58.379
+  Arrival (ns):                73.127
+  Required (ns):               14.748
+
+Path 35
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[21]:D
+  Delay (ns):                  67.958
+  Slack (ns):                  -58.379
+  Arrival (ns):                73.103
+  Required (ns):               14.724
+
+Path 36
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[30]:D
+  Delay (ns):                  67.982
+  Slack (ns):                  -58.378
+  Arrival (ns):                73.127
+  Required (ns):               14.749
+
+Path 37
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[7]:E
+  Delay (ns):                  68.020
+  Slack (ns):                  -58.360
+  Arrival (ns):                73.165
+  Required (ns):               14.805
+
+Path 38
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[26]:D
+  Delay (ns):                  67.938
+  Slack (ns):                  -58.359
+  Arrival (ns):                73.083
+  Required (ns):               14.724
+
+Path 39
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[23]:D
+  Delay (ns):                  67.938
+  Slack (ns):                  -58.359
+  Arrival (ns):                73.083
+  Required (ns):               14.724
+
+Path 40
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[28]:D
+  Delay (ns):                  67.938
+  Slack (ns):                  -58.357
+  Arrival (ns):                73.083
+  Required (ns):               14.726
+
+Path 41
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[3]:D
+  Delay (ns):                  67.778
+  Slack (ns):                  -58.220
+  Arrival (ns):                72.923
+  Required (ns):               14.703
+
+Path 42
+  From:                        Read_Buttons_0/counter[13]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[17]:D
+  Delay (ns):                  67.761
+  Slack (ns):                  -58.204
+  Arrival (ns):                72.925
+  Required (ns):               14.721
+
+Path 43
+  From:                        Read_Buttons_0/counter[13]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[19]:D
+  Delay (ns):                  67.742
+  Slack (ns):                  -58.182
+  Arrival (ns):                72.906
+  Required (ns):               14.724
+
+Path 44
+  From:                        Read_Buttons_0/counter[13]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[6]:D
+  Delay (ns):                  67.733
+  Slack (ns):                  -58.181
+  Arrival (ns):                72.897
+  Required (ns):               14.716
+
+Path 45
+  From:                        Read_Buttons_0/counter[13]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[1]:D
+  Delay (ns):                  67.733
+  Slack (ns):                  -58.181
+  Arrival (ns):                72.897
+  Required (ns):               14.716
+
+Path 46
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[8]:D
+  Delay (ns):                  67.747
+  Slack (ns):                  -58.171
+  Arrival (ns):                72.892
+  Required (ns):               14.721
+
+Path 47
+  From:                        Read_Buttons_0/counter[13]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[13]:D
+  Delay (ns):                  67.721
+  Slack (ns):                  -58.159
+  Arrival (ns):                72.885
+  Required (ns):               14.726
+
+Path 48
+  From:                        Read_Buttons_0/counter[13]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[2]:D
+  Delay (ns):                  67.661
+  Slack (ns):                  -58.148
+  Arrival (ns):                72.825
+  Required (ns):               14.677
+
+Path 49
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[22]:D
+  Delay (ns):                  67.714
+  Slack (ns):                  -58.133
+  Arrival (ns):                72.859
+  Required (ns):               14.726
+
+Path 50
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[4]:D
+  Delay (ns):                  67.660
+  Slack (ns):                  -58.132
+  Arrival (ns):                72.830
+  Required (ns):               14.698
+
+Path 51
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[5]:E
+  Delay (ns):                  67.766
+  Slack (ns):                  -58.129
+  Arrival (ns):                72.911
+  Required (ns):               14.782
+
+Path 52
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[3]:E
+  Delay (ns):                  67.766
+  Slack (ns):                  -58.129
+  Arrival (ns):                72.911
+  Required (ns):               14.782
+
+Path 53
+  From:                        Read_Buttons_0/counter[13]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[11]:D
+  Delay (ns):                  67.681
+  Slack (ns):                  -58.129
+  Arrival (ns):                72.845
+  Required (ns):               14.716
+
+Path 54
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[0]:D
+  Delay (ns):                  67.692
+  Slack (ns):                  -58.111
+  Arrival (ns):                72.837
+  Required (ns):               14.726
+
+Path 55
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[4]:D
+  Delay (ns):                  67.621
+  Slack (ns):                  -58.093
+  Arrival (ns):                72.791
+  Required (ns):               14.698
+
+Path 56
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[4]:D
+  Delay (ns):                  67.633
+  Slack (ns):                  -58.080
+  Arrival (ns):                72.778
+  Required (ns):               14.698
+
+Path 57
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[29]:D
+  Delay (ns):                  67.657
+  Slack (ns):                  -58.079
+  Arrival (ns):                72.827
+  Required (ns):               14.748
+
+Path 58
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[21]:D
+  Delay (ns):                  67.633
+  Slack (ns):                  -58.079
+  Arrival (ns):                72.803
+  Required (ns):               14.724
+
+Path 59
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[30]:D
+  Delay (ns):                  67.657
+  Slack (ns):                  -58.078
+  Arrival (ns):                72.827
+  Required (ns):               14.749
+
+Path 60
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[7]:E
+  Delay (ns):                  67.695
+  Slack (ns):                  -58.060
+  Arrival (ns):                72.865
+  Required (ns):               14.805
+
+Path 61
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[26]:D
+  Delay (ns):                  67.613
+  Slack (ns):                  -58.059
+  Arrival (ns):                72.783
+  Required (ns):               14.724
+
+Path 62
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[23]:D
+  Delay (ns):                  67.613
+  Slack (ns):                  -58.059
+  Arrival (ns):                72.783
+  Required (ns):               14.724
+
+Path 63
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[28]:D
+  Delay (ns):                  67.613
+  Slack (ns):                  -58.057
+  Arrival (ns):                72.783
+  Required (ns):               14.726
+
+Path 64
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[8]:E
+  Delay (ns):                  67.703
+  Slack (ns):                  -58.048
+  Arrival (ns):                72.848
+  Required (ns):               14.800
+
+Path 65
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[29]:D
+  Delay (ns):                  67.618
+  Slack (ns):                  -58.040
+  Arrival (ns):                72.788
+  Required (ns):               14.748
+
+Path 66
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[21]:D
+  Delay (ns):                  67.594
+  Slack (ns):                  -58.040
+  Arrival (ns):                72.764
+  Required (ns):               14.724
+
+Path 67
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[30]:D
+  Delay (ns):                  67.618
+  Slack (ns):                  -58.039
+  Arrival (ns):                72.788
+  Required (ns):               14.749
+
+Path 68
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[29]:D
+  Delay (ns):                  67.630
+  Slack (ns):                  -58.027
+  Arrival (ns):                72.775
+  Required (ns):               14.748
+
+Path 69
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[21]:D
+  Delay (ns):                  67.606
+  Slack (ns):                  -58.027
+  Arrival (ns):                72.751
+  Required (ns):               14.724
+
+Path 70
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[30]:D
+  Delay (ns):                  67.630
+  Slack (ns):                  -58.026
+  Arrival (ns):                72.775
+  Required (ns):               14.749
+
+Path 71
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[7]:E
+  Delay (ns):                  67.656
+  Slack (ns):                  -58.021
+  Arrival (ns):                72.826
+  Required (ns):               14.805
+
+Path 72
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[26]:D
+  Delay (ns):                  67.574
+  Slack (ns):                  -58.020
+  Arrival (ns):                72.744
+  Required (ns):               14.724
+
+Path 73
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[23]:D
+  Delay (ns):                  67.574
+  Slack (ns):                  -58.020
+  Arrival (ns):                72.744
+  Required (ns):               14.724
+
+Path 74
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[28]:D
+  Delay (ns):                  67.574
+  Slack (ns):                  -58.018
+  Arrival (ns):                72.744
+  Required (ns):               14.726
+
+Path 75
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[31]:D
+  Delay (ns):                  67.587
+  Slack (ns):                  -58.010
+  Arrival (ns):                72.732
+  Required (ns):               14.722
+
+Path 76
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[7]:E
+  Delay (ns):                  67.668
+  Slack (ns):                  -58.008
+  Arrival (ns):                72.813
+  Required (ns):               14.805
+
+Path 77
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[26]:D
+  Delay (ns):                  67.586
+  Slack (ns):                  -58.007
+  Arrival (ns):                72.731
+  Required (ns):               14.724
+
+Path 78
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[23]:D
+  Delay (ns):                  67.586
+  Slack (ns):                  -58.007
+  Arrival (ns):                72.731
+  Required (ns):               14.724
+
+Path 79
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[28]:D
+  Delay (ns):                  67.586
+  Slack (ns):                  -58.005
+  Arrival (ns):                72.731
+  Required (ns):               14.726
+
+Path 80
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[20]:D
+  Delay (ns):                  67.564
+  Slack (ns):                  -57.987
+  Arrival (ns):                72.709
+  Required (ns):               14.722
+
+Path 81
+  From:                        Read_Buttons_0/counter[13]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[5]:D
+  Delay (ns):                  67.510
+  Slack (ns):                  -57.971
+  Arrival (ns):                72.674
+  Required (ns):               14.703
+
+Path 82
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[15]:E
+  Delay (ns):                  67.563
+  Slack (ns):                  -57.926
+  Arrival (ns):                72.708
+  Required (ns):               14.782
+
+Path 83
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[3]:D
+  Delay (ns):                  67.453
+  Slack (ns):                  -57.920
+  Arrival (ns):                72.623
+  Required (ns):               14.703
+
+Path 84
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[15]:D
+  Delay (ns):                  67.474
+  Slack (ns):                  -57.916
+  Arrival (ns):                72.619
+  Required (ns):               14.703
+
+Path 85
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[3]:D
+  Delay (ns):                  67.414
+  Slack (ns):                  -57.881
+  Arrival (ns):                72.584
+  Required (ns):               14.703
+
+Path 86
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[8]:D
+  Delay (ns):                  67.422
+  Slack (ns):                  -57.871
+  Arrival (ns):                72.592
+  Required (ns):               14.721
+
+Path 87
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[10]:D
+  Delay (ns):                  67.451
+  Slack (ns):                  -57.870
+  Arrival (ns):                72.596
+  Required (ns):               14.726
+
+Path 88
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[3]:D
+  Delay (ns):                  67.426
+  Slack (ns):                  -57.868
+  Arrival (ns):                72.571
+  Required (ns):               14.703
+
+Path 89
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[22]:D
+  Delay (ns):                  67.389
+  Slack (ns):                  -57.833
+  Arrival (ns):                72.559
+  Required (ns):               14.726
+
+Path 90
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[8]:D
+  Delay (ns):                  67.383
+  Slack (ns):                  -57.832
+  Arrival (ns):                72.553
+  Required (ns):               14.721
+
+Path 91
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[12]:D
+  Delay (ns):                  67.401
+  Slack (ns):                  -57.830
+  Arrival (ns):                72.546
+  Required (ns):               14.716
+
+Path 92
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[5]:E
+  Delay (ns):                  67.441
+  Slack (ns):                  -57.829
+  Arrival (ns):                72.611
+  Required (ns):               14.782
+
+Path 93
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[3]:E
+  Delay (ns):                  67.441
+  Slack (ns):                  -57.829
+  Arrival (ns):                72.611
+  Required (ns):               14.782
+
+Path 94
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[8]:D
+  Delay (ns):                  67.395
+  Slack (ns):                  -57.819
+  Arrival (ns):                72.540
+  Required (ns):               14.721
+
+Path 95
+  From:                        Read_Buttons_0/counter[16]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[0]:D
+  Delay (ns):                  67.367
+  Slack (ns):                  -57.811
+  Arrival (ns):                72.537
+  Required (ns):               14.726
+
+Path 96
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[22]:D
+  Delay (ns):                  67.350
+  Slack (ns):                  -57.794
+  Arrival (ns):                72.520
+  Required (ns):               14.726
+
+Path 97
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[5]:E
+  Delay (ns):                  67.402
+  Slack (ns):                  -57.790
+  Arrival (ns):                72.572
+  Required (ns):               14.782
+
+Path 98
+  From:                        Read_Buttons_0/counter[17]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[3]:E
+  Delay (ns):                  67.402
+  Slack (ns):                  -57.790
+  Arrival (ns):                72.572
+  Required (ns):               14.782
+
+Path 99
+  From:                        Read_Buttons_0/counter[14]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[9]:D
+  Delay (ns):                  67.366
+  Slack (ns):                  -57.785
+  Arrival (ns):                72.511
+  Required (ns):               14.726
+
+Path 100
+  From:                        Read_Buttons_0/counter[15]:CLK
+  To:                          Read_Buttons_0/eight_bit_data[22]:D
+  Delay (ns):                  67.362
+  Slack (ns):                  -57.781
+  Arrival (ns):                72.507
+  Required (ns):               14.726
+

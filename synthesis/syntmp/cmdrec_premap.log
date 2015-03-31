@@ -1,0 +1,13 @@
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\m_proasic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  J:\N64\synthesis  -part A2F200M3F  -package FBGA484  -grade -1   -globalthreshold 50 -maxfan 24 -opcond COMWC     -report_path 0   -RWCheckOnRam 0     -summaryfile J:\N64\synthesis\synlog\report\N64_premap.xml -top_level_module  N64  -oedif  J:\N64\synthesis\N64.edn  -conchk_prepass  J:\N64\synthesis\N64_cck_prepass.rpt  -freq 100.000  J:\N64\synthesis\synwork\N64_comp.srs  -flow prepass  -gcc_prepass  -osrd  J:\N64\synthesis\synwork\N64_prem.srd  -qsap  J:\N64\synthesis\N64.sap  -devicelib  C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v  -ologparam  J:\N64\synthesis\syntmp\N64.plg  -osyn  J:\N64\synthesis\synwork\N64_prem.srd  -prjdir  J:\N64\synthesis\  -prjname  N64_syn  -log  J:\N64\synthesis\synlog\N64_premap.srr 
+rc:1 success:1
+J:\N64\synthesis\N64.edn|o|0|0
+J:\N64\synthesis\N64_cck_prepass.rpt|o|0|0
+J:\N64\synthesis\synwork\N64_comp.srs|i|1427842180|50270
+J:\N64\synthesis\synwork\N64_prem.srd|o|1427842192|55787
+J:\N64\synthesis\N64.sap|o|1427842192|1185
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v|i|1389708296|72817
+J:\N64\synthesis\syntmp\N64.plg|o|1427842184|0
+J:\N64\synthesis\synwork\N64_prem.srd|o|1427842192|55787
+J:\N64\synthesis\synlog\N64_premap.srr|o|1427842192|2135
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\m_proasic.exe|i|1401309616|14819328
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin\m_proasic.exe|i|1401306976|12178944

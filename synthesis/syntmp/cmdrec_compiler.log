@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\c_ver.exe  -osyn  J:\N64\synthesis\synwork\N64_comp.srs  -top  N64  -prodtype  synplify_pro  -nram -fixsmult   -divnmod -I J:\N64\synthesis\  -I C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib  -v2001  -devicelib  C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v  -encrypt  -pro  -dmgen  J:\N64\synthesis\dm  -ui -fid2 -ram -sharing on  -ll 2000 -autosm -lib COREAPB3_LIB J:\N64\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v -lib COREAPB3_LIB J:\N64\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v -lib COREAPB3_LIB J:\N64\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v -lib work J:\N64\component\work\N64_MSS\mss_tshell.v -lib work J:\N64\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v -lib work J:\N64\component\work\N64_MSS\MSS_CCC_0\N64_MSS_tmp_MSS_CCC_0_MSS_CCC.v -lib work J:\N64\component\work\N64_MSS\N64_MSS.v -lib work J:\N64\hdl\Read_Buttons.v -lib work J:\N64\component\work\N64\N64.v -loga  J:\N64\synthesis\N64.srr 
+rc:1 success:1
+J:\N64\synthesis\synwork\N64_comp.srs|o|1427842180|50270
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v|i|1389708296|72817
+J:\N64\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v|i|1366303718|6738
+J:\N64\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v|i|1366303718|3312
+J:\N64\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v|i|1366303718|32421
+J:\N64\component\work\N64_MSS\mss_tshell.v|i|1427830634|12226
+J:\N64\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v|i|1358982150|11243
+J:\N64\component\work\N64_MSS\MSS_CCC_0\N64_MSS_tmp_MSS_CCC_0_MSS_CCC.v|i|1427830632|2882
+J:\N64\component\work\N64_MSS\N64_MSS.v|i|1427830692|18736
+J:\N64\hdl\Read_Buttons.v|i|1427842156|3198
+J:\N64\component\work\N64\N64.v|i|1427830562|13025
+J:\N64\synthesis\N64.srr|o|1427842180|17416
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\c_ver.exe|i|1389676458|5733376
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin\c_ver.exe|i|1389676244|2205696

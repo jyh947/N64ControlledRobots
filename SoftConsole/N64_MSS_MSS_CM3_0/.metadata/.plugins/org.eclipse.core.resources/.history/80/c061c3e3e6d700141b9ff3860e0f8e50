@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <inttypes.h>
+#include "drivers/mss_uart/mss_uart.h"
+
+int main()
+{
+	while( 1 )
+	{
+		int input = *(int *)(0x40050000);
+		if(input == 1)
+		{
+	        printf("Output: %x\r\n", input);
+		}
+	}
+	return 0;
+}

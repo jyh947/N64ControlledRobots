@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\m_proasic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  J:\N64\synthesis  -part A2F200M3F  -package FBGA484  -grade -1   -globalthreshold 50 -maxfan 24 -opcond COMWC     -report_path 0   -RWCheckOnRam 0     -summaryfile J:\N64\synthesis\synlog\report\N64_fpga_mapper.xml -top_level_module  N64  -flow mapping  -mp 1 -prjfile  J:\N64\synthesis\scratchproject.prs  -implementation synthesis -licensetype  synplifypro  -oedif  J:\N64\synthesis\N64.edn  -freq 100.000  J:\N64\synthesis\synwork\N64_prem.srd  -sap  J:\N64\synthesis\N64.sap  -otap  J:\N64\synthesis\N64.tap  -omap  J:\N64\synthesis\N64.map  -devicelib  C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v  -sap  J:\N64\synthesis\N64.sap  -ologparam  J:\N64\synthesis\syntmp\N64.plg  -osyn  J:\N64\synthesis\N64.srm  -prjdir  J:\N64\synthesis\  -prjname  N64_syn  -log  J:\N64\synthesis\synlog\N64_fpga_mapper.srr 
+rc:1 success:1
+J:\N64\synthesis\scratchproject.prs|o|1427831450|2231
+J:\N64\synthesis\N64.edn|o|1427842252|504108
+J:\N64\synthesis\synwork\N64_prem.srd|i|1427842192|55787
+J:\N64\synthesis\N64.sap|o|1427842192|1185
+J:\N64\synthesis\N64.tap|o|0|0
+J:\N64\synthesis\N64.map|o|1427842254|28
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v|i|1389708296|72817
+J:\N64\synthesis\N64.sap|o|1427842192|1185
+J:\N64\synthesis\syntmp\N64.plg|o|1427842254|747
+J:\N64\synthesis\N64.srm|o|1427842234|133702
+J:\N64\synthesis\synlog\N64_fpga_mapper.srr|o|1427842254|224855
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\m_proasic.exe|i|1401309616|14819328
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin\m_proasic.exe|i|1401306976|12178944

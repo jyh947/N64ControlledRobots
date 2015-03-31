@@ -1,0 +1,82 @@
+
+Starting:    C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\win64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1
+Date:        Tue Mar 31 18:49:35 2015
+Version:     I-2013.09M-SP1-1 
+
+Arguments:   -product synplify_pro  -licensetype synplifypro_actel -batch -log synplify.log N64_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+
+auto_infer_blackbox is not supported in current product.
+
+
+log file: "J:\N64\synthesis\N64.srr"
+
+
+
+
+
+Running N64_syn|synthesis
+
+
+Running: Compile on N64_syn|synthesis
+
+
+Running: Compile Process on N64_syn|synthesis
+
+
+Running: Compile Input on N64_syn|synthesis
+
+Copied J:\N64\synthesis\synwork\N64_comp.srs to J:\N64\synthesis\N64.srs
+
+compiler Completed with warnings
+Return Code: 1
+Run Time:0h:00m:06s
+
+
+Complete: Compile Process on N64_syn|synthesis
+
+
+Running: Pre-mapping on N64_syn|synthesis
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:11s
+
+
+Complete: Compile on N64_syn|synthesis
+
+
+Running: Map on N64_syn|synthesis
+
+
+Running: Map & Optimize on N64_syn|synthesis
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:01m:02s
+
+
+Complete: Map on N64_syn|synthesis
+
+Complete: Logic Synthesis on N64_syn|synthesis
+
+TCL script complete: "N64_syn.tcl"
+
+exit status=0
+
+
+exit status=0
+
+
+License checkin: synplifypro_actel
+

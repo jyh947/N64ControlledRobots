@@ -2,7 +2,7 @@ Timing Report Max Delay Analysis
 
 SmartTime Version v11.4
 Microsemi Corporation - Microsemi Libero Software Release v11.4 (Version 11.4.0.112)
-Date: Tue Mar 31 18:53:37 2015
+Date: Sat Apr 11 16:11:05 2015
 
 
 Design: N64
@@ -34,12 +34,12 @@ Min Clock-To-Out (ns):      N/A
 Max Clock-To-Out (ns):      N/A
 
 Clock Domain:               mss_fabric_interface_clock
-Period (ns):                7.290
-Frequency (MHz):            137.174
+Period (ns):                10.742
+Frequency (MHz):            93.093
 Required Period (ns):       10.000
 Required Frequency (MHz):   100.000
-External Setup (ns):        3.840
-External Hold (ns):         0.635
+External Setup (ns):        7.292
+External Hold (ns):         0.880
 Min Clock-To-Out (ns):      N/A
 Max Clock-To-Out (ns):      N/A
 
@@ -54,14 +54,14 @@ Min Clock-To-Out (ns):      N/A
 Max Clock-To-Out (ns):      N/A
 
 Clock Domain:               mss_ccc_gla1
-Period (ns):                69.055
-Frequency (MHz):            14.481
+Period (ns):                72.273
+Frequency (MHz):            13.836
 Required Period (ns):       10.000
 Required Frequency (MHz):   100.000
-External Setup (ns):        1.663
-External Hold (ns):         2.072
-Min Clock-To-Out (ns):      6.110
-Max Clock-To-Out (ns):      10.083
+External Setup (ns):        3.868
+External Hold (ns):         2.153
+Min Clock-To-Out (ns):      5.622
+Max Clock-To-Out (ns):      9.838
 
 Clock Domain:               mss_ccc_gla0
 Period (ns):                10.000
@@ -146,61 +146,61 @@ SET Register to Register
 
 Path 1
   From:                        N64_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
-  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[13]
-  Delay (ns):                  9.152
-  Slack (ns):                  2.710
-  Arrival (ns):                12.602
-  Required (ns):               15.312
-  Setup (ns):                  -1.862
-  Minimum Period (ns):         7.290
+  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[7]
+  Delay (ns):                  12.598
+  Slack (ns):                  -0.742
+  Arrival (ns):                16.048
+  Required (ns):               15.306
+  Setup (ns):                  -1.856
+  Minimum Period (ns):         10.742
 
 Path 2
   From:                        N64_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
-  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[15]
-  Delay (ns):                  9.082
-  Slack (ns):                  2.779
-  Arrival (ns):                12.532
-  Required (ns):               15.311
-  Setup (ns):                  -1.861
-  Minimum Period (ns):         7.221
+  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[3]
+  Delay (ns):                  12.359
+  Slack (ns):                  -0.509
+  Arrival (ns):                15.809
+  Required (ns):               15.300
+  Setup (ns):                  -1.850
+  Minimum Period (ns):         10.509
 
 Path 3
   From:                        N64_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
-  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[14]
-  Delay (ns):                  8.573
-  Slack (ns):                  3.283
-  Arrival (ns):                12.023
-  Required (ns):               15.306
-  Setup (ns):                  -1.856
-  Minimum Period (ns):         6.717
+  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[1]
+  Delay (ns):                  12.293
+  Slack (ns):                  -0.440
+  Arrival (ns):                15.743
+  Required (ns):               15.303
+  Setup (ns):                  -1.853
+  Minimum Period (ns):         10.440
 
 Path 4
   From:                        N64_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
-  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[25]
-  Delay (ns):                  8.436
-  Slack (ns):                  3.440
-  Arrival (ns):                11.886
-  Required (ns):               15.326
-  Setup (ns):                  -1.876
-  Minimum Period (ns):         6.560
+  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[8]
+  Delay (ns):                  12.240
+  Slack (ns):                  -0.382
+  Arrival (ns):                15.690
+  Required (ns):               15.308
+  Setup (ns):                  -1.858
+  Minimum Period (ns):         10.382
 
 Path 5
   From:                        N64_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
-  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[16]
-  Delay (ns):                  8.419
-  Slack (ns):                  3.447
-  Arrival (ns):                11.869
-  Required (ns):               15.316
-  Setup (ns):                  -1.866
-  Minimum Period (ns):         6.553
+  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[11]
+  Delay (ns):                  12.189
+  Slack (ns):                  -0.333
+  Arrival (ns):                15.639
+  Required (ns):               15.306
+  Setup (ns):                  -1.856
+  Minimum Period (ns):         10.333
 
 
 Expanded Path 1
   From: N64_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
-  To: N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[13]
-  data required time                             15.312
-  data arrival time                          -   12.602
-  slack                                          2.710
+  To: N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[7]
+  data required time                             15.306
+  data arrival time                          -   16.048
+  slack                                          -0.742
   ________________________________________________________
   Data arrival time calculation
   0.000                        mss_fabric_interface_clock
@@ -208,28 +208,44 @@ Expanded Path 1
   0.000                        N64_MSS_0/MSS_ADLIB_INST/U_CORE:GLB (r)
                +     3.450          Clock generation
   3.450
-               +     3.056          cell: ADLIB:MSS_APB_IP
-  6.506                        N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPADDR[8] (f)
-               +     0.132          net: N64_MSS_0/MSS_ADLIB_INST/MSSPADDR[8]INT_NET
-  6.638                        N64_MSS_0/MSS_ADLIB_INST/U_32:PIN3INT (f)
-               +     0.072          cell: ADLIB:MSS_IF
-  6.710                        N64_MSS_0/MSS_ADLIB_INST/U_32:PIN3 (f)
-               +     1.323          net: N64_MSS_0_MSS_MASTER_APB_PADDR[8]
-  8.033                        CoreAPB3_0/CAPB3O0OI_2_0[0]:C (f)
-               +     0.543          cell: ADLIB:NOR3A
-  8.576                        CoreAPB3_0/CAPB3O0OI_2_0[0]:Y (r)
-               +     1.672          net: CoreAPB3_0/CAPB3O0OI_2_0[0]
-  10.248                       CoreAPB3_0/CAPB3lOII/PRDATA_13:B (r)
-               +     0.473          cell: ADLIB:NOR3C
-  10.721                       CoreAPB3_0/CAPB3lOII/PRDATA_13:Y (r)
-               +     1.456          net: N64_MSS_0_MSS_MASTER_APB_PRDATA[13]
-  12.177                       N64_MSS_0/MSS_ADLIB_INST/U_41:PIN5 (r)
+               +     2.984          cell: ADLIB:MSS_APB_IP
+  6.434                        N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPADDR[9] (f)
+               +     0.131          net: N64_MSS_0/MSS_ADLIB_INST/MSSPADDR[9]INT_NET
+  6.565                        N64_MSS_0/MSS_ADLIB_INST/U_33:PIN1INT (f)
+               +     0.073          cell: ADLIB:MSS_IF
+  6.638                        N64_MSS_0/MSS_ADLIB_INST/U_33:PIN1 (f)
+               +     0.336          net: N64_MSS_0_MSS_MASTER_APB_PADDR[9]
+  6.974                        CoreAPB3_0/CAPB3O0OI_3_0[15]:B (f)
+               +     0.476          cell: ADLIB:NOR2B
+  7.450                        CoreAPB3_0/CAPB3O0OI_3_0[15]:Y (f)
+               +     0.293          net: CoreAPB3_0/CAPB3O0OI_3_0[15]
+  7.743                        CoreAPB3_0/CAPB3O0OI_3[15]:C (f)
+               +     0.517          cell: ADLIB:NOR3C
+  8.260                        CoreAPB3_0/CAPB3O0OI_3[15]:Y (f)
+               +     1.131          net: CoreAPB3_0/CAPB3O0OI_3[15]
+  9.391                        CoreAPB3_0/CAPB3O0OI[15]:B (f)
+               +     0.476          cell: ADLIB:NOR2B
+  9.867                        CoreAPB3_0/CAPB3O0OI[15]:Y (f)
+               +     2.138          net: CAPB3O0OI[15]
+  12.005                       I_990/U_CLKSRC:A (f)
+               +     0.695          cell: ADLIB:CLKSRC
+  12.700                       I_990/U_CLKSRC:Y (f)
+               +     0.496          net: CoreAPB3_0_CAPB3O0OI[15]
+  13.196                       CoreAPB3_0/CAPB3lOII/PRDATA_0[7]:S (f)
+               +     0.364          cell: ADLIB:MX2
+  13.560                       CoreAPB3_0/CAPB3lOII/PRDATA_0[7]:Y (r)
+               +     0.245          net: CoreAPB3_0/CAPB3lOII/N_1147
+  13.805                       CoreAPB3_0/CAPB3lOII/PRDATA[7]:C (r)
+               +     0.302          cell: ADLIB:OA1
+  14.107                       CoreAPB3_0/CAPB3lOII/PRDATA[7]:Y (r)
+               +     1.504          net: N64_MSS_0_MSS_MASTER_APB_PRDATA[7]
+  15.611                       N64_MSS_0/MSS_ADLIB_INST/U_39:PIN5 (r)
                +     0.066          cell: ADLIB:MSS_IF
-  12.243                       N64_MSS_0/MSS_ADLIB_INST/U_41:PIN5INT (r)
-               +     0.359          net: N64_MSS_0/MSS_ADLIB_INST/MSSPRDATA[13]INT_NET
-  12.602                       N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[13] (r)
+  15.677                       N64_MSS_0/MSS_ADLIB_INST/U_39:PIN5INT (r)
+               +     0.371          net: N64_MSS_0/MSS_ADLIB_INST/MSSPRDATA[7]INT_NET
+  16.048                       N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[7] (r)
                                     
-  12.602                       data arrival time
+  16.048                       data arrival time
   ________________________________________________________
   Data required time calculation
   10.000                       mss_fabric_interface_clock
@@ -237,10 +253,10 @@ Expanded Path 1
   10.000                       N64_MSS_0/MSS_ADLIB_INST/U_CORE:GLB (r)
                +     3.450          Clock generation
   13.450
-               -    -1.862          Library setup time: ADLIB:MSS_APB_IP
-  15.312                       N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[13]
+               -    -1.856          Library setup time: ADLIB:MSS_APB_IP
+  15.306                       N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[7]
                                     
-  15.312                       data required time
+  15.306                       data required time
 
 
 END SET Register to Register
@@ -290,57 +306,57 @@ END SET Asynchronous to Register
 SET mss_ccc_gla1 to mss_fabric_interface_clock
 
 Path 1
-  From:                        Read_Buttons_0/PRDATA[13]:CLK
-  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[13]
-  Delay (ns):                  3.138
-  Slack (ns):                  7.043
-  Arrival (ns):                8.269
-  Required (ns):               15.312
-  Setup (ns):                  -1.862
-
-Path 2
-  From:                        Read_Buttons_0/PRDATA[1]:CLK
-  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[1]
-  Delay (ns):                  2.876
-  Slack (ns):                  7.257
-  Arrival (ns):                8.046
-  Required (ns):               15.303
-  Setup (ns):                  -1.853
-
-Path 3
   From:                        Read_Buttons_0/PRDATA[7]:CLK
   To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[7]
-  Delay (ns):                  2.878
-  Slack (ns):                  7.283
-  Arrival (ns):                8.023
+  Delay (ns):                  4.682
+  Slack (ns):                  5.490
+  Arrival (ns):                9.834
+  Required (ns):               15.324
+  Setup (ns):                  -1.874
+
+Path 2
+  From:                        Read_Buttons_0/PRDATA[30]:CLK
+  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[30]
+  Delay (ns):                  4.164
+  Slack (ns):                  5.968
+  Arrival (ns):                9.364
+  Required (ns):               15.332
+  Setup (ns):                  -1.882
+
+Path 3
+  From:                        Read_Buttons_0/PRDATA[20]:CLK
+  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[20]
+  Delay (ns):                  4.021
+  Slack (ns):                  6.174
+  Arrival (ns):                9.152
+  Required (ns):               15.326
+  Setup (ns):                  -1.876
+
+Path 4
+  From:                        Read_Buttons_0/PRDATA[18]:CLK
+  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[18]
+  Delay (ns):                  3.771
+  Slack (ns):                  6.360
+  Arrival (ns):                8.959
+  Required (ns):               15.319
+  Setup (ns):                  -1.869
+
+Path 5
+  From:                        Read_Buttons_1/PRDATA[7]:CLK
+  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[7]
+  Delay (ns):                  3.689
+  Slack (ns):                  6.462
+  Arrival (ns):                8.844
   Required (ns):               15.306
   Setup (ns):                  -1.856
 
-Path 4
-  From:                        Read_Buttons_0/PRDATA[16]:CLK
-  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[16]
-  Delay (ns):                  2.838
-  Slack (ns):                  7.333
-  Arrival (ns):                7.983
-  Required (ns):               15.316
-  Setup (ns):                  -1.866
-
-Path 5
-  From:                        Read_Buttons_0/PRDATA[10]:CLK
-  To:                          N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[10]
-  Delay (ns):                  2.806
-  Slack (ns):                  7.337
-  Arrival (ns):                7.970
-  Required (ns):               15.307
-  Setup (ns):                  -1.857
-
 
 Expanded Path 1
-  From: Read_Buttons_0/PRDATA[13]:CLK
-  To: N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[13]
-  data required time                             15.312
-  data arrival time                          -   8.269
-  slack                                          7.043
+  From: Read_Buttons_0/PRDATA[7]:CLK
+  To: N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[7]
+  data required time                             15.324
+  data arrival time                          -   9.834
+  slack                                          5.490
   ________________________________________________________
   Data arrival time calculation
   0.000                        mss_ccc_gla1
@@ -352,22 +368,26 @@ Expanded Path 1
   4.630                        N64_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   4.630                        N64_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
-               +     0.501          net: N64_MSS_0_FAB_CLK
-  5.131                        Read_Buttons_0/PRDATA[13]:CLK (r)
-               +     0.440          cell: ADLIB:DFN1E1
-  5.571                        Read_Buttons_0/PRDATA[13]:Q (r)
-               +     0.247          net: CoreAPB3_0_APBmslave0_PRDATA[13]
-  5.818                        CoreAPB3_0/CAPB3lOII/PRDATA_13:C (r)
-               +     0.570          cell: ADLIB:NOR3C
-  6.388                        CoreAPB3_0/CAPB3lOII/PRDATA_13:Y (r)
-               +     1.456          net: N64_MSS_0_MSS_MASTER_APB_PRDATA[13]
-  7.844                        N64_MSS_0/MSS_ADLIB_INST/U_41:PIN5 (r)
-               +     0.066          cell: ADLIB:MSS_IF
-  7.910                        N64_MSS_0/MSS_ADLIB_INST/U_41:PIN5INT (r)
-               +     0.359          net: N64_MSS_0/MSS_ADLIB_INST/MSSPRDATA[13]INT_NET
-  8.269                        N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[13] (r)
+               +     0.522          net: N64_MSS_0_FAB_CLK
+  5.152                        Read_Buttons_0/PRDATA[7]:CLK (r)
+               +     0.559          cell: ADLIB:DFN1E1
+  5.711                        Read_Buttons_0/PRDATA[7]:Q (f)
+               +     1.274          net: CoreAPB3_0_APBmslave0_PRDATA[7]
+  6.985                        CoreAPB3_0/CAPB3lOII/PRDATA_0[7]:A (f)
+               +     0.469          cell: ADLIB:MX2
+  7.454                        CoreAPB3_0/CAPB3lOII/PRDATA_0[7]:Y (f)
+               +     0.237          net: CoreAPB3_0/CAPB3lOII/N_1147
+  7.691                        CoreAPB3_0/CAPB3lOII/PRDATA[7]:C (f)
+               +     0.307          cell: ADLIB:OA1
+  7.998                        CoreAPB3_0/CAPB3lOII/PRDATA[7]:Y (f)
+               +     1.414          net: N64_MSS_0_MSS_MASTER_APB_PRDATA[7]
+  9.412                        N64_MSS_0/MSS_ADLIB_INST/U_39:PIN5 (f)
+               +     0.079          cell: ADLIB:MSS_IF
+  9.491                        N64_MSS_0/MSS_ADLIB_INST/U_39:PIN5INT (f)
+               +     0.343          net: N64_MSS_0/MSS_ADLIB_INST/MSSPRDATA[7]INT_NET
+  9.834                        N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[7] (f)
                                     
-  8.269                        data arrival time
+  9.834                        data arrival time
   ________________________________________________________
   Data required time calculation
   10.000                       mss_fabric_interface_clock
@@ -375,10 +395,10 @@ Expanded Path 1
   10.000                       N64_MSS_0/MSS_ADLIB_INST/U_CORE:GLB (r)
                +     3.450          Clock generation
   13.450
-               -    -1.862          Library setup time: ADLIB:MSS_APB_IP
-  15.312                       N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[13]
+               -    -1.874          Library setup time: ADLIB:MSS_APB_IP
+  15.324                       N64_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[7]
                                     
-  15.312                       data required time
+  15.324                       data required time
 
 
 END SET mss_ccc_gla1 to mss_fabric_interface_clock
@@ -440,62 +460,62 @@ Clock Domain mss_ccc_gla1
 SET Register to Register
 
 Path 1
-  From:                        Read_Buttons_0/counter[14]:CLK
-  To:                          Read_Buttons_0/eight_bit_data[17]:D
-  Delay (ns):                  68.631
-  Slack (ns):                  -59.055
-  Arrival (ns):                73.776
-  Required (ns):               14.721
-  Setup (ns):                  0.409
-  Minimum Period (ns):         69.055
+  From:                        Read_Buttons_1/counter[1]:CLK
+  To:                          Read_Buttons_1/controller_data[29]:D
+  Delay (ns):                  71.843
+  Slack (ns):                  -62.273
+  Arrival (ns):                76.979
+  Required (ns):               14.706
+  Setup (ns):                  0.435
+  Minimum Period (ns):         72.273
 
 Path 2
-  From:                        Read_Buttons_0/counter[14]:CLK
-  To:                          Read_Buttons_0/eight_bit_data[19]:D
-  Delay (ns):                  68.612
-  Slack (ns):                  -59.033
-  Arrival (ns):                73.757
-  Required (ns):               14.724
-  Setup (ns):                  0.409
-  Minimum Period (ns):         69.033
+  From:                        Read_Buttons_1/counter[1]:CLK
+  To:                          Read_Buttons_1/controller_data[27]:D
+  Delay (ns):                  71.843
+  Slack (ns):                  -62.273
+  Arrival (ns):                76.979
+  Required (ns):               14.706
+  Setup (ns):                  0.435
+  Minimum Period (ns):         72.273
 
 Path 3
-  From:                        Read_Buttons_0/counter[14]:CLK
-  To:                          Read_Buttons_0/eight_bit_data[6]:D
-  Delay (ns):                  68.603
-  Slack (ns):                  -59.032
-  Arrival (ns):                73.748
-  Required (ns):               14.716
-  Setup (ns):                  0.409
-  Minimum Period (ns):         69.032
+  From:                        Read_Buttons_1/counter[2]:CLK
+  To:                          Read_Buttons_1/controller_data[29]:D
+  Delay (ns):                  71.854
+  Slack (ns):                  -62.263
+  Arrival (ns):                76.969
+  Required (ns):               14.706
+  Setup (ns):                  0.435
+  Minimum Period (ns):         72.263
 
 Path 4
-  From:                        Read_Buttons_0/counter[14]:CLK
-  To:                          Read_Buttons_0/eight_bit_data[1]:D
-  Delay (ns):                  68.603
-  Slack (ns):                  -59.032
-  Arrival (ns):                73.748
-  Required (ns):               14.716
-  Setup (ns):                  0.409
-  Minimum Period (ns):         69.032
+  From:                        Read_Buttons_1/counter[2]:CLK
+  To:                          Read_Buttons_1/controller_data[27]:D
+  Delay (ns):                  71.854
+  Slack (ns):                  -62.263
+  Arrival (ns):                76.969
+  Required (ns):               14.706
+  Setup (ns):                  0.435
+  Minimum Period (ns):         72.263
 
 Path 5
-  From:                        Read_Buttons_0/counter[14]:CLK
-  To:                          Read_Buttons_0/eight_bit_data[13]:D
-  Delay (ns):                  68.591
-  Slack (ns):                  -59.010
-  Arrival (ns):                73.736
-  Required (ns):               14.726
-  Setup (ns):                  0.409
-  Minimum Period (ns):         69.010
+  From:                        Read_Buttons_1/counter[1]:CLK
+  To:                          Read_Buttons_1/controller_data[30]:D
+  Delay (ns):                  71.823
+  Slack (ns):                  -62.253
+  Arrival (ns):                76.959
+  Required (ns):               14.706
+  Setup (ns):                  0.435
+  Minimum Period (ns):         72.253
 
 
 Expanded Path 1
-  From: Read_Buttons_0/counter[14]:CLK
-  To: Read_Buttons_0/eight_bit_data[17]:D
-  data required time                             14.721
-  data arrival time                          -   73.776
-  slack                                          -59.055
+  From: Read_Buttons_1/counter[1]:CLK
+  To: Read_Buttons_1/controller_data[29]:D
+  data required time                             14.706
+  data arrival time                          -   76.979
+  slack                                          -62.273
   ________________________________________________________
   Data arrival time calculation
   0.000                        mss_ccc_gla1
@@ -507,310 +527,338 @@ Expanded Path 1
   4.630                        N64_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   4.630                        N64_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
-               +     0.515          net: N64_MSS_0_FAB_CLK
-  5.145                        Read_Buttons_0/counter[14]:CLK (r)
+               +     0.506          net: N64_MSS_0_FAB_CLK
+  5.136                        Read_Buttons_1/counter[1]:CLK (r)
                +     0.559          cell: ADLIB:DFN1
-  5.704                        Read_Buttons_0/counter[14]:Q (f)
-               +     0.598          net: Read_Buttons_0/un11lto14
-  6.302                        Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un61_sum_ADD_11x11_slow_I2_un4_CO1:A (f)
-               +     0.518          cell: ADLIB:NOR3A
-  6.820                        Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un61_sum_ADD_11x11_slow_I2_un4_CO1:Y (f)
-               +     0.292          net: Read_Buttons_0/I2_un4_CO1_1
-  7.112                        Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un61_sum_ADD_11x11_slow_I3_S:B (f)
-               +     0.711          cell: ADLIB:XNOR2
-  7.823                        Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un61_sum_ADD_11x11_slow_I3_S:Y (r)
-               +     0.292          net: Read_Buttons_0/mult1_un61_sum[7]
-  8.115                        Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un68_sum_ADD_11x11_slow_I5_un3_CO1:A (r)
-               +     0.708          cell: ADLIB:OA1
-  8.823                        Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un68_sum_ADD_11x11_slow_I5_un3_CO1:Y (r)
-               +     0.364          net: Read_Buttons_0/I5_un3_CO1_0
-  9.187                        Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un75_sum_ADD_11x11_slow_I1_CO1:B (r)
-               +     0.482          cell: ADLIB:AO13
-  9.669                        Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un75_sum_ADD_11x11_slow_I1_CO1:Y (r)
-               +     0.336          net: Read_Buttons_0/N143_3
-  10.005                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un75_sum_ADD_11x11_slow_I2_un1_CO1_1:A (r)
-               +     0.708          cell: ADLIB:OA1
-  10.713                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un75_sum_ADD_11x11_slow_I2_un1_CO1_1:Y (r)
-               +     0.308          net: Read_Buttons_0/I2_un1_CO1_1_8
-  11.021                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un75_sum_ADD_11x11_slow_I3_CO1_0:A (r)
-               +     0.683          cell: ADLIB:OA1B
-  11.704                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un75_sum_ADD_11x11_slow_I3_CO1_0:Y (r)
-               +     0.255          net: Read_Buttons_0/ADD_11x11_slow_I3_CO1_0_7
-  11.959                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un75_sum_ADD_11x11_slow_I3_CO1:C (r)
-               +     0.497          cell: ADLIB:AO1
-  12.456                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un75_sum_ADD_11x11_slow_I3_CO1:Y (r)
-               +     0.255          net: Read_Buttons_0/N147_5
-  12.711                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un75_sum_ADD_11x11_slow_I4_un5_CO1:A (r)
-               +     0.392          cell: ADLIB:NOR2A
-  13.103                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un75_sum_ADD_11x11_slow_I4_un5_CO1:Y (r)
-               +     0.247          net: Read_Buttons_0/I4_un5_CO1
-  13.350                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un75_sum_ADD_11x11_slow_I5_un3_CO1:B (r)
-               +     0.691          cell: ADLIB:OA1
-  14.041                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un75_sum_ADD_11x11_slow_I5_un3_CO1:Y (r)
-               +     0.360          net: Read_Buttons_0/I5_un3_CO1
-  14.401                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un82_sum_ADD_11x11_slow_I1_CO1:B (r)
-               +     0.482          cell: ADLIB:AO13
-  14.883                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un82_sum_ADD_11x11_slow_I1_CO1:Y (r)
-               +     0.337          net: Read_Buttons_0/N143_4
-  15.220                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un82_sum_ADD_11x11_slow_I2_un1_CO1_1:A (r)
-               +     0.708          cell: ADLIB:OA1
-  15.928                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un82_sum_ADD_11x11_slow_I2_un1_CO1_1:Y (r)
-               +     0.308          net: Read_Buttons_0/I2_un1_CO1_1_7
-  16.236                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un82_sum_ADD_11x11_slow_I3_CO1_0:A (r)
-               +     0.683          cell: ADLIB:OA1B
-  16.919                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un82_sum_ADD_11x11_slow_I3_CO1_0:Y (r)
-               +     0.255          net: Read_Buttons_0/ADD_11x11_slow_I3_CO1_0_6
-  17.174                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un82_sum_ADD_11x11_slow_I3_CO1:C (r)
-               +     0.497          cell: ADLIB:AO1
-  17.671                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un82_sum_ADD_11x11_slow_I3_CO1:Y (r)
-               +     0.308          net: Read_Buttons_0/N147_4
-  17.979                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un82_sum_ADD_11x11_slow_I4_un1_CO1:A (r)
-               +     0.576          cell: ADLIB:AO13
-  18.555                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un82_sum_ADD_11x11_slow_I4_un1_CO1:Y (r)
-               +     0.247          net: Read_Buttons_0/I4_un1_CO1_2
-  18.802                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un82_sum_ADD_11x11_slow_I5_S:B (r)
-               +     0.568          cell: ADLIB:XOR2
-  19.370                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un82_sum_ADD_11x11_slow_I5_S:Y (f)
-               +     0.416          net: Read_Buttons_0/mult1_un82_sum[9]
-  19.786                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un89_sum_ADD_11x11_slow_I1_CO1:A (f)
-               +     0.308          cell: ADLIB:AO18
-  20.094                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un89_sum_ADD_11x11_slow_I1_CO1:Y (r)
-               +     0.340          net: Read_Buttons_0/N143_7
-  20.434                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un89_sum_ADD_11x11_slow_I2_un1_CO1_1:B (r)
-               +     0.691          cell: ADLIB:OA1A
-  21.125                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un89_sum_ADD_11x11_slow_I2_un1_CO1_1:Y (r)
-               +     0.308          net: Read_Buttons_0/I2_un1_CO1_1_6
-  21.433                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un89_sum_ADD_11x11_slow_I3_CO1_0:A (r)
-               +     0.746          cell: ADLIB:OA1
-  22.179                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un89_sum_ADD_11x11_slow_I3_CO1_0:Y (r)
-               +     0.262          net: Read_Buttons_0/ADD_11x11_slow_I3_CO1_0_5
-  22.441                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un89_sum_ADD_11x11_slow_I3_CO1:C (r)
-               +     0.497          cell: ADLIB:AO1
-  22.938                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un89_sum_ADD_11x11_slow_I3_CO1:Y (r)
-               +     0.319          net: Read_Buttons_0/N147_3
-  23.257                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un89_sum_ADD_11x11_slow_I4_un1_CO1:C (r)
-               +     0.548          cell: ADLIB:MAJ3
-  23.805                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un89_sum_ADD_11x11_slow_I4_un1_CO1:Y (r)
-               +     0.255          net: Read_Buttons_0/I4_un1_CO1
-  24.060                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un89_sum_ADD_11x11_slow_I5_S:B (r)
-               +     0.476          cell: ADLIB:XOR2
-  24.536                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un89_sum_ADD_11x11_slow_I5_S:Y (f)
-               +     0.466          net: Read_Buttons_0/mult1_un89_sum[9]
-  25.002                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un96_sum_ADD_11x11_slow_I1_CO1:A (f)
-               +     0.308          cell: ADLIB:AO18
-  25.310                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un96_sum_ADD_11x11_slow_I1_CO1:Y (r)
-               +     0.343          net: Read_Buttons_0/N143_5
-  25.653                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un96_sum_ADD_11x11_slow_I2_un1_CO1_1:B (r)
-               +     0.691          cell: ADLIB:OA1A
-  26.344                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un96_sum_ADD_11x11_slow_I2_un1_CO1_1:Y (r)
-               +     0.364          net: Read_Buttons_0/I2_un1_CO1_1_0
-  26.708                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un96_sum_ADD_11x11_slow_I3_un3_CO1:A (r)
-               +     0.746          cell: ADLIB:OA1
-  27.454                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un96_sum_ADD_11x11_slow_I3_un3_CO1:Y (r)
-               +     0.255          net: Read_Buttons_0/I3_un3_CO1_4
-  27.709                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un96_sum_ADD_11x11_slow_I3_CO1:B (r)
-               +     0.390          cell: ADLIB:OR2
-  28.099                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un96_sum_ADD_11x11_slow_I3_CO1:Y (r)
-               +     0.292          net: Read_Buttons_0/N147_2
-  28.391                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un96_sum_ADD_11x11_slow_I4_un1_CO1:C (r)
-               +     0.540          cell: ADLIB:MAJ3
-  28.931                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un96_sum_ADD_11x11_slow_I4_un1_CO1:Y (r)
-               +     0.255          net: Read_Buttons_0/I4_un1_CO1_1
-  29.186                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un96_sum_ADD_11x11_slow_I5_S:B (r)
-               +     0.476          cell: ADLIB:XOR2
-  29.662                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un96_sum_ADD_11x11_slow_I5_S:Y (f)
-               +     0.328          net: Read_Buttons_0/mult1_un96_sum[9]
-  29.990                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un103_sum_ADD_11x11_slow_I1_CO1:A (f)
-               +     0.308          cell: ADLIB:AO18
-  30.298                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un103_sum_ADD_11x11_slow_I1_CO1:Y (r)
-               +     0.340          net: Read_Buttons_0/N143_6
-  30.638                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un103_sum_ADD_11x11_slow_I2_un4_CO1:B (r)
-               +     0.448          cell: ADLIB:NOR2B
-  31.086                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un103_sum_ADD_11x11_slow_I2_un4_CO1:Y (r)
-               +     0.247          net: Read_Buttons_0/I2_un4_CO1
-  31.333                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un103_sum_ADD_11x11_slow_I3_CO1_0:A (r)
-               +     0.708          cell: ADLIB:OA1
-  32.041                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un103_sum_ADD_11x11_slow_I3_CO1_0:Y (r)
-               +     0.255          net: Read_Buttons_0/ADD_11x11_slow_I3_CO1_0_3
-  32.296                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un103_sum_ADD_11x11_slow_I3_CO1:C (r)
-               +     0.497          cell: ADLIB:AO1
-  32.793                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un103_sum_ADD_11x11_slow_I3_CO1:Y (r)
-               +     0.308          net: Read_Buttons_0/N147_1
-  33.101                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un103_sum_ADD_11x11_slow_I4_un1_CO1:C (r)
-               +     0.548          cell: ADLIB:MAJ3
-  33.649                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un103_sum_ADD_11x11_slow_I4_un1_CO1:Y (r)
-               +     0.534          net: Read_Buttons_0/I4_un1_CO1_5
-  34.183                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un103_sum_ADD_11x11_slow_I5_S:C (r)
-               +     0.747          cell: ADLIB:XNOR3
-  34.930                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un103_sum_ADD_11x11_slow_I5_S:Y (f)
-               +     0.456          net: Read_Buttons_0/mult1_un103_sum[9]
-  35.386                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un110_sum_ADD_11x11_slow_I1_CO1:A (f)
-               +     0.372          cell: ADLIB:AO18
-  35.758                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un110_sum_ADD_11x11_slow_I1_CO1:Y (r)
-               +     0.340          net: Read_Buttons_0/N143_2
-  36.098                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un110_sum_ADD_11x11_slow_I2_un1_CO1_1:B (r)
-               +     0.691          cell: ADLIB:OA1A
-  36.789                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un110_sum_ADD_11x11_slow_I2_un1_CO1_1:Y (r)
-               +     0.308          net: Read_Buttons_0/I2_un1_CO1_1_5
-  37.097                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un110_sum_ADD_11x11_slow_I3_CO1_0:A (r)
-               +     0.746          cell: ADLIB:OA1
-  37.843                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un110_sum_ADD_11x11_slow_I3_CO1_0:Y (r)
-               +     0.255          net: Read_Buttons_0/ADD_11x11_slow_I3_CO1_0_2
-  38.098                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un110_sum_ADD_11x11_slow_I3_CO1:C (r)
-               +     0.497          cell: ADLIB:AO1
-  38.595                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un110_sum_ADD_11x11_slow_I3_CO1:Y (r)
-               +     0.308          net: Read_Buttons_0/N147_0
-  38.903                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un110_sum_ADD_11x11_slow_I4_un1_CO1:C (r)
-               +     0.548          cell: ADLIB:MAJ3
-  39.451                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un110_sum_ADD_11x11_slow_I4_un1_CO1:Y (r)
-               +     0.255          net: Read_Buttons_0/I4_un1_CO1_3
-  39.706                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un110_sum_ADD_11x11_slow_I5_S:C (r)
-               +     0.747          cell: ADLIB:XNOR3
-  40.453                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un110_sum_ADD_11x11_slow_I5_S:Y (f)
-               +     0.402          net: Read_Buttons_0/mult1_un110_sum[9]
-  40.855                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un117_sum_ADD_11x11_slow_I1_CO1:A (f)
-               +     0.372          cell: ADLIB:AO18
-  41.227                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un117_sum_ADD_11x11_slow_I1_CO1:Y (r)
-               +     0.340          net: Read_Buttons_0/N143_1
-  41.567                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un117_sum_ADD_11x11_slow_I2_un1_CO1_1:B (r)
-               +     0.691          cell: ADLIB:OA1A
-  42.258                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un117_sum_ADD_11x11_slow_I2_un1_CO1_1:Y (r)
-               +     0.334          net: Read_Buttons_0/I2_un1_CO1_1_4
-  42.592                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un117_sum_ADD_11x11_slow_I3_CO1_0:A (r)
-               +     0.746          cell: ADLIB:OA1
-  43.338                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un117_sum_ADD_11x11_slow_I3_CO1_0:Y (r)
-               +     0.279          net: Read_Buttons_0/ADD_11x11_slow_I3_CO1_0_1
-  43.617                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un117_sum_ADD_11x11_slow_I3_CO1:C (r)
-               +     0.497          cell: ADLIB:AO1
-  44.114                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un117_sum_ADD_11x11_slow_I3_CO1:Y (r)
-               +     0.340          net: Read_Buttons_0/N147
-  44.454                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un117_sum_ADD_11x11_slow_I4_un1_CO1:C (r)
-               +     0.548          cell: ADLIB:MAJ3
-  45.002                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un117_sum_ADD_11x11_slow_I4_un1_CO1:Y (r)
-               +     0.255          net: Read_Buttons_0/I4_un1_CO1_4
-  45.257                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un117_sum_ADD_11x11_slow_I5_S:C (r)
-               +     0.747          cell: ADLIB:XNOR3
-  46.004                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un117_sum_ADD_11x11_slow_I5_S:Y (f)
-               +     0.419          net: Read_Buttons_0/mult1_un117_sum[9]
-  46.423                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un124_sum_ADD_11x11_slow_I1_CO1:A (f)
-               +     0.372          cell: ADLIB:AO18
-  46.795                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un124_sum_ADD_11x11_slow_I1_CO1:Y (r)
-               +     0.340          net: Read_Buttons_0/N143
-  47.135                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un124_sum_ADD_11x11_slow_I2_un1_CO1_1:B (r)
-               +     0.691          cell: ADLIB:OA1A
-  47.826                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un124_sum_ADD_11x11_slow_I2_un1_CO1_1:Y (r)
-               +     0.332          net: Read_Buttons_0/I2_un1_CO1_1_3
-  48.158                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un124_sum_ADD_11x11_slow_I3_CO1_0:A (r)
-               +     0.746          cell: ADLIB:OA1
-  48.904                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un124_sum_ADD_11x11_slow_I3_CO1_0:Y (r)
-               +     0.279          net: Read_Buttons_0/ADD_11x11_slow_I3_CO1_0_0
-  49.183                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un124_sum_ADD_11x11_slow_I3_CO1:C (r)
-               +     0.497          cell: ADLIB:AO1
-  49.680                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un124_sum_ADD_11x11_slow_I3_CO1:Y (r)
-               +     0.340          net: Read_Buttons_0/N147_7
-  50.020                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un124_sum_ADD_11x11_slow_I4_un1_CO1:C (r)
-               +     0.548          cell: ADLIB:MAJ3
-  50.568                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un124_sum_ADD_11x11_slow_I4_un1_CO1:Y (r)
-               +     0.255          net: Read_Buttons_0/I4_un1_CO1_0
-  50.823                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un124_sum_ADD_11x11_slow_I5_S:B (r)
-               +     0.504          cell: ADLIB:XOR2
-  51.327                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un124_sum_ADD_11x11_slow_I5_S:Y (r)
-               +     0.348          net: Read_Buttons_0/mult1_un124_sum[9]
-  51.675                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un131_sum_ADD_11x11_slow_I1_CO1:A (r)
-               +     0.301          cell: ADLIB:AO18
-  51.976                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un131_sum_ADD_11x11_slow_I1_CO1:Y (f)
-               +     0.364          net: Read_Buttons_0/N143_0
-  52.340                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un131_sum_ADD_11x11_slow_I2_un1_CO1:B (f)
-               +     0.746          cell: ADLIB:AO13
-  53.086                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un131_sum_ADD_11x11_slow_I2_un1_CO1:Y (f)
-               +     0.245          net: Read_Buttons_0/I2_un1_CO1
-  53.331                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un131_sum_ADD_11x11_slow_I3_un3_CO1:A (f)
-               +     0.293          cell: ADLIB:NOR2B
-  53.624                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un131_sum_ADD_11x11_slow_I3_un3_CO1:Y (f)
-               +     0.279          net: Read_Buttons_0/I3_un3_CO1_8
-  53.903                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un131_sum_ADD_11x11_slow_I3_CO1:C (f)
-               +     0.535          cell: ADLIB:AO1
-  54.438                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un131_sum_ADD_11x11_slow_I3_CO1:Y (f)
-               +     0.324          net: Read_Buttons_0/N147_6
-  54.762                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un131_sum_ADD_11x11_slow_I5_CO1_0_tz:B (f)
-               +     0.542          cell: ADLIB:OR3A
-  55.304                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un131_sum_ADD_11x11_slow_I5_CO1_0_tz:Y (f)
-               +     0.279          net: Read_Buttons_0/ADD_11x11_slow_I5_CO1_0_tz
-  55.583                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un131_sum_ADD_11x11_slow_I5_CO1_0:C (f)
-               +     0.550          cell: ADLIB:XA1
-  56.133                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un131_sum_ADD_11x11_slow_I5_CO1_0:Y (f)
-               +     0.262          net: Read_Buttons_0/ADD_11x11_slow_I5_CO1_0
-  56.395                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un131_sum_ADD_11x11_slow_I5_CO1:A (f)
+  5.695                        Read_Buttons_1/counter[1]:Q (f)
+               +     0.434          net: Read_Buttons_1/N_364
+  6.129                        Read_Buttons_1/un1_counter_3_1_SUM2:B (f)
+               +     0.475          cell: ADLIB:AX1D
+  6.604                        Read_Buttons_1/un1_counter_3_1_SUM2:Y (f)
+               +     0.245          net: Read_Buttons_1/N_1118_i
+  6.849                        Read_Buttons_1/un1_counter_3_1_CO2:A (f)
                +     0.407          cell: ADLIB:OR2
-  56.802                       Read_Buttons_0/un1_counter_1_if_generate_plus.mult1_un131_sum_ADD_11x11_slow_I5_CO1:Y (f)
-               +     0.391          net: Read_Buttons_0/N151
-  57.193                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un124_sum_ADD_9x9_slow_I1_CO1:B (f)
-               +     0.746          cell: ADLIB:AO13
-  57.939                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un124_sum_ADD_9x9_slow_I1_CO1:Y (f)
-               +     0.367          net: Read_Buttons_0/N125
-  58.306                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un124_sum_ADD_9x9_slow_I2_un1_CO1_1:A (f)
-               +     0.482          cell: ADLIB:OA1
-  58.788                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un124_sum_ADD_9x9_slow_I2_un1_CO1_1:Y (f)
-               +     0.293          net: Read_Buttons_0/I2_un1_CO1_1_2
-  59.081                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un124_sum_ADD_9x9_slow_I3_CO1_0:A (f)
-               +     0.494          cell: ADLIB:OA1B
-  59.575                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un124_sum_ADD_9x9_slow_I3_CO1_0:Y (f)
-               +     0.271          net: Read_Buttons_0/ADD_9x9_slow_I3_CO1_0
-  59.846                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un124_sum_ADD_9x9_slow_I3_CO1:C (f)
-               +     0.480          cell: ADLIB:AO1
-  60.326                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un124_sum_ADD_9x9_slow_I3_CO1:Y (f)
-               +     0.271          net: Read_Buttons_0/N129_0
-  60.597                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un124_sum_ADD_9x9_slow_I4_un1_CO1:A (f)
-               +     0.805          cell: ADLIB:AO13
-  61.402                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un124_sum_ADD_9x9_slow_I4_un1_CO1:Y (f)
-               +     0.255          net: Read_Buttons_0/I4_un1_CO1_6
-  61.657                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un124_sum_ADD_9x9_slow_I5_S:C (f)
-               +     0.662          cell: ADLIB:XOR3
-  62.319                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un124_sum_ADD_9x9_slow_I5_S:Y (r)
-               +     0.308          net: Read_Buttons_0/mult1_un124_sum[7]
-  62.627                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un131_sum_ADD_9x9_slow_I2_un1_CO1_1_tz:C (r)
-               +     0.497          cell: ADLIB:AO1C
-  63.124                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un131_sum_ADD_9x9_slow_I2_un1_CO1_1_tz:Y (f)
-               +     0.255          net: Read_Buttons_0/I2_un1_CO1_1_tz
-  63.379                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un131_sum_ADD_9x9_slow_I2_un1_CO1_1:B (f)
-               +     0.479          cell: ADLIB:NOR2B
-  63.858                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un131_sum_ADD_9x9_slow_I2_un1_CO1_1:Y (f)
-               +     0.308          net: Read_Buttons_0/I2_un1_CO1_1_1
-  64.166                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un131_sum_ADD_9x9_slow_I3_CO1_0_tz:B (f)
-               +     0.493          cell: ADLIB:OR2
-  64.659                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un131_sum_ADD_9x9_slow_I3_CO1_0_tz:Y (f)
-               +     0.255          net: Read_Buttons_0/ADD_9x9_slow_I3_CO1_0_tz
-  64.914                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un131_sum_ADD_9x9_slow_I3_CO1:B (f)
-               +     0.482          cell: ADLIB:AO1
-  65.396                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un131_sum_ADD_9x9_slow_I3_CO1:Y (f)
-               +     0.292          net: Read_Buttons_0/N129
-  65.688                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un131_sum_ADD_9x9_slow_I4_un1_CO1:C (f)
-               +     0.535          cell: ADLIB:MAJ3
-  66.223                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un131_sum_ADD_9x9_slow_I4_un1_CO1:Y (f)
-               +     0.247          net: Read_Buttons_0/I4_un1_CO1_7
-  66.470                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un131_sum_ADD_9x9_slow_I5_CO1:A (f)
-               +     0.805          cell: ADLIB:AO13
-  67.275                       Read_Buttons_0/un1_counter_if_generate_plus.mult1_un131_sum_ADD_9x9_slow_I5_CO1:Y (f)
-               +     0.395          net: Read_Buttons_0/N133
-  67.670                       Read_Buttons_0/counter_RNIRADE4E1[2]:B (f)
-               +     0.749          cell: ADLIB:XA1A
-  68.419                       Read_Buttons_0/counter_RNIRADE4E1[2]:Y (f)
-               +     0.598          net: Read_Buttons_0/eight_bit_data8_3
-  69.017                       Read_Buttons_0/counter_RNIIKDJEP2[2]:A (f)
-               +     0.518          cell: ADLIB:NOR3A
-  69.535                       Read_Buttons_0/counter_RNIIKDJEP2[2]:Y (f)
-               +     0.845          net: Read_Buttons_0/eight_bit_data8
-  70.380                       Read_Buttons_0/counter_RNIHOFDGP2[2]:B (f)
-               +     0.490          cell: ADLIB:OR2A
-  70.870                       Read_Buttons_0/counter_RNIHOFDGP2[2]:Y (f)
-               +     2.077          net: Read_Buttons_0/N_369_i_0_0
-  72.947                       Read_Buttons_0/eight_bit_data_RNO[17]:C (f)
+  7.256                        Read_Buttons_1/un1_counter_3_1_CO2:Y (f)
+               +     0.299          net: Read_Buttons_1/CO2
+  7.555                        Read_Buttons_1/un1_counter_3_1_BNC3:A (f)
+               +     0.293          cell: ADLIB:NOR2B
+  7.848                        Read_Buttons_1/un1_counter_3_1_BNC3:Y (f)
+               +     0.760          net: Read_Buttons_1/CO3_0
+  8.608                        Read_Buttons_1/un1_counter_3_1_BNC5:B (f)
+               +     0.486          cell: ADLIB:NOR3C
+  9.094                        Read_Buttons_1/un1_counter_3_1_BNC5:Y (f)
+               +     0.282          net: Read_Buttons_1/CO5_0
+  9.376                        Read_Buttons_1/un1_counter_3_1_BNC6:A (f)
+               +     0.390          cell: ADLIB:NOR2B
+  9.766                        Read_Buttons_1/un1_counter_3_1_BNC6:Y (f)
+               +     0.306          net: Read_Buttons_1/CO6_0
+  10.072                       Read_Buttons_1/un1_counter_3_1_SUM8:B (f)
+               +     0.758          cell: ADLIB:AX1C
+  10.830                       Read_Buttons_1/un1_counter_3_1_SUM8:Y (f)
+               +     0.257          net: Read_Buttons_1/N_1124_i
+  11.087                       Read_Buttons_1/un1_counter_3_1_CO8:A (f)
+               +     0.385          cell: ADLIB:OR2
+  11.472                       Read_Buttons_1/un1_counter_3_1_CO8:Y (f)
+               +     0.294          net: Read_Buttons_1/CO8
+  11.766                       Read_Buttons_1/un1_counter_3_1_BNC9:A (f)
+               +     0.293          cell: ADLIB:NOR2B
+  12.059                       Read_Buttons_1/un1_counter_3_1_BNC9:Y (f)
+               +     0.306          net: Read_Buttons_1/CO9
+  12.365                       Read_Buttons_1/un1_counter_3_1_SUM11:B (f)
+               +     0.758          cell: ADLIB:AX1C
+  13.123                       Read_Buttons_1/un1_counter_3_1_SUM11:Y (f)
+               +     0.235          net: Read_Buttons_1/N_1127_i
+  13.358                       Read_Buttons_1/un1_counter_3_1_CO11:A (f)
+               +     0.385          cell: ADLIB:OR2
+  13.743                       Read_Buttons_1/un1_counter_3_1_CO11:Y (f)
+               +     0.294          net: Read_Buttons_1/CO11
+  14.037                       Read_Buttons_1/un1_counter_3_1_CO12:A (f)
+               +     0.407          cell: ADLIB:OR2
+  14.444                       Read_Buttons_1/un1_counter_3_1_CO12:Y (f)
+               +     0.348          net: Read_Buttons_1/CO12
+  14.792                       Read_Buttons_1/un1_counter_3_1_CO13:A (f)
+               +     0.407          cell: ADLIB:OR2
+  15.199                       Read_Buttons_1/un1_counter_3_1_CO13:Y (f)
+               +     0.406          net: Read_Buttons_1/CO13
+  15.605                       Read_Buttons_1/un1_counter_3_1_CO15:A (f)
+               +     0.398          cell: ADLIB:OR3
+  16.003                       Read_Buttons_1/un1_counter_3_1_CO15:Y (f)
+               +     0.294          net: Read_Buttons_1/CO15
+  16.297                       Read_Buttons_1/un1_counter_3_1_CO16:A (f)
+               +     0.407          cell: ADLIB:OR2
+  16.704                       Read_Buttons_1/un1_counter_3_1_CO16:Y (f)
+               +     0.306          net: Read_Buttons_1/N_1133_i_3
+  17.010                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un152_sum_ADD_11x11_slow_I3_un5_CO1_0:C (f)
                +     0.550          cell: ADLIB:XA1A
-  73.497                       Read_Buttons_0/eight_bit_data_RNO[17]:Y (f)
-               +     0.279          net: Read_Buttons_0/N_1092
-  73.776                       Read_Buttons_0/eight_bit_data[17]:D (f)
+  17.560                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un152_sum_ADD_11x11_slow_I3_un5_CO1_0:Y (f)
+               +     0.255          net: Read_Buttons_1/ADD_11x11_slow_I3_un5_CO1_0
+  17.815                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un152_sum_ADD_11x11_slow_I3_S:B (f)
+               +     0.753          cell: ADLIB:AX1E
+  18.568                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un152_sum_ADD_11x11_slow_I3_S:Y (f)
+               +     0.719          net: Read_Buttons_1/mult1_un152_sum[7]
+  19.287                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un166_sum_ADD_11x11_slow_I5_S_0:B (f)
+               +     0.753          cell: ADLIB:AX1E
+  20.040                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un166_sum_ADD_11x11_slow_I5_S_0:Y (f)
+               +     0.245          net: Read_Buttons_1/ADD_11x11_slow_I5_S_0_6
+  20.285                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un166_sum_ADD_11x11_slow_I5_S:C (f)
+               +     0.397          cell: ADLIB:AX1D
+  20.682                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un166_sum_ADD_11x11_slow_I5_S:Y (f)
+               +     0.415          net: Read_Buttons_1/mult1_un166_sum[9]
+  21.097                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un173_sum_ADD_11x11_slow_I1_CO1:C (f)
+               +     0.351          cell: ADLIB:AO18
+  21.448                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un173_sum_ADD_11x11_slow_I1_CO1:Y (r)
+               +     0.340          net: Read_Buttons_1/N143_8
+  21.788                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un173_sum_ADD_11x11_slow_I2_un1_CO1_1:B (r)
+               +     0.691          cell: ADLIB:OA1A
+  22.479                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un173_sum_ADD_11x11_slow_I2_un1_CO1_1:Y (r)
+               +     0.308          net: Read_Buttons_1/I2_un1_CO1_1_9
+  22.787                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un173_sum_ADD_11x11_slow_I2_un1_CO1:C (r)
+               +     0.497          cell: ADLIB:AO1A
+  23.284                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un173_sum_ADD_11x11_slow_I2_un1_CO1:Y (r)
+               +     0.295          net: Read_Buttons_1/I2_un1_CO1_4
+  23.579                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un173_sum_ADD_11x11_slow_I3_un3_CO1:A (r)
+               +     0.370          cell: ADLIB:NOR2B
+  23.949                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un173_sum_ADD_11x11_slow_I3_un3_CO1:Y (r)
+               +     0.292          net: Read_Buttons_1/I3_un3_CO1
+  24.241                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un173_sum_ADD_11x11_slow_I4_un5_CO1:A (r)
+               +     0.708          cell: ADLIB:OA1
+  24.949                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un173_sum_ADD_11x11_slow_I4_un5_CO1:Y (r)
+               +     0.255          net: Read_Buttons_1/I4_un5_CO1
+  25.204                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un173_sum_ADD_11x11_slow_I5_un3_CO1:B (r)
+               +     0.684          cell: ADLIB:OA1
+  25.888                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un173_sum_ADD_11x11_slow_I5_un3_CO1:Y (r)
+               +     0.255          net: Read_Buttons_1/I5_un3_CO1_1
+  26.143                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un173_sum_ADD_11x11_slow_I5_CO1:B (r)
+               +     0.390          cell: ADLIB:OR2A
+  26.533                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un173_sum_ADD_11x11_slow_I5_CO1:Y (r)
+               +     0.433          net: Read_Buttons_1/N151_0
+  26.966                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un180_sum_ADD_11x11_slow_I1_CO1:B (r)
+               +     0.708          cell: ADLIB:MAJ3
+  27.674                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un180_sum_ADD_11x11_slow_I1_CO1:Y (r)
+               +     0.360          net: Read_Buttons_1/N143_5
+  28.034                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un180_sum_ADD_11x11_slow_I2_un1_CO1_1:A (r)
+               +     0.746          cell: ADLIB:OA1
+  28.780                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un180_sum_ADD_11x11_slow_I2_un1_CO1_1:Y (r)
+               +     0.308          net: Read_Buttons_1/I2_un1_CO1_1_8
+  29.088                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un180_sum_ADD_11x11_slow_I3_CO1_0:A (r)
+               +     0.683          cell: ADLIB:OA1B
+  29.771                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un180_sum_ADD_11x11_slow_I3_CO1_0:Y (r)
+               +     0.255          net: Read_Buttons_1/ADD_11x11_slow_I3_CO1_0_7
+  30.026                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un180_sum_ADD_11x11_slow_I3_CO1:C (r)
+               +     0.497          cell: ADLIB:AO1
+  30.523                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un180_sum_ADD_11x11_slow_I3_CO1:Y (r)
+               +     0.308          net: Read_Buttons_1/N147_5
+  30.831                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un180_sum_ADD_11x11_slow_I4_un1_CO1:A (r)
+               +     0.576          cell: ADLIB:AO13
+  31.407                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un180_sum_ADD_11x11_slow_I4_un1_CO1:Y (r)
+               +     0.247          net: Read_Buttons_1/I4_un1_CO1_3
+  31.654                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un180_sum_ADD_11x11_slow_I5_S:C (r)
+               +     0.639          cell: ADLIB:XOR3
+  32.293                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un180_sum_ADD_11x11_slow_I5_S:Y (f)
+               +     0.420          net: Read_Buttons_1/mult1_un180_sum[9]
+  32.713                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un187_sum_ADD_11x11_slow_I1_CO1:A (f)
+               +     0.308          cell: ADLIB:AO18
+  33.021                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un187_sum_ADD_11x11_slow_I1_CO1:Y (r)
+               +     0.340          net: Read_Buttons_1/N143_6
+  33.361                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un187_sum_ADD_11x11_slow_I2_un1_CO1_1:B (r)
+               +     0.691          cell: ADLIB:OA1A
+  34.052                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un187_sum_ADD_11x11_slow_I2_un1_CO1_1:Y (r)
+               +     0.308          net: Read_Buttons_1/I2_un1_CO1_1_7
+  34.360                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un187_sum_ADD_11x11_slow_I3_CO1_0:A (r)
+               +     0.746          cell: ADLIB:OA1
+  35.106                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un187_sum_ADD_11x11_slow_I3_CO1_0:Y (r)
+               +     0.255          net: Read_Buttons_1/ADD_11x11_slow_I3_CO1_0_6
+  35.361                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un187_sum_ADD_11x11_slow_I3_CO1:C (r)
+               +     0.497          cell: ADLIB:AO1
+  35.858                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un187_sum_ADD_11x11_slow_I3_CO1:Y (r)
+               +     0.255          net: Read_Buttons_1/N147_4
+  36.113                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un187_sum_ADD_11x11_slow_I4_un1_CO1:C (r)
+               +     0.548          cell: ADLIB:MAJ3
+  36.661                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un187_sum_ADD_11x11_slow_I4_un1_CO1:Y (r)
+               +     0.255          net: Read_Buttons_1/I4_un1_CO1_9
+  36.916                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un187_sum_ADD_11x11_slow_I5_S:C (r)
+               +     0.747          cell: ADLIB:XNOR3
+  37.663                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un187_sum_ADD_11x11_slow_I5_S:Y (f)
+               +     0.356          net: Read_Buttons_1/mult1_un187_sum[9]
+  38.019                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un194_sum_ADD_11x11_slow_I1_CO1:B (f)
+               +     0.482          cell: ADLIB:MIN3
+  38.501                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un194_sum_ADD_11x11_slow_I1_CO1:Y (r)
+               +     0.247          net: Read_Buttons_1/N143_4
+  38.748                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un194_sum_ADD_11x11_slow_I2_un4_CO1:B (r)
+               +     0.448          cell: ADLIB:NOR2B
+  39.196                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un194_sum_ADD_11x11_slow_I2_un4_CO1:Y (r)
+               +     0.247          net: Read_Buttons_1/I2_un4_CO1_3
+  39.443                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un194_sum_ADD_11x11_slow_I3_CO1_0:A (r)
+               +     0.708          cell: ADLIB:OA1
+  40.151                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un194_sum_ADD_11x11_slow_I3_CO1_0:Y (r)
+               +     0.255          net: Read_Buttons_1/ADD_11x11_slow_I3_CO1_0_5
+  40.406                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un194_sum_ADD_11x11_slow_I3_CO1:C (r)
+               +     0.497          cell: ADLIB:AO1
+  40.903                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un194_sum_ADD_11x11_slow_I3_CO1:Y (r)
+               +     0.308          net: Read_Buttons_1/N147_3
+  41.211                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un194_sum_ADD_11x11_slow_I4_un1_CO1:C (r)
+               +     0.548          cell: ADLIB:MAJ3
+  41.759                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un194_sum_ADD_11x11_slow_I4_un1_CO1:Y (r)
+               +     0.255          net: Read_Buttons_1/I4_un1_CO1_10
+  42.014                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un194_sum_ADD_11x11_slow_I5_S:B (r)
+               +     0.476          cell: ADLIB:XOR2
+  42.490                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un194_sum_ADD_11x11_slow_I5_S:Y (f)
+               +     0.325          net: Read_Buttons_1/mult1_un194_sum[9]
+  42.815                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un201_sum_ADD_11x11_slow_I1_CO1:C (f)
+               +     0.308          cell: ADLIB:AO13
+  43.123                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un201_sum_ADD_11x11_slow_I1_CO1:Y (r)
+               +     0.340          net: Read_Buttons_1/N143_3
+  43.463                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un201_sum_ADD_11x11_slow_I2_un1_CO1_0:B (r)
+               +     0.707          cell: ADLIB:OA1B
+  44.170                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un201_sum_ADD_11x11_slow_I2_un1_CO1_0:Y (r)
+               +     0.308          net: Read_Buttons_1/ADD_11x11_slow_I2_un1_CO1_0
+  44.478                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un201_sum_ADD_11x11_slow_I3_un3_CO1:B (r)
+               +     0.684          cell: ADLIB:OA1
+  45.162                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un201_sum_ADD_11x11_slow_I3_un3_CO1:Y (r)
+               +     0.255          net: Read_Buttons_1/I3_un3_CO1_10
+  45.417                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un201_sum_ADD_11x11_slow_I3_CO1:B (r)
+               +     0.390          cell: ADLIB:OR2
+  45.807                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un201_sum_ADD_11x11_slow_I3_CO1:Y (r)
+               +     0.293          net: Read_Buttons_1/N147_2
+  46.100                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un201_sum_ADD_11x11_slow_I4_un1_CO1:C (r)
+               +     0.540          cell: ADLIB:MAJ3
+  46.640                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un201_sum_ADD_11x11_slow_I4_un1_CO1:Y (r)
+               +     0.255          net: Read_Buttons_1/I4_un1_CO1_7
+  46.895                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un201_sum_ADD_11x11_slow_I5_S:C (r)
+               +     0.747          cell: ADLIB:XNOR3
+  47.642                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un201_sum_ADD_11x11_slow_I5_S:Y (f)
+               +     0.414          net: Read_Buttons_1/mult1_un201_sum[9]
+  48.056                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un208_sum_ADD_11x11_slow_I1_CO1:A (f)
+               +     0.372          cell: ADLIB:AO18
+  48.428                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un208_sum_ADD_11x11_slow_I1_CO1:Y (r)
+               +     0.342          net: Read_Buttons_1/N143_7
+  48.770                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un208_sum_ADD_11x11_slow_I2_un4_CO1:B (r)
+               +     0.448          cell: ADLIB:NOR2B
+  49.218                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un208_sum_ADD_11x11_slow_I2_un4_CO1:Y (r)
+               +     0.247          net: Read_Buttons_1/I2_un4_CO1_1
+  49.465                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un208_sum_ADD_11x11_slow_I3_CO1_0:A (r)
+               +     0.708          cell: ADLIB:OA1
+  50.173                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un208_sum_ADD_11x11_slow_I3_CO1_0:Y (r)
+               +     0.279          net: Read_Buttons_1/ADD_11x11_slow_I3_CO1_0_3
+  50.452                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un208_sum_ADD_11x11_slow_I3_CO1:C (r)
+               +     0.497          cell: ADLIB:AO1
+  50.949                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un208_sum_ADD_11x11_slow_I3_CO1:Y (r)
+               +     0.338          net: Read_Buttons_1/N147_1
+  51.287                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un208_sum_ADD_11x11_slow_I4_un1_CO1:C (r)
+               +     0.548          cell: ADLIB:MAJ3
+  51.835                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un208_sum_ADD_11x11_slow_I4_un1_CO1:Y (r)
+               +     0.279          net: Read_Buttons_1/I4_un1_CO1_8
+  52.114                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un208_sum_ADD_11x11_slow_I5_S:C (r)
+               +     0.747          cell: ADLIB:XNOR3
+  52.861                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un208_sum_ADD_11x11_slow_I5_S:Y (f)
+               +     0.500          net: Read_Buttons_1/mult1_un208_sum[9]
+  53.361                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un215_sum_ADD_11x11_slow_I1_CO1:A (f)
+               +     0.372          cell: ADLIB:AO18
+  53.733                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un215_sum_ADD_11x11_slow_I1_CO1:Y (r)
+               +     0.371          net: Read_Buttons_1/N143_2
+  54.104                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un215_sum_ADD_11x11_slow_I2_un1_CO1_1:B (r)
+               +     0.691          cell: ADLIB:OA1A
+  54.795                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un215_sum_ADD_11x11_slow_I2_un1_CO1_1:Y (r)
+               +     0.309          net: Read_Buttons_1/I2_un1_CO1_1_5
+  55.104                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un215_sum_ADD_11x11_slow_I3_CO1_0:A (r)
+               +     0.746          cell: ADLIB:OA1
+  55.850                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un215_sum_ADD_11x11_slow_I3_CO1_0:Y (r)
+               +     0.255          net: Read_Buttons_1/ADD_11x11_slow_I3_CO1_0_2
+  56.105                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un215_sum_ADD_11x11_slow_I3_CO1:C (r)
+               +     0.497          cell: ADLIB:AO1
+  56.602                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un215_sum_ADD_11x11_slow_I3_CO1:Y (r)
+               +     0.309          net: Read_Buttons_1/N147_0
+  56.911                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un215_sum_ADD_11x11_slow_I4_un1_CO1:C (r)
+               +     0.548          cell: ADLIB:MAJ3
+  57.459                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un215_sum_ADD_11x11_slow_I4_un1_CO1:Y (r)
+               +     0.255          net: Read_Buttons_1/I4_un1_CO1_6
+  57.714                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un215_sum_ADD_11x11_slow_I5_S:B (r)
+               +     0.476          cell: ADLIB:XOR2
+  58.190                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un215_sum_ADD_11x11_slow_I5_S:Y (f)
+               +     0.369          net: Read_Buttons_1/mult1_un215_sum[9]
+  58.559                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un222_sum_ADD_11x11_slow_I1_CO1:A (f)
+               +     0.308          cell: ADLIB:AO18
+  58.867                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un222_sum_ADD_11x11_slow_I1_CO1:Y (r)
+               +     0.292          net: Read_Buttons_1/N143_1
+  59.159                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un222_sum_ADD_11x11_slow_I2_un1_CO1_1:B (r)
+               +     0.691          cell: ADLIB:OA1A
+  59.850                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un222_sum_ADD_11x11_slow_I2_un1_CO1_1:Y (r)
+               +     0.308          net: Read_Buttons_1/I2_un1_CO1_1_3
+  60.158                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un222_sum_ADD_11x11_slow_I3_CO1_0:A (r)
+               +     0.746          cell: ADLIB:OA1
+  60.904                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un222_sum_ADD_11x11_slow_I3_CO1_0:Y (r)
+               +     0.255          net: Read_Buttons_1/ADD_11x11_slow_I3_CO1_0_1
+  61.159                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un222_sum_ADD_11x11_slow_I3_CO1:C (r)
+               +     0.497          cell: ADLIB:AO1
+  61.656                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un222_sum_ADD_11x11_slow_I3_CO1:Y (r)
+               +     0.308          net: Read_Buttons_1/N147_8
+  61.964                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un222_sum_ADD_11x11_slow_I4_un1_CO1:C (r)
+               +     0.548          cell: ADLIB:MAJ3
+  62.512                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un222_sum_ADD_11x11_slow_I4_un1_CO1:Y (r)
+               +     0.255          net: Read_Buttons_1/I4_un1_CO1_5
+  62.767                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un222_sum_ADD_11x11_slow_I5_S:C (r)
+               +     0.747          cell: ADLIB:XNOR3
+  63.514                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un222_sum_ADD_11x11_slow_I5_S:Y (f)
+               +     0.460          net: Read_Buttons_1/mult1_un222_sum[9]
+  63.974                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un229_sum_ADD_11x11_slow_I1_CO1:A (f)
+               +     0.372          cell: ADLIB:AO18
+  64.346                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un229_sum_ADD_11x11_slow_I1_CO1:Y (r)
+               +     0.340          net: Read_Buttons_1/N143_0
+  64.686                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un229_sum_ADD_11x11_slow_I2_un1_CO1_1:B (r)
+               +     0.691          cell: ADLIB:OA1A
+  65.377                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un229_sum_ADD_11x11_slow_I2_un1_CO1_1:Y (r)
+               +     0.308          net: Read_Buttons_1/I2_un1_CO1_1_2
+  65.685                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un229_sum_ADD_11x11_slow_I3_CO1_0:A (r)
+               +     0.746          cell: ADLIB:OA1
+  66.431                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un229_sum_ADD_11x11_slow_I3_CO1_0:Y (r)
+               +     0.255          net: Read_Buttons_1/ADD_11x11_slow_I3_CO1_0_0
+  66.686                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un229_sum_ADD_11x11_slow_I3_CO1:C (r)
+               +     0.497          cell: ADLIB:AO1
+  67.183                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un229_sum_ADD_11x11_slow_I3_CO1:Y (r)
+               +     0.364          net: Read_Buttons_1/N147
+  67.547                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un229_sum_ADD_11x11_slow_I4_un4_CO1:B (r)
+               +     0.392          cell: ADLIB:NOR2B
+  67.939                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un229_sum_ADD_11x11_slow_I4_un4_CO1:Y (r)
+               +     0.247          net: Read_Buttons_1/I4_un4_CO1
+  68.186                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un229_sum_ADD_11x11_slow_I5_CO1_0:A (r)
+               +     0.691          cell: ADLIB:OA1B
+  68.877                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un229_sum_ADD_11x11_slow_I5_CO1_0:Y (r)
+               +     0.255          net: Read_Buttons_1/ADD_11x11_slow_I5_CO1_0
+  69.132                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un229_sum_ADD_11x11_slow_I5_CO1:C (r)
+               +     0.497          cell: ADLIB:AO1
+  69.629                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_un229_sum_ADD_11x11_slow_I5_CO1:Y (r)
+               +     0.659          net: Read_Buttons_1/N151
+  70.288                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_remainder[7]:B (r)
+               +     0.518          cell: ADLIB:AX1B
+  70.806                       Read_Buttons_1/un1_counter_5_if_generate_plus.mult1_remainder[7]:Y (r)
+               +     0.255          net: Read_Buttons_1/N_360
+  71.061                       Read_Buttons_1/counter_RNI5BMV74[14]:A (r)
+               +     0.505          cell: ADLIB:NOR3B
+  71.566                       Read_Buttons_1/counter_RNI5BMV74[14]:Y (r)
+               +     0.255          net: Read_Buttons_1/controller_data43_10
+  71.821                       Read_Buttons_1/counter_RNIQAH08Q[14]:A (r)
+               +     0.505          cell: ADLIB:NOR3B
+  72.326                       Read_Buttons_1/counter_RNIQAH08Q[14]:Y (r)
+               +     0.860          net: Read_Buttons_1/controller_data43
+  73.186                       Read_Buttons_1/bit_access_RNITANA8Q[3]:A (r)
+               +     0.370          cell: ADLIB:OR2B
+  73.556                       Read_Buttons_1/bit_access_RNITANA8Q[3]:Y (f)
+               +     1.127          net: Read_Buttons_1/N_1136
+  74.683                       Read_Buttons_1/bit_access_RNI6E3V8Q[3]:A (f)
+               +     0.385          cell: ADLIB:OR2
+  75.068                       Read_Buttons_1/bit_access_RNI6E3V8Q[3]:Y (f)
+               +     0.532          net: Read_Buttons_1/N_1139
+  75.600                       Read_Buttons_1/controller_data_RNO_1[29]:B (f)
+               +     0.493          cell: ADLIB:OR2
+  76.093                       Read_Buttons_1/controller_data_RNO_1[29]:Y (f)
+               +     0.245          net: Read_Buttons_1/N_1163
+  76.338                       Read_Buttons_1/controller_data_RNO[29]:S (f)
+               +     0.394          cell: ADLIB:MX2
+  76.732                       Read_Buttons_1/controller_data_RNO[29]:Y (f)
+               +     0.247          net: Read_Buttons_1/controller_data_4[29]
+  76.979                       Read_Buttons_1/controller_data[29]:D (f)
                                     
-  73.776                       data arrival time
+  76.979                       data arrival time
   ________________________________________________________
   Data required time calculation
   10.000                       mss_ccc_gla1
@@ -822,12 +870,12 @@ Expanded Path 1
   14.630                       N64_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   14.630                       N64_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
-               +     0.500          net: N64_MSS_0_FAB_CLK
-  15.130                       Read_Buttons_0/eight_bit_data[17]:CLK (r)
-               -     0.409          Library setup time: ADLIB:DFN1E1
-  14.721                       Read_Buttons_0/eight_bit_data[17]:D
+               +     0.511          net: N64_MSS_0_FAB_CLK
+  15.141                       Read_Buttons_1/controller_data[29]:CLK (r)
+               -     0.435          Library setup time: ADLIB:DFN1
+  14.706                       Read_Buttons_1/controller_data[29]:D
                                     
-  14.721                       data required time
+  14.706                       data required time
 
 
 END SET Register to Register
@@ -837,85 +885,85 @@ END SET Register to Register
 SET External Setup
 
 Path 1
-  From:                        Din
-  To:                          Read_Buttons_0/controller_data[13]:D
-  Delay (ns):                  6.359
+  From:                        Din_P1
+  To:                          Read_Buttons_0/controller_data[28]:D
+  Delay (ns):                  8.603
   Slack (ns):
-  Arrival (ns):                6.359
+  Arrival (ns):                8.603
   Required (ns):
   Setup (ns):                  0.435
-  External Setup (ns):         1.663
+  External Setup (ns):         3.868
 
 Path 2
-  From:                        Din
-  To:                          Read_Buttons_0/controller_data[26]:D
-  Delay (ns):                  6.013
+  From:                        Din_P1
+  To:                          Read_Buttons_0/controller_data[23]:D
+  Delay (ns):                  8.540
   Slack (ns):
-  Arrival (ns):                6.013
+  Arrival (ns):                8.540
   Required (ns):
   Setup (ns):                  0.435
-  External Setup (ns):         1.320
+  External Setup (ns):         3.805
 
 Path 3
-  From:                        Din
-  To:                          Read_Buttons_0/controller_data[19]:D
-  Delay (ns):                  5.944
+  From:                        Din_P1
+  To:                          Read_Buttons_0/controller_data[29]:D
+  Delay (ns):                  7.753
   Slack (ns):
-  Arrival (ns):                5.944
+  Arrival (ns):                7.753
   Required (ns):
   Setup (ns):                  0.435
-  External Setup (ns):         1.234
+  External Setup (ns):         3.043
 
 Path 4
-  From:                        Din
-  To:                          Read_Buttons_0/controller_data[16]:D
-  Delay (ns):                  5.933
+  From:                        Din_P2
+  To:                          Read_Buttons_1/controller_data[17]:D
+  Delay (ns):                  6.945
   Slack (ns):
-  Arrival (ns):                5.933
+  Arrival (ns):                6.945
   Required (ns):
   Setup (ns):                  0.435
-  External Setup (ns):         1.223
+  External Setup (ns):         2.229
 
 Path 5
-  From:                        Din
-  To:                          Read_Buttons_0/controller_data[15]:D
-  Delay (ns):                  5.902
+  From:                        Din_P1
+  To:                          Read_Buttons_0/controller_data[26]:D
+  Delay (ns):                  6.740
   Slack (ns):
-  Arrival (ns):                5.902
+  Arrival (ns):                6.740
   Required (ns):
   Setup (ns):                  0.435
-  External Setup (ns):         1.193
+  External Setup (ns):         2.005
 
 
 Expanded Path 1
-  From: Din
-  To: Read_Buttons_0/controller_data[13]:D
+  From: Din_P1
+  To: Read_Buttons_0/controller_data[28]:D
   data required time                             N/C
-  data arrival time                          -   6.359
+  data arrival time                          -   8.603
   slack                                          N/C
   ________________________________________________________
   Data arrival time calculation
-  0.000                        Din (f)
-               +     0.000          net: Din
-  0.000                        Din_pad/U0/U0:PAD (f)
+  0.000                        Din_P1 (f)
+               +     0.000          net: Din_P1
+  0.000                        Din_P1_pad/U0/U0:PAD (f)
                +     0.558          cell: ADLIB:IOPAD_IN
-  0.558                        Din_pad/U0/U0:Y (f)
-               +     0.000          net: Din_pad/U0/NET1
-  0.558                        Din_pad/U0/U1:YIN (f)
+  0.558                        Din_P1_pad/U0/U0:Y (f)
+               +     0.000          net: Din_P1_pad/U0/NET1
+  0.558                        Din_P1_pad/U0/U1:YIN (f)
                +     0.030          cell: ADLIB:IOIN_IB
-  0.588                        Din_pad/U0/U1:Y (f)
-               +     2.285          net: Din_c
-  2.873                        Din_pad_RNIFGL4:A (f)
+  0.588                        Din_P1_pad/U0/U1:Y (f)
+               +     2.779          net: Din_P1_c
+  3.367                        Din_P1_pad_RNIFMJ:A (f)
                +     0.407          cell: ADLIB:BUFF
-  3.280                        Din_pad_RNIFGL4:Y (f)
-               +     2.363          net: Din_c_0
-  5.643                        Read_Buttons_0/controller_data_RNO[13]:A (f)
+  3.774                        Din_P1_pad_RNIFMJ:Y (f)
+               +     4.113          net: Din_P1_c_0
+  7.887                        Read_Buttons_0/controller_data_RNO[28]:A (f)
                +     0.469          cell: ADLIB:MX2
-  6.112                        Read_Buttons_0/controller_data_RNO[13]:Y (f)
-               +     0.247          net: Read_Buttons_0/controller_data_4[13]
-  6.359                        Read_Buttons_0/controller_data[13]:D (f)
+  8.356                        Read_Buttons_0/controller_data_RNO[28]:Y (f)
+               +     0.247          net: Read_Buttons_0/controller_data_4[28]
+  8.603                        Read_Buttons_0/controller_data[28]:D (f)
                                     
-  6.359                        data arrival time
+  8.603                        data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          mss_ccc_gla1
@@ -927,10 +975,10 @@ Expanded Path 1
   N/C                          N64_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   N/C                          N64_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
-               +     0.501          net: N64_MSS_0_FAB_CLK
-  N/C                          Read_Buttons_0/controller_data[13]:CLK (r)
+               +     0.540          net: N64_MSS_0_FAB_CLK
+  N/C                          Read_Buttons_0/controller_data[28]:CLK (r)
                -     0.435          Library setup time: ADLIB:DFN1
-  N/C                          Read_Buttons_0/controller_data[13]:D
+  N/C                          Read_Buttons_0/controller_data[28]:D
 
 
 END SET External Setup
@@ -941,19 +989,28 @@ SET Clock to Output
 
 Path 1
   From:                        Read_Buttons_0/Dout:CLK
-  To:                          Dout
-  Delay (ns):                  4.970
+  To:                          Dout_P1
+  Delay (ns):                  4.686
   Slack (ns):
-  Arrival (ns):                10.083
+  Arrival (ns):                9.838
   Required (ns):
-  Clock to Out (ns):           10.083
+  Clock to Out (ns):           9.838
+
+Path 2
+  From:                        Read_Buttons_1/Dout:CLK
+  To:                          Dout_P2
+  Delay (ns):                  4.064
+  Slack (ns):
+  Arrival (ns):                9.205
+  Required (ns):
+  Clock to Out (ns):           9.205
 
 
 Expanded Path 1
   From: Read_Buttons_0/Dout:CLK
-  To: Dout
+  To: Dout_P1
   data required time                             N/C
-  data arrival time                          -   10.083
+  data arrival time                          -   9.838
   slack                                          N/C
   ________________________________________________________
   Data arrival time calculation
@@ -966,22 +1023,22 @@ Expanded Path 1
   4.630                        N64_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   4.630                        N64_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
-               +     0.483          net: N64_MSS_0_FAB_CLK
-  5.113                        Read_Buttons_0/Dout:CLK (r)
+               +     0.522          net: N64_MSS_0_FAB_CLK
+  5.152                        Read_Buttons_0/Dout:CLK (r)
                +     0.559          cell: ADLIB:DFN1
-  5.672                        Read_Buttons_0/Dout:Q (f)
-               +     1.161          net: Dout_c
-  6.833                        Dout_pad/U0/U1:D (f)
+  5.711                        Read_Buttons_0/Dout:Q (f)
+               +     0.877          net: Dout_P1_c
+  6.588                        Dout_P1_pad/U0/U1:D (f)
                +     0.442          cell: ADLIB:IOTRI_OB_EB
-  7.275                        Dout_pad/U0/U1:DOUT (f)
-               +     0.000          net: Dout_pad/U0/NET1
-  7.275                        Dout_pad/U0/U0:D (f)
+  7.030                        Dout_P1_pad/U0/U1:DOUT (f)
+               +     0.000          net: Dout_P1_pad/U0/NET1
+  7.030                        Dout_P1_pad/U0/U0:D (f)
                +     2.808          cell: ADLIB:IOPAD_TRI
-  10.083                       Dout_pad/U0/U0:PAD (f)
-               +     0.000          net: Dout
-  10.083                       Dout (f)
+  9.838                        Dout_P1_pad/U0/U0:PAD (f)
+               +     0.000          net: Dout_P1
+  9.838                        Dout_P1 (f)
                                     
-  10.083                       data arrival time
+  9.838                        data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          mss_ccc_gla1
@@ -990,7 +1047,7 @@ Expanded Path 1
                +     4.630          Clock generation
   N/C
                                     
-  N/C                          Dout (f)
+  N/C                          Dout_P1 (f)
 
 
 END SET Clock to Output

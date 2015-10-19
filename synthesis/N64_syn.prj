@@ -1,17 +1,17 @@
 #--  Synopsys, Inc.
 #--  Version I-2013.09M-SP1-1 
-#--  Project file J:\N64\synthesis\N64_syn.prj
+#--  Project file F:\N64\synthesis\N64_syn.prj
 
 #project files
-add_file -verilog -lib COREAPB3_LIB "J:/N64/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
-add_file -verilog -lib COREAPB3_LIB "J:/N64/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
-add_file -verilog -lib COREAPB3_LIB "J:/N64/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3.v"
-add_file -verilog "J:/N64/component/work/N64_MSS/mss_tshell.v"
-add_file -verilog "J:/N64/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
-add_file -verilog "J:/N64/component/work/N64_MSS/MSS_CCC_0/N64_MSS_tmp_MSS_CCC_0_MSS_CCC.v"
-add_file -verilog "J:/N64/component/work/N64_MSS/N64_MSS.v"
-add_file -verilog "J:/N64/hdl/Read_Buttons.v"
-add_file -verilog "J:/N64/component/work/N64/N64.v"
+add_file -verilog "F:/N64/hdl/Read_Buttons.v"
+add_file -verilog -lib COREAPB3_LIB "F:/N64/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "F:/N64/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
+add_file -verilog -lib COREAPB3_LIB "F:/N64/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3.v"
+add_file -verilog "F:/N64/component/work/N64_MSS/mss_tshell.v"
+add_file -verilog "F:/N64/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
+add_file -verilog "F:/N64/component/work/N64_MSS/MSS_CCC_0/N64_MSS_tmp_MSS_CCC_0_MSS_CCC.v"
+add_file -verilog "F:/N64/component/work/N64_MSS/N64_MSS.v"
+add_file -verilog "F:/N64/component/work/N64/N64.v"
 
 
 

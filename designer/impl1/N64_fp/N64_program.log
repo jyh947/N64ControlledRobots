@@ -3,38 +3,38 @@ Version: 11.4.0.112
 Release: v11.4
 
 Software Version: 11.4.0.112
-PDB file 'J:\N64\designer\impl1\N64_fp\N64.pdb' has been loaded successfully.
-DESIGN : N64;  CHECKSUM : 4975;  PDB_VERSION : 1.8
+PDB file 'J:\N64_actual\designer\impl1\N64_fp\N64.pdb' has been loaded successfully.
+DESIGN : N64;  CHECKSUM : 85FF;  PDB_VERSION : 1.8
 Driver : 3.0.0 build 1
-programmer '78780' : FlashPro3
-Opened 'J:/N64/designer/impl1/N64_fp/N64.pro'
+programmer '79767' : FlashPro3
+Opened 'J:/N64_actual/designer/impl1/N64_fp/N64.pro'
 The 'open_project' command succeeded.
 The 'set_programming_file' command succeeded.
 The 'set_device_type' command succeeded.
 The 'set_device_package' command succeeded.
 Info: Adding Flash Memory data from file
-      J:\N64\component\work\N64_MSS\MSS_ENVM_0\MSS_ENVM_0.efc.
-Info: Adding FPGA Array data from file J:\N64\designer\impl1\N64.fdb.
-PDB file 'J:\N64\designer\impl1\N64_fp\N64.pdb' has been loaded successfully.
-DESIGN : N64;  CHECKSUM : 5963;  PDB_VERSION : 1.8
+      J:\N64_actual\component\work\N64_MSS\MSS_ENVM_0\MSS_ENVM_0.efc.
+Info: Adding FPGA Array data from file J:\N64_actual\designer\impl1\N64.fdb.
+PDB file 'J:\N64_actual\designer\impl1\N64_fp\N64.pdb' has been loaded successfully.
+DESIGN : N64;  CHECKSUM : 85FF;  PDB_VERSION : 1.8
 The 'update_programming_file' command succeeded.
 The 'set_programming_action' command succeeded.
-programmer '78780' : Scan Chain...
-Warning: programmer '78780' : Vpump has been selected on programmer AND an externally provided
+programmer '79767' : Scan Chain...
+Warning: programmer '79767' : Vpump has been selected on programmer AND an externally provided
          Vpump has also been detected. Using externally provided Vpump voltage source.
-programmer '78780' : Scan Chain PASSED.
-programmer '78780' : Executing action PROGRAM
-programmer '78780' : EXPORT FSN[48] = 0114ab5c604c
-programmer '78780' : Erase ...
-programmer '78780' : Completed erase
-programmer '78780' : EXPORT CHECKSUM: [16] = 5963
-programmer '78780' : Programming FPGA Array
-programmer '78780' : Verifying FPGA Array
-programmer '78780' :         Verifying FPGA Array -- pass
-programmer '78780' : Program System Init and Boot Clients...
-programmer '78780' : Verify System Init and Boot Clients...
-programmer '78780' : Finished: Tue Mar 31 18:55:28 2015 (Elapsed time 00:00:37)
-programmer '78780' : Executing action PROGRAM PASSED.
+programmer '79767' : Scan Chain PASSED.
+programmer '79767' : Executing action PROGRAM
+programmer '79767' : EXPORT FSN[48] = 0114ab58847c
+programmer '79767' : Erase ...
+programmer '79767' : Completed erase
+programmer '79767' : EXPORT CHECKSUM: [16] = 85ff
+programmer '79767' : Programming FPGA Array
+programmer '79767' : Verifying FPGA Array
+programmer '79767' :         Verifying FPGA Array -- pass
+programmer '79767' : Program System Init and Boot Clients...
+programmer '79767' : Verify System Init and Boot Clients...
+programmer '79767' : Finished: Thu Apr 16 17:58:06 2015 (Elapsed time 00:00:40)
+programmer '79767' : Executing action PROGRAM PASSED.
 
                         o - o - o - o - o - o
 

@@ -1,7 +1,7 @@
 
 Starting:    C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\win64\mbin\synbatch.exe
 Install:     C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1
-Date:        Tue Mar 31 18:49:35 2015
+Date:        Sat Apr 11 16:08:39 2015
 Version:     I-2013.09M-SP1-1 
 
 Arguments:   -product synplify_pro  -licensetype synplifypro_actel -batch -log synplify.log N64_syn.tcl
@@ -19,7 +19,7 @@ Running in Vendor Mode
 auto_infer_blackbox is not supported in current product.
 
 
-log file: "J:\N64\synthesis\N64.srr"
+log file: "N:\N64\synthesis\N64.srr"
 
 
 
@@ -36,7 +36,7 @@ Running: Compile Process on N64_syn|synthesis
 
 Running: Compile Input on N64_syn|synthesis
 
-Copied J:\N64\synthesis\synwork\N64_comp.srs to J:\N64\synthesis\N64.srs
+Copied N:\N64\synthesis\synwork\N64_comp.srs to N:\N64\synthesis\N64.srs
 
 compiler Completed with warnings
 Return Code: 1
@@ -50,7 +50,7 @@ Running: Pre-mapping on N64_syn|synthesis
 
 premap Completed with warnings
 Return Code: 1
-Run Time:0h:00m:11s
+Run Time:0h:00m:10s
 
 
 Complete: Compile on N64_syn|synthesis
@@ -63,7 +63,7 @@ Running: Map & Optimize on N64_syn|synthesis
 
 fpga_mapper Completed with warnings
 Return Code: 1
-Run Time:0h:01m:02s
+Run Time:0h:00m:44s
 
 
 Complete: Map on N64_syn|synthesis

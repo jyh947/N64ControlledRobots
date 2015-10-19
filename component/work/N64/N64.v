@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Tue Mar 31 15:36:01 2015
+// Created by SmartDesign Thu Apr 09 15:24:58 2015
 // Version: v11.4 11.4.0.112
 //////////////////////////////////////////////////////////////////////
 
@@ -8,25 +8,33 @@
 // N64
 module N64(
     // Inputs
-    Din,
+    Din_P1,
+    Din_P2,
     MSS_RESET_N,
     UART_0_RXD,
+    UART_1_RXD,
     // Outputs
-    Dout,
-    UART_0_TXD
+    Dout_P1,
+    Dout_P2,
+    UART_0_TXD,
+    UART_1_TXD
 );
 
 //--------------------------------------------------------------------
 // Input
 //--------------------------------------------------------------------
-input  Din;
+input  Din_P1;
+input  Din_P2;
 input  MSS_RESET_N;
 input  UART_0_RXD;
+input  UART_1_RXD;
 //--------------------------------------------------------------------
 // Output
 //--------------------------------------------------------------------
-output Dout;
+output Dout_P1;
+output Dout_P2;
 output UART_0_TXD;
+output UART_1_TXD;
 //--------------------------------------------------------------------
 // Nets
 //--------------------------------------------------------------------
@@ -38,8 +46,14 @@ wire          CoreAPB3_0_APBmslave0_PSELx;
 wire          CoreAPB3_0_APBmslave0_PSLVERR;
 wire   [31:0] CoreAPB3_0_APBmslave0_PWDATA;
 wire          CoreAPB3_0_APBmslave0_PWRITE;
-wire          Din;
-wire          Dout_net_0;
+wire   [31:0] CoreAPB3_0_APBmslave15_PRDATA;
+wire          CoreAPB3_0_APBmslave15_PREADY;
+wire          CoreAPB3_0_APBmslave15_PSELx;
+wire          CoreAPB3_0_APBmslave15_PSLVERR;
+wire          Din_P1;
+wire          Din_P2;
+wire          Dout;
+wire          Dout_P2_net_0;
 wire          MSS_RESET_N;
 wire          N64_MSS_0_FAB_CLK;
 wire          N64_MSS_0_M2F_RESET_N;
@@ -52,8 +66,12 @@ wire   [31:0] N64_MSS_0_MSS_MASTER_APB_PWDATA;
 wire          N64_MSS_0_MSS_MASTER_APB_PWRITE;
 wire          UART_0_RXD;
 wire          UART_0_TXD_net_0;
+wire          UART_1_RXD;
+wire          UART_1_TXD_0;
 wire          UART_0_TXD_net_1;
-wire          Dout_net_1;
+wire          Dout_net_0;
+wire          Dout_P2_net_1;
+wire          UART_1_TXD_0_net_0;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
@@ -74,7 +92,6 @@ wire   [31:0] PRDATAS11_const_net_0;
 wire   [31:0] PRDATAS12_const_net_0;
 wire   [31:0] PRDATAS13_const_net_0;
 wire   [31:0] PRDATAS14_const_net_0;
-wire   [31:0] PRDATAS15_const_net_0;
 wire   [31:0] PRDATAS16_const_net_0;
 //--------------------------------------------------------------------
 // Bus Interface Nets Declarations - Unequal Pin Widths
@@ -103,15 +120,18 @@ assign PRDATAS11_const_net_0 = 32'h00000000;
 assign PRDATAS12_const_net_0 = 32'h00000000;
 assign PRDATAS13_const_net_0 = 32'h00000000;
 assign PRDATAS14_const_net_0 = 32'h00000000;
-assign PRDATAS15_const_net_0 = 32'h00000000;
 assign PRDATAS16_const_net_0 = 32'h00000000;
 //--------------------------------------------------------------------
 // Top level output port assignments
 //--------------------------------------------------------------------
-assign UART_0_TXD_net_1 = UART_0_TXD_net_0;
-assign UART_0_TXD       = UART_0_TXD_net_1;
-assign Dout_net_1       = Dout_net_0;
-assign Dout             = Dout_net_1;
+assign UART_0_TXD_net_1   = UART_0_TXD_net_0;
+assign UART_0_TXD         = UART_0_TXD_net_1;
+assign Dout_net_0         = Dout;
+assign Dout_P1            = Dout_net_0;
+assign Dout_P2_net_1      = Dout_P2_net_0;
+assign Dout_P2            = Dout_P2_net_1;
+assign UART_1_TXD_0_net_0 = UART_1_TXD_0;
+assign UART_1_TXD         = UART_1_TXD_0_net_0;
 //--------------------------------------------------------------------
 // Bus Interface Nets Assignments - Unequal Pin Widths
 //--------------------------------------------------------------------
@@ -140,7 +160,7 @@ CoreAPB3 #(
         .APBSLOT12ENABLE ( 0 ),
         .APBSLOT13ENABLE ( 0 ),
         .APBSLOT14ENABLE ( 0 ),
-        .APBSLOT15ENABLE ( 0 ),
+        .APBSLOT15ENABLE ( 1 ),
         .IADDR_OPTION    ( 0 ),
         .MADDR_BITS      ( 12 ),
         .SC_0            ( 0 ),
@@ -164,71 +184,68 @@ CoreAPB3_0(
         // Inputs
         .PRESETN    ( GND_net ), // tied to 1'b0 from definition
         .PCLK       ( GND_net ), // tied to 1'b0 from definition
-        .PADDR      ( N64_MSS_0_MSS_MASTER_APB_PADDR_0 ),
         .PWRITE     ( N64_MSS_0_MSS_MASTER_APB_PWRITE ),
         .PENABLE    ( N64_MSS_0_MSS_MASTER_APB_PENABLE ),
-        .PWDATA     ( N64_MSS_0_MSS_MASTER_APB_PWDATA ),
         .PSEL       ( N64_MSS_0_MSS_MASTER_APB_PSELx ),
-        .PRDATAS0   ( CoreAPB3_0_APBmslave0_PRDATA ),
         .PREADYS0   ( CoreAPB3_0_APBmslave0_PREADY ),
         .PSLVERRS0  ( CoreAPB3_0_APBmslave0_PSLVERR ),
-        .PRDATAS1   ( PRDATAS1_const_net_0 ), // tied to 32'h00000000 from definition
         .PREADYS1   ( VCC_net ), // tied to 1'b1 from definition
         .PSLVERRS1  ( GND_net ), // tied to 1'b0 from definition
-        .PRDATAS2   ( PRDATAS2_const_net_0 ), // tied to 32'h00000000 from definition
         .PREADYS2   ( VCC_net ), // tied to 1'b1 from definition
         .PSLVERRS2  ( GND_net ), // tied to 1'b0 from definition
-        .PRDATAS3   ( PRDATAS3_const_net_0 ), // tied to 32'h00000000 from definition
         .PREADYS3   ( VCC_net ), // tied to 1'b1 from definition
         .PSLVERRS3  ( GND_net ), // tied to 1'b0 from definition
-        .PRDATAS4   ( PRDATAS4_const_net_0 ), // tied to 32'h00000000 from definition
         .PREADYS4   ( VCC_net ), // tied to 1'b1 from definition
         .PSLVERRS4  ( GND_net ), // tied to 1'b0 from definition
-        .PRDATAS5   ( PRDATAS5_const_net_0 ), // tied to 32'h00000000 from definition
         .PREADYS5   ( VCC_net ), // tied to 1'b1 from definition
         .PSLVERRS5  ( GND_net ), // tied to 1'b0 from definition
-        .PRDATAS6   ( PRDATAS6_const_net_0 ), // tied to 32'h00000000 from definition
         .PREADYS6   ( VCC_net ), // tied to 1'b1 from definition
         .PSLVERRS6  ( GND_net ), // tied to 1'b0 from definition
-        .PRDATAS7   ( PRDATAS7_const_net_0 ), // tied to 32'h00000000 from definition
         .PREADYS7   ( VCC_net ), // tied to 1'b1 from definition
         .PSLVERRS7  ( GND_net ), // tied to 1'b0 from definition
-        .PRDATAS8   ( PRDATAS8_const_net_0 ), // tied to 32'h00000000 from definition
         .PREADYS8   ( VCC_net ), // tied to 1'b1 from definition
         .PSLVERRS8  ( GND_net ), // tied to 1'b0 from definition
-        .PRDATAS9   ( PRDATAS9_const_net_0 ), // tied to 32'h00000000 from definition
         .PREADYS9   ( VCC_net ), // tied to 1'b1 from definition
         .PSLVERRS9  ( GND_net ), // tied to 1'b0 from definition
-        .PRDATAS10  ( PRDATAS10_const_net_0 ), // tied to 32'h00000000 from definition
         .PREADYS10  ( VCC_net ), // tied to 1'b1 from definition
         .PSLVERRS10 ( GND_net ), // tied to 1'b0 from definition
-        .PRDATAS11  ( PRDATAS11_const_net_0 ), // tied to 32'h00000000 from definition
         .PREADYS11  ( VCC_net ), // tied to 1'b1 from definition
         .PSLVERRS11 ( GND_net ), // tied to 1'b0 from definition
-        .PRDATAS12  ( PRDATAS12_const_net_0 ), // tied to 32'h00000000 from definition
         .PREADYS12  ( VCC_net ), // tied to 1'b1 from definition
         .PSLVERRS12 ( GND_net ), // tied to 1'b0 from definition
-        .PRDATAS13  ( PRDATAS13_const_net_0 ), // tied to 32'h00000000 from definition
         .PREADYS13  ( VCC_net ), // tied to 1'b1 from definition
         .PSLVERRS13 ( GND_net ), // tied to 1'b0 from definition
-        .PRDATAS14  ( PRDATAS14_const_net_0 ), // tied to 32'h00000000 from definition
         .PREADYS14  ( VCC_net ), // tied to 1'b1 from definition
         .PSLVERRS14 ( GND_net ), // tied to 1'b0 from definition
-        .PRDATAS15  ( PRDATAS15_const_net_0 ), // tied to 32'h00000000 from definition
-        .PREADYS15  ( VCC_net ), // tied to 1'b1 from definition
-        .PSLVERRS15 ( GND_net ), // tied to 1'b0 from definition
-        .PRDATAS16  ( PRDATAS16_const_net_0 ), // tied to 32'h00000000 from definition
+        .PREADYS15  ( CoreAPB3_0_APBmslave15_PREADY ),
+        .PSLVERRS15 ( CoreAPB3_0_APBmslave15_PSLVERR ),
         .PREADYS16  ( VCC_net ), // tied to 1'b1 from definition
         .PSLVERRS16 ( GND_net ), // tied to 1'b0 from definition
+        .PADDR      ( N64_MSS_0_MSS_MASTER_APB_PADDR_0 ),
+        .PWDATA     ( N64_MSS_0_MSS_MASTER_APB_PWDATA ),
+        .PRDATAS0   ( CoreAPB3_0_APBmslave0_PRDATA ),
+        .PRDATAS1   ( PRDATAS1_const_net_0 ), // tied to 32'h00000000 from definition
+        .PRDATAS2   ( PRDATAS2_const_net_0 ), // tied to 32'h00000000 from definition
+        .PRDATAS3   ( PRDATAS3_const_net_0 ), // tied to 32'h00000000 from definition
+        .PRDATAS4   ( PRDATAS4_const_net_0 ), // tied to 32'h00000000 from definition
+        .PRDATAS5   ( PRDATAS5_const_net_0 ), // tied to 32'h00000000 from definition
+        .PRDATAS6   ( PRDATAS6_const_net_0 ), // tied to 32'h00000000 from definition
+        .PRDATAS7   ( PRDATAS7_const_net_0 ), // tied to 32'h00000000 from definition
+        .PRDATAS8   ( PRDATAS8_const_net_0 ), // tied to 32'h00000000 from definition
+        .PRDATAS9   ( PRDATAS9_const_net_0 ), // tied to 32'h00000000 from definition
+        .PRDATAS10  ( PRDATAS10_const_net_0 ), // tied to 32'h00000000 from definition
+        .PRDATAS11  ( PRDATAS11_const_net_0 ), // tied to 32'h00000000 from definition
+        .PRDATAS12  ( PRDATAS12_const_net_0 ), // tied to 32'h00000000 from definition
+        .PRDATAS13  ( PRDATAS13_const_net_0 ), // tied to 32'h00000000 from definition
+        .PRDATAS14  ( PRDATAS14_const_net_0 ), // tied to 32'h00000000 from definition
+        .PRDATAS15  ( CoreAPB3_0_APBmslave15_PRDATA ),
+        .PRDATAS16  ( PRDATAS16_const_net_0 ), // tied to 32'h00000000 from definition
         .IADDR      ( IADDR_const_net_0 ), // tied to 32'h00000000 from definition
         // Outputs
-        .PRDATA     ( N64_MSS_0_MSS_MASTER_APB_PRDATA ),
         .PREADY     ( N64_MSS_0_MSS_MASTER_APB_PREADY ),
         .PSLVERR    ( N64_MSS_0_MSS_MASTER_APB_PSLVERR ),
-        .PADDRS     ( CoreAPB3_0_APBmslave0_PADDR ),
         .PWRITES    ( CoreAPB3_0_APBmslave0_PWRITE ),
         .PENABLES   ( CoreAPB3_0_APBmslave0_PENABLE ),
-        .PWDATAS    ( CoreAPB3_0_APBmslave0_PWDATA ),
         .PSELS0     ( CoreAPB3_0_APBmslave0_PSELx ),
         .PSELS1     (  ),
         .PSELS2     (  ),
@@ -244,8 +261,11 @@ CoreAPB3_0(
         .PSELS12    (  ),
         .PSELS13    (  ),
         .PSELS14    (  ),
-        .PSELS15    (  ),
-        .PSELS16    (  ) 
+        .PSELS15    ( CoreAPB3_0_APBmslave15_PSELx ),
+        .PSELS16    (  ),
+        .PRDATA     ( N64_MSS_0_MSS_MASTER_APB_PRDATA ),
+        .PADDRS     ( CoreAPB3_0_APBmslave0_PADDR ),
+        .PWDATAS    ( CoreAPB3_0_APBmslave0_PWDATA ) 
         );
 
 //--------N64_MSS
@@ -256,6 +276,7 @@ N64_MSS N64_MSS_0(
         .MSSPREADY   ( N64_MSS_0_MSS_MASTER_APB_PREADY ),
         .MSSPSLVERR  ( N64_MSS_0_MSS_MASTER_APB_PSLVERR ),
         .MSSPRDATA   ( N64_MSS_0_MSS_MASTER_APB_PRDATA ),
+        .UART_1_RXD  ( UART_1_RXD ),
         // Outputs
         .UART_0_TXD  ( UART_0_TXD_net_0 ),
         .FAB_CLK     ( N64_MSS_0_FAB_CLK ),
@@ -264,7 +285,8 @@ N64_MSS N64_MSS_0(
         .MSSPENABLE  ( N64_MSS_0_MSS_MASTER_APB_PENABLE ),
         .MSSPWRITE   ( N64_MSS_0_MSS_MASTER_APB_PWRITE ),
         .MSSPADDR    ( N64_MSS_0_MSS_MASTER_APB_PADDR ),
-        .MSSPWDATA   ( N64_MSS_0_MSS_MASTER_APB_PWDATA ) 
+        .MSSPWDATA   ( N64_MSS_0_MSS_MASTER_APB_PWDATA ),
+        .UART_1_TXD  ( UART_1_TXD_0 ) 
         );
 
 //--------Read_Buttons
@@ -275,14 +297,32 @@ Read_Buttons Read_Buttons_0(
         .PSEL    ( CoreAPB3_0_APBmslave0_PSELx ),
         .PENABLE ( CoreAPB3_0_APBmslave0_PENABLE ),
         .PWRITE  ( CoreAPB3_0_APBmslave0_PWRITE ),
+        .Din     ( Din_P1 ),
         .PADDR   ( CoreAPB3_0_APBmslave0_PADDR ),
         .PWDATA  ( CoreAPB3_0_APBmslave0_PWDATA ),
-        .Din     ( Din ),
         // Outputs
         .PREADY  ( CoreAPB3_0_APBmslave0_PREADY ),
         .PSLVERR ( CoreAPB3_0_APBmslave0_PSLVERR ),
-        .PRDATA  ( CoreAPB3_0_APBmslave0_PRDATA ),
-        .Dout    ( Dout_net_0 ) 
+        .Dout    ( Dout ),
+        .PRDATA  ( CoreAPB3_0_APBmslave0_PRDATA ) 
+        );
+
+//--------Read_Buttons
+Read_Buttons Read_Buttons_1(
+        // Inputs
+        .PCLK    ( N64_MSS_0_FAB_CLK ),
+        .PRESERN ( N64_MSS_0_M2F_RESET_N ),
+        .PSEL    ( CoreAPB3_0_APBmslave15_PSELx ),
+        .PENABLE ( CoreAPB3_0_APBmslave0_PENABLE ),
+        .PWRITE  ( CoreAPB3_0_APBmslave0_PWRITE ),
+        .Din     ( Din_P2 ),
+        .PADDR   ( CoreAPB3_0_APBmslave0_PADDR ),
+        .PWDATA  ( CoreAPB3_0_APBmslave0_PWDATA ),
+        // Outputs
+        .PREADY  ( CoreAPB3_0_APBmslave15_PREADY ),
+        .PSLVERR ( CoreAPB3_0_APBmslave15_PSLVERR ),
+        .Dout    ( Dout_P2_net_0 ),
+        .PRDATA  ( CoreAPB3_0_APBmslave15_PRDATA ) 
         );
 
 

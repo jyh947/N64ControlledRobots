@@ -1,5 +1,5 @@
 #===========================================================
-# Created by Microsemi SmartDesign Tue Mar 31 15:36:01 2015
+# Created by Microsemi SmartDesign Thu Apr 09 15:24:58 2015
 #
 # Syntax: 
 # ------- 
@@ -18,3 +18,4 @@
 #-----------------------------------------------------------
 
 memmap Read_Buttons_0 0x40050000;
+memmap Read_Buttons_1 0x40050F00;

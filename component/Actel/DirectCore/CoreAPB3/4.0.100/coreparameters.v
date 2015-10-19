@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------
-// Created by Microsemi SmartDesign Tue Mar 31 15:36:01 2015
+// Created by Microsemi SmartDesign Thu Apr 09 15:24:56 2015
 // Parameters for CoreAPB3
 //--------------------------------------------------------------------
 
@@ -20,7 +20,7 @@ parameter APBSLOT11ENABLE = 0;
 parameter APBSLOT12ENABLE = 0;
 parameter APBSLOT13ENABLE = 0;
 parameter APBSLOT14ENABLE = 0;
-parameter APBSLOT15ENABLE = 0;
+parameter APBSLOT15ENABLE = 1;
 parameter HDL_license = "O";
 parameter IADDR_OPTION = 0;
 parameter MADDR_BITS = 12;

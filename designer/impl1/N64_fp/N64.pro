@@ -1,22 +1,22 @@
 <project name="N64" version="1.1">
     <ProjectDirectory>
-        J:/N64/designer/impl1/N64_fp
+        F:/N64/designer/impl1/N64_fp
     </ProjectDirectory>
     <View>
         SingleSTAPLView
     </View>
     <LogFile>
-        J:/N64/designer/impl1/N64_fp/N64.log
+        F:/N64/designer/impl1/N64_fp/N64.log
     </LogFile>
     <SerializationOption>
         Skip
     </SerializationOption>
     <programmer status="enable" type="FlashPro3" revision="UndefRev" connection="usb2.0">
         <name>
-            78780
+            79767
         </name>
         <id>
-            78780
+            79767
         </id>
     </programmer>
     <configuration>
@@ -77,7 +77,7 @@
         </Hardware>
         <Algo type="PDB">
             <filename>
-                J:\N64\designer\impl1\N64_fp\N64.pdb
+                F:\N64\designer\impl1\N64_fp\N64.pdb
             </filename>
             <local>
                 projectData\N64.pdb

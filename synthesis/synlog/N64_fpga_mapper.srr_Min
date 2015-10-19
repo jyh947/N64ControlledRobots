@@ -1,7 +1,7 @@
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Tue Mar 31 18:50:51 2015
+# Timing Report written on Sat Apr 11 16:09:38 2015
 #
 
 
@@ -27,7 +27,7 @@ Worst slack in design: 0.192
                    Requested     Estimated     Requested     Estimated                 Clock      Clock          
 Starting Clock     Frequency     Frequency     Period        Period        Slack       Type       Group          
 -----------------------------------------------------------------------------------------------------------------
-System             100.0 MHz     10.5 MHz      10.000        95.551        -85.551     system     system_clkgroup
+System             100.0 MHz     9.9 MHz       10.000        101.095       -91.095     system     system_clkgroup
 =================================================================================================================
 
 
@@ -67,15 +67,15 @@ Instance                     Reference     Type        Pin        Net           
                              Clock                                                                                     
 -----------------------------------------------------------------------------------------------------------------------
 N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     EMCCLK     MSS_ADLIB_INST_EMCCLK               0.000       0.274
-Read_Buttons_0.PRDATA[0]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[0]     0.494       1.607
-Read_Buttons_0.PRDATA[1]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[1]     0.494       1.607
-Read_Buttons_0.PRDATA[2]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[2]     0.494       1.607
-Read_Buttons_0.PRDATA[3]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[3]     0.494       1.607
-Read_Buttons_0.PRDATA[4]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[4]     0.494       1.607
-Read_Buttons_0.PRDATA[5]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[5]     0.494       1.607
-Read_Buttons_0.PRDATA[6]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[6]     0.494       1.607
-Read_Buttons_0.PRDATA[7]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[7]     0.494       1.607
-Read_Buttons_0.PRDATA[8]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[8]     0.494       1.607
+Read_Buttons_0.PRDATA[0]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[0]     0.494       2.365
+Read_Buttons_0.PRDATA[1]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[1]     0.494       2.365
+Read_Buttons_0.PRDATA[2]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[2]     0.494       2.365
+Read_Buttons_0.PRDATA[3]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[3]     0.494       2.365
+Read_Buttons_0.PRDATA[4]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[4]     0.494       2.365
+Read_Buttons_0.PRDATA[5]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[5]     0.494       2.365
+Read_Buttons_0.PRDATA[6]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[6]     0.494       2.365
+Read_Buttons_0.PRDATA[7]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[7]     0.494       2.365
+Read_Buttons_0.PRDATA[8]     System        DFN1E1      Q          CoreAPB3_0_APBmslave0_PRDATA[8]     0.494       2.365
 =======================================================================================================================
 
 
@@ -87,15 +87,15 @@ Instance                     Reference     Type        Pin              Net     
                              Clock                                                                                               
 ---------------------------------------------------------------------------------------------------------------------------------
 N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     EMCCLKRTN        MSS_ADLIB_INST_EMCCLK                  0.000        0.192
-N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[0]     N64_MSS_0_MSS_MASTER_APB_PRDATA[0]     0.000        1.443
-N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[1]     N64_MSS_0_MSS_MASTER_APB_PRDATA[1]     0.000        1.443
-N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[2]     N64_MSS_0_MSS_MASTER_APB_PRDATA[2]     0.000        1.443
-N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[3]     N64_MSS_0_MSS_MASTER_APB_PRDATA[3]     0.000        1.443
-N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[4]     N64_MSS_0_MSS_MASTER_APB_PRDATA[4]     0.000        1.443
-N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[5]     N64_MSS_0_MSS_MASTER_APB_PRDATA[5]     0.000        1.443
-N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[6]     N64_MSS_0_MSS_MASTER_APB_PRDATA[6]     0.000        1.443
-N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[7]     N64_MSS_0_MSS_MASTER_APB_PRDATA[7]     0.000        1.443
-N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[8]     N64_MSS_0_MSS_MASTER_APB_PRDATA[8]     0.000        1.443
+N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[0]     N64_MSS_0_MSS_MASTER_APB_PRDATA[0]     0.000        2.118
+N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[1]     N64_MSS_0_MSS_MASTER_APB_PRDATA[1]     0.000        2.118
+N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[2]     N64_MSS_0_MSS_MASTER_APB_PRDATA[2]     0.000        2.118
+N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[3]     N64_MSS_0_MSS_MASTER_APB_PRDATA[3]     0.000        2.118
+N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[4]     N64_MSS_0_MSS_MASTER_APB_PRDATA[4]     0.000        2.118
+N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[5]     N64_MSS_0_MSS_MASTER_APB_PRDATA[5]     0.000        2.118
+N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[6]     N64_MSS_0_MSS_MASTER_APB_PRDATA[6]     0.000        2.118
+N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[7]     N64_MSS_0_MSS_MASTER_APB_PRDATA[7]     0.000        2.118
+N64_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[8]     N64_MSS_0_MSS_MASTER_APB_PRDATA[8]     0.000        2.118
 =================================================================================================================================
 
 

@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Tue Mar 31 18:51:59 2015 ***************************************************************************
+                          Sat Apr 11 16:09:56 2015 ***************************************************************************
 
 Product: Designer
 Release: v11.4
 Version: 11.4.0.112
-File Name: J:\N64\designer\impl1\N64.adb
+File Name: N:\N64\designer\impl1\N64.adb
 Design Name: N64  Design State: compile
-Last Saved: Tue Mar 31 18:44:32 2015
+Last Saved: Thu Apr 09 15:31:59 2015
 
 ***** Device Data **************************************************
 
@@ -22,9 +22,9 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Tue Mar 31 18:51:04 2015:
-        J:\N64\synthesis\N64.edn
-        J:\N64\component\work\N64\N64.pdc
+Source File(s) Imported on Sat Apr 11 16:09:48 2015:
+        N:\N64\synthesis\N64.edn
+        N:\N64\component\work\N64\N64.pdc
 
 
 ***** CAE Variables ************************************************
@@ -50,8 +50,8 @@ Parameters used to run compile:
 Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
-Source      : J:\N64\synthesis\N64.edn
-              J:\N64\component\work\N64\N64.pdc
+Source      : N:\N64\synthesis\N64.edn
+              N:\N64\component\work\N64\N64.pdc
 Format      : EDIF
 Topcell     : N64
 Speed grade : -1
@@ -104,7 +104,6 @@ Warning: CMP201: Net N64_MSS_0/MSS_ADLIB_INST_SPI1DO drives no load.
 Warning: CMP201: Net N64_MSS_0/MSS_ADLIB_INST_SPI1DOE drives no load.
 Warning: CMP201: Net N64_MSS_0/MSS_ADLIB_INST_SPI1CLKO drives no load.
 Warning: CMP201: Net N64_MSS_0/MSS_ADLIB_INST_SPI1MODE drives no load.
-Warning: CMP201: Net N64_MSS_0/MSS_ADLIB_INST_UART1TXD drives no load.
 Warning: CMP201: Net N64_MSS_0/MSS_ADLIB_INST_I2C1SDAO drives no load.
 Warning: CMP201: Net N64_MSS_0/MSS_ADLIB_INST_I2C1SCLO drives no load.
 Warning: CMP201: Net N64_MSS_0/MSS_ADLIB_INST_MACTXEN drives no load.
@@ -416,11 +415,11 @@ Optimized macros:
   - Buffers:                0
   - Inverters:              0
   - Tieoff:                 0
-  - Logic combining:        52
+  - Logic combining:        160
 
-    Total macros optimized  52
+    Total macros optimized  160
 
-There were 0 error(s) and 329 warning(s) in this design.
+There were 0 error(s) and 328 warning(s) in this design.
 =====================================================================
 
 Reading previous post-compile physical placement constraints.
@@ -440,12 +439,12 @@ Compile report:
 ===============
 
     Microcontroller Subsystem  Used:      1  Total:      1   (100.00%)
-    Fabric                     Used:    618  Total:   4608   (13.41%)
-    Fabric IO (W/ clocks)      Used:      2  Total:     94   (2.13%)
+    Fabric                     Used:   1527  Total:   4608   (33.14%)
+    Fabric IO (W/ clocks)      Used:      4  Total:     94   (4.26%)
     Fabric Differential IO     Used:      0  Total:     47   (0.00%)
     Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
-    Dedicated MSS IO           Used:      3  Total:     43   (6.98%)
-    GLOBAL (Chip+Quadrant)     Used:      0  Total:     15   (0.00%)
+    Dedicated MSS IO           Used:      5  Total:     43   (11.63%)
+    GLOBAL (Chip+Quadrant)     Used:      1  Total:     15   (6.67%)
     MSS GLOBAL                 Used:      3  Total:      3   (100.00%)
     On-chip RC oscillator      Used:      1  Total:      1   (100.00%)
     Main Crystal oscillator    Used:      0  Total:      1   (0.00%)
@@ -457,7 +456,7 @@ Global Information:
 
     Type            | Used   | Total
     ----------------|--------|--------------
-    Chip global     | 0      | 3  (0.00%)*
+    Chip global     | 1      | 3  (33.33%)*
     Quadrant global | 0      | 12 (0.00%)
     MSS global      | 3      | 3  (100.00%)
 
@@ -469,15 +468,15 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 495          | 495
-    SEQ     | 123          | 123
+    COMB    | 1283         | 1283
+    SEQ     | 244          | 244
 
 I/O Function:
 
     Type                                  | w/o register  | w/ register  | w/ DDR register
     --------------------------------------|---------------|--------------|----------------
-    Input I/O                             | 1             | 0            | 0
-    Output I/O                            | 1             | 0            | 0
+    Input I/O                             | 2             | 0            | 0
+    Output I/O                            | 2             | 0            | 0
     Bidirectional I/O                     | 0             | 0            | 0
     Differential Input I/O Pairs          | 0             | 0            | 0
     Differential Output I/O Pairs         | 0             | 0            | 0
@@ -488,11 +487,11 @@ I/O Technology:
     --------------------------------|-------|-------|-------|--------|--------------
     I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
     --------------------------------|-------|-------|-------|--------|--------------
-    LVTTL                           | 3.30v | N/A   | 1     | 1      | 0
+    LVTTL                           | 3.30v | N/A   | 2     | 2      | 0
 
 I/O Placement:
 
-    Locked  :   2 ( 100.00% )
+    Locked  :   4 ( 100.00% )
     Placed  :   0
     UnPlaced:   0
 
@@ -502,56 +501,59 @@ Net information report:
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    124     CLK_NET       Net   : N64_MSS_0_FAB_CLK
+    245     CLK_NET       Net   : N64_MSS_0_FAB_CLK
                           Driver: N64_MSS_0/MSS_CCC_0/I_MSSCCC
                           Source: ESSENTIAL
+    55      INT_NET       Net   : CoreAPB3_0.CAPB3O0OI[15]
+                          Driver: I_990/U_CLKSRC
+                          Source: NETLIST
 
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    18      INT_NET       Net   : Read_Buttons_0/counter8_1
+    20      INT_NET       Net   : Read_Buttons_1/bit_access[0]
+                          Driver: Read_Buttons_1/bit_access[0]
+    18      INT_NET       Net   : Read_Buttons_0/bit_access[3]
+                          Driver: Read_Buttons_0/bit_access[3]
+    17      INT_NET       Net   : Din_P1_c
+                          Driver: Din_P1_pad
+    17      INT_NET       Net   : Din_P2_c
+                          Driver: Din_P2_pad
+    17      INT_NET       Net   : Read_Buttons_0/eight_bit_data5_1
                           Driver: Read_Buttons_0/counter_RNIV32Q1_0[17]
-    18      INT_NET       Net   : Read_Buttons_0/counter8_0
+    17      INT_NET       Net   : Read_Buttons_0/eight_bit_data5_0
                           Driver: Read_Buttons_0/counter_RNIV32Q1[17]
-    17      INT_NET       Net   : Din_c
-                          Driver: Din_pad
+    17      INT_NET       Net   : Read_Buttons_0/N_374_i_0
+                          Driver: Read_Buttons_0/counter_RNI9O47NG1_0[2]
+    17      INT_NET       Net   : Read_Buttons_0/N_374_i_0_0
+                          Driver: Read_Buttons_0/counter_RNI9O47NG1[2]
     17      INT_NET       Net   : Read_Buttons_0/i68_0
-                          Driver: Read_Buttons_0/first_time_RNIL5D62[0]
-    16      INT_NET       Net   : Din_c_0
-                          Driver: Din_pad_RNIFGL4
-    16      INT_NET       Net   : CoreAPB3_0/CAPB3O0OI_1_0[0]
-                          Driver: CoreAPB3_0/CAPB3O0OI_1_0[0]
-    16      INT_NET       Net   : CoreAPB3_0/CAPB3O0OI_2_0[0]
-                          Driver: CoreAPB3_0/CAPB3O0OI_2_0[0]
-    16      INT_NET       Net   : CoreAPB3_0/CAPB3O0OI_2[0]
-                          Driver: CoreAPB3_0/CAPB3O0OI_2[0]
-    16      INT_NET       Net   : CoreAPB3_0/CAPB3O0OI_1[0]
-                          Driver: CoreAPB3_0/CAPB3O0OI_1[0]
-    16      INT_NET       Net   : Read_Buttons_0/eight_bit_datae_0
-                          Driver: Read_Buttons_0/counter_RNIHOFDGP2_1[2]
+                          Driver: Read_Buttons_0/first_time_RNI4OF82[0]
+    17      INT_NET       Net   : Read_Buttons_1/N_371_1
+                          Driver: Read_Buttons_1/counter_RNIHIUD3[17]
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    32      INT_NET       Net   : Din_c
-                          Driver: Din_pad
-    18      INT_NET       Net   : Read_Buttons_0/counter8_1
+    32      INT_NET       Net   : Din_P1_c
+                          Driver: Din_P1_pad
+    32      INT_NET       Net   : Din_P2_c
+                          Driver: Din_P2_pad
+    20      INT_NET       Net   : Read_Buttons_1/bit_access[0]
+                          Driver: Read_Buttons_1/bit_access[0]
+    18      INT_NET       Net   : Read_Buttons_0/bit_access[3]
+                          Driver: Read_Buttons_0/bit_access[3]
+    17      INT_NET       Net   : Read_Buttons_0/eight_bit_data5_1
                           Driver: Read_Buttons_0/counter_RNIV32Q1_0[17]
-    18      INT_NET       Net   : Read_Buttons_0/counter8_0
+    17      INT_NET       Net   : Read_Buttons_0/eight_bit_data5_0
                           Driver: Read_Buttons_0/counter_RNIV32Q1[17]
+    17      INT_NET       Net   : Read_Buttons_0/N_374_i_0
+                          Driver: Read_Buttons_0/counter_RNI9O47NG1_0[2]
+    17      INT_NET       Net   : Read_Buttons_0/N_374_i_0_0
+                          Driver: Read_Buttons_0/counter_RNI9O47NG1[2]
     17      INT_NET       Net   : Read_Buttons_0/i68_0
-                          Driver: Read_Buttons_0/first_time_RNIL5D62[0]
-    16      INT_NET       Net   : CoreAPB3_0/CAPB3O0OI_1_0[0]
-                          Driver: CoreAPB3_0/CAPB3O0OI_1_0[0]
-    16      INT_NET       Net   : CoreAPB3_0/CAPB3O0OI_2_0[0]
-                          Driver: CoreAPB3_0/CAPB3O0OI_2_0[0]
-    16      INT_NET       Net   : CoreAPB3_0/CAPB3O0OI_2[0]
-                          Driver: CoreAPB3_0/CAPB3O0OI_2[0]
-    16      INT_NET       Net   : CoreAPB3_0/CAPB3O0OI_1[0]
-                          Driver: CoreAPB3_0/CAPB3O0OI_1[0]
-    16      INT_NET       Net   : Read_Buttons_0/eight_bit_datae_0
-                          Driver: Read_Buttons_0/counter_RNIHOFDGP2_1[2]
-    16      INT_NET       Net   : Read_Buttons_0/N_369_i_0_0
-                          Driver: Read_Buttons_0/counter_RNIHOFDGP2[2]
+                          Driver: Read_Buttons_0/first_time_RNI4OF82[0]
+    17      INT_NET       Net   : Read_Buttons_1/N_371_1
+                          Driver: Read_Buttons_1/counter_RNIHIUD3[17]
 
 

@@ -1,0 +1,37 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.genpackage.all;
+entity top is
+ port (
+  DIVIDE : out std_logic_vector(0 downto 0);
+  REMAIND : out std_logic_vector(18 downto 0);
+  A : in std_logic_vector(17 downto 0);
+  B : in std_logic_vector(6 downto 0) );
+end entity top;
+architecture gen of top is
+  component DIV
+    generic (
+	width : integer;
+    rwidth : integer;
+    awidth : integer;
+    bwidth : integer    );
+ port (
+  DIVIDE : out std_logic_vector;
+  REMAIND : out std_logic_vector;
+  A : in std_logic_vector;
+  B : in std_logic_vector );
+  end component;
+begin
+I1: DIV
+  generic map (
+
+  width => 1,
+  rwidth => 19,
+  awidth => 18,
+  bwidth => 7  )
+ port map (
+  DIVIDE => DIVIDE,
+  REMAIND => REMAIND,
+  A => A,
+  B => B );
+end architecture gen;

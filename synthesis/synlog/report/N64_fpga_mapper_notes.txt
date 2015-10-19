@@ -34,7 +34,22 @@
 @N: MF176 |Default generator successful 
 @N: MF176 |Default generator successful 
 @N: MF176 |Default generator successful 
-@N: MF238 :"j:\n64\hdl\read_buttons.v":48:23:48:34|Found 18-bit incrementor, 'un3_counter[17:0]'
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF238 :"n:\n64\hdl\read_buttons.v":47:23:47:34|Found 18-bit incrementor, 'un2_counter[17:0]'
+@N: FP130 |Promoting Net CoreAPB3_0.CAPB3O0OI[15] on CLKINT  I_990 
 @N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
 @N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
 @N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.

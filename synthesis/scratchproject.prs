@@ -1,22 +1,22 @@
 #--  Synopsys, Inc.
 #--  Version I-2013.09M-SP1-1 
-#--  Project file J:\N64\synthesis\scratchproject.prs
+#--  Project file N:\N64\synthesis\scratchproject.prs
 
 #project files
-add_file -verilog -lib COREAPB3_LIB "J:/N64/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
-add_file -verilog -lib COREAPB3_LIB "J:/N64/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
-add_file -verilog -lib COREAPB3_LIB "J:/N64/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3.v"
-add_file -verilog "J:/N64/component/work/N64_MSS/mss_tshell.v"
-add_file -verilog "J:/N64/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
-add_file -verilog "J:/N64/component/work/N64_MSS/MSS_CCC_0/N64_MSS_tmp_MSS_CCC_0_MSS_CCC.v"
-add_file -verilog "J:/N64/component/work/N64_MSS/N64_MSS.v"
-add_file -verilog "J:/N64/hdl/Read_Buttons.v"
-add_file -verilog "J:/N64/component/work/N64/N64.v"
+add_file -verilog "N:/N64/hdl/Read_Buttons.v"
+add_file -verilog -lib COREAPB3_LIB "N:/N64/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "N:/N64/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
+add_file -verilog -lib COREAPB3_LIB "N:/N64/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3.v"
+add_file -verilog "N:/N64/component/work/N64_MSS/mss_tshell.v"
+add_file -verilog "N:/N64/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
+add_file -verilog "N:/N64/component/work/N64_MSS/MSS_CCC_0/N64_MSS_tmp_MSS_CCC_0_MSS_CCC.v"
+add_file -verilog "N:/N64/component/work/N64_MSS/N64_MSS.v"
+add_file -verilog "N:/N64/component/work/N64/N64.v"
 
 
 
 #implementation: "synthesis"
-impl -add J:\N64\synthesis -type fpga
+impl -add N:\N64\synthesis -type fpga
 
 #
 #implementation attributes
@@ -70,5 +70,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "J:/N64/synthesis/N64.edn"
+project -result_file "N:/N64/synthesis/N64.edn"
 impl -active "synthesis"

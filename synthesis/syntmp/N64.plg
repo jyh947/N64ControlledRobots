@@ -1,20 +1,21 @@
-@P:  Worst Slack : -85.551
-@P:  System - Estimated Frequency : 10.5 MHz
+@P:  Worst Slack : -91.095
+@P:  System - Estimated Frequency : 9.9 MHz
 @P:  System - Requested Frequency : 100.0 MHz
-@P:  System - Estimated Period : 95.551
+@P:  System - Estimated Period : 101.095
 @P:  System - Requested Period : 10.000
-@P:  System - Slack : -85.551
+@P:  System - Slack : -91.095
 @P:  Worst Slack(min analysis) : 0.192
-@P:  System - Estimated Frequency(min analysis) : 10.5 MHz
+@P:  System - Estimated Frequency(min analysis) : 9.9 MHz
 @P:  System - Requested Frequency(min analysis) : 100.0 MHz
-@P:  System - Estimated Period(min analysis) : 95.551
+@P:  System - Estimated Period(min analysis) : 101.095
 @P:  System - Requested Period(min analysis) : 10.000
-@P:  System - Slack(min analysis) : -85.551
-@P:  Total Area : 670.0
-@P:  Total Area : 633.0
+@P:  System - Slack(min analysis) : -91.095
+@P:  Total Area : 1687.0
+@P:  Total Area : 814.0
+@P:  Total Area : 800.0
 @P:  Total Area : 0.0
 @P:  Total Area : 0.0
-@P:  Total Area : 36.0
-@P:  Total Area : 32.0
-@P:  Total Area : 670.0
-@P:  CPU Time : 0h:00m:06s
+@P:  Total Area : 71.0
+@P:  Total Area : 64.0
+@P:  Total Area : 1687.0
+@P:  CPU Time : 0h:00m:11s

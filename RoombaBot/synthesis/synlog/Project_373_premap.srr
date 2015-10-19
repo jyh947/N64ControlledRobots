@@ -1,0 +1,39 @@
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 004R, Built May 28 2014 16:40:10
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09M-SP1-1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+Reading constraint file: N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\mss_tshell_syn.sdc
+@L: N:\windat.V2\Documents\Project_373\synthesis\Project_373_scck.rpt 
+Printing clock  summary report in "N:\windat.V2\Documents\Project_373\synthesis\Project_373_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Clock Summary
+**************
+
+Start       Requested     Requested     Clock        Clock      
+Clock       Frequency     Period        Type         Group      
+----------------------------------------------------------------
+FAB_CLK     100.0 MHz     10.000        declared     clk_group_0
+FCLK        100.0 MHz     10.000        declared     clk_group_0
+================================================================
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file N:\windat.V2\Documents\Project_373\synthesis\Project_373.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 112MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Apr 14 16:14:03 2015
+
+###########################################################]

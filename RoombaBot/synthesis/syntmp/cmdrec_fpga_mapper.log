@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\m_proasic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  N:\windat.V2\Documents\Project_373\synthesis  -part A2F200M3F  -package FBGA484  -grade -1   -globalthreshold 50 -maxfan 24 -opcond COMWC     -report_path 0   -RWCheckOnRam 0     -summaryfile N:\windat.V2\Documents\Project_373\synthesis\synlog\report\Project_373_fpga_mapper.xml -top_level_module  Project_373  -flow mapping  -mp 1 -prjfile  N:\windat.V2\Documents\Project_373\synthesis\scratchproject.prs  -implementation synthesis -licensetype  synplifypro  -oedif  N:\windat.V2\Documents\Project_373\synthesis\Project_373.edn  -freq 100.000  -tcl  N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\mss_tshell_syn.sdc  N:\windat.V2\Documents\Project_373\synthesis\synwork\Project_373_prem.srd  -sap  N:\windat.V2\Documents\Project_373\synthesis\Project_373.sap  -otap  N:\windat.V2\Documents\Project_373\synthesis\Project_373.tap  -omap  N:\windat.V2\Documents\Project_373\synthesis\Project_373.map  -devicelib  C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v  -sap  N:\windat.V2\Documents\Project_373\synthesis\Project_373.sap  -ologparam  N:\windat.V2\Documents\Project_373\synthesis\syntmp\Project_373.plg  -osyn  N:\windat.V2\Documents\Project_373\synthesis\Project_373.srm  -prjdir  N:\windat.V2\Documents\Project_373\synthesis\  -prjname  Project_373_syn  -log  N:\windat.V2\Documents\Project_373\synthesis\synlog\Project_373_fpga_mapper.srr 
+rc:1 success:1
+N:\windat.V2\Documents\Project_373\synthesis\scratchproject.prs|o|1428957321|2750
+N:\windat.V2\Documents\Project_373\synthesis\Project_373.edn|o|1429042454|714421
+N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\mss_tshell_syn.sdc|i|1428526229|202
+N:\windat.V2\Documents\Project_373\synthesis\synwork\Project_373_prem.srd|i|1429042442|46484
+N:\windat.V2\Documents\Project_373\synthesis\Project_373.sap|o|1429042442|4291
+N:\windat.V2\Documents\Project_373\synthesis\Project_373.tap|o|0|0
+N:\windat.V2\Documents\Project_373\synthesis\Project_373.map|o|1429042455|28
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v|i|1389708296|72817
+N:\windat.V2\Documents\Project_373\synthesis\Project_373.sap|o|1429042442|4291
+N:\windat.V2\Documents\Project_373\synthesis\syntmp\Project_373.plg|o|1429042455|1745
+N:\windat.V2\Documents\Project_373\synthesis\Project_373.srm|o|1429042454|159434
+N:\windat.V2\Documents\Project_373\synthesis\synlog\Project_373_fpga_mapper.srr|o|1429042455|61526
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\m_proasic.exe|i|1401309616|14819328
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin\m_proasic.exe|i|1401306976|12178944

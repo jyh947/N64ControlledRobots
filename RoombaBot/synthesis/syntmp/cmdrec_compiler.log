@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\c_ver.exe  -osyn  N:\windat.V2\Documents\Project_373\synthesis\synwork\Project_373_comp.srs  -top  Project_373  -prodtype  synplify_pro  -nram -fixsmult   -divnmod -I N:\windat.V2\Documents\Project_373\synthesis\  -I C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib  -v2001  -devicelib  C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v  -encrypt  -pro  -dmgen  N:\windat.V2\Documents\Project_373\synthesis\dm  -ui -fid2 -ram -sharing on  -ll 2000 -autosm -lib work N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\mss_tshell.v -lib work N:\windat.V2\Documents\Project_373\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v -lib work N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v -lib work N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\Project_373_MSS.v -lib COREAPB3_LIB N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v -lib COREAPB3_LIB N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v -lib COREAPB3_LIB N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v -lib work N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v -lib work N:\windat.V2\Documents\Project_373\component\work\Project_373\Project_373.v -loga  N:\windat.V2\Documents\Project_373\synthesis\Project_373.srr 
+rc:1 success:1
+N:\windat.V2\Documents\Project_373\synthesis\synwork\Project_373_comp.srs|o|1429042438|52600
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v|i|1389708296|72817
+N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\mss_tshell.v|i|1428526229|12226
+N:\windat.V2\Documents\Project_373\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v|i|1358982149|11243
+N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v|i|1428526223|2890
+N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\Project_373_MSS.v|i|1428526241|19604
+N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v|i|1366303716|6738
+N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v|i|1366303716|3312
+N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v|i|1366303716|32421
+N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v|i|1429042391|3753
+N:\windat.V2\Documents\Project_373\component\work\Project_373\Project_373.v|i|1428956186|14888
+N:\windat.V2\Documents\Project_373\synthesis\Project_373.srr|o|1429042438|25755
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\c_ver.exe|i|1389676458|5733376
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin\c_ver.exe|i|1389676244|2205696

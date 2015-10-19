@@ -1,0 +1,13 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+@N: BN115 :"n:\windat.v2\documents\project_373\component\actel\directcore\coreapb3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":3794:0:3794:8|Removing instance CAPB3lOII of view:COREAPB3_LIB.CAPB3l(verilog) because there are no references to its outputs 
+@N: MF238 :"n:\windat.v2\documents\project_373\hdl\my_project_373.v":124:17:124:26|Found 10-bit incrementor, 'un3_count_1[9:0]'
+@N: MF179 :"n:\windat.v2\documents\project_373\hdl\my_project_373.v":125:8:125:24|Found 32 bit by 32 bit '<' comparator, 'pwm6'
+@N: MF238 :"n:\windat.v2\documents\project_373\hdl\my_project_373.v":144:23:144:34|Found 12-bit incrementor, 'counter_2[11:0]'
+@N: FP130 |Promoting Net my_Project_373_1.done on CLKINT  I_79 
+@N: FP130 |Promoting Net CoreAPB3_0_APBmslave0_PADDR[2] on CLKINT  I_80 
+@N: FP130 |Promoting Net my_Project_373_1.N_225 on CLKINT  I_81 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

@@ -1,0 +1,654 @@
+Timing Violation Report Max Delay Analysis
+
+SmartTime Version v11.4
+Microsemi Corporation - Microsemi Libero Software Release v11.4 (Version 11.4.0.112)
+Date: Tue Apr 14 16:15:38 2015
+
+
+Design: Project_373
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+Temperature: COM
+Voltage: COM
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Condition: BEST
+Max Operating Condition: WORST
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+Path 1
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[4]:D
+  Delay (ns):                  13.225
+  Slack (ns):                  -1.929
+  Arrival (ns):                16.675
+  Required (ns):               14.746
+
+Path 2
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[7]:D
+  Delay (ns):                  12.834
+  Slack (ns):                  -1.548
+  Arrival (ns):                16.284
+  Required (ns):               14.736
+
+Path 3
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[9]:D
+  Delay (ns):                  12.834
+  Slack (ns):                  -1.542
+  Arrival (ns):                16.284
+  Required (ns):               14.742
+
+Path 4
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[12]:D
+  Delay (ns):                  12.727
+  Slack (ns):                  -1.451
+  Arrival (ns):                16.177
+  Required (ns):               14.726
+
+Path 5
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[30]:D
+  Delay (ns):                  12.670
+  Slack (ns):                  -1.414
+  Arrival (ns):                16.120
+  Required (ns):               14.706
+
+Path 6
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[12]:D
+  Delay (ns):                  12.704
+  Slack (ns):                  -1.408
+  Arrival (ns):                16.154
+  Required (ns):               14.746
+
+Path 7
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[10]:D
+  Delay (ns):                  12.651
+  Slack (ns):                  -1.365
+  Arrival (ns):                16.101
+  Required (ns):               14.736
+
+Path 8
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[2]:D
+  Delay (ns):                  12.623
+  Slack (ns):                  -1.337
+  Arrival (ns):                16.073
+  Required (ns):               14.736
+
+Path 9
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[14]:D
+  Delay (ns):                  12.574
+  Slack (ns):                  -1.296
+  Arrival (ns):                16.024
+  Required (ns):               14.728
+
+Path 10
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[23]:D
+  Delay (ns):                  12.554
+  Slack (ns):                  -1.284
+  Arrival (ns):                16.004
+  Required (ns):               14.720
+
+Path 11
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[16]:D
+  Delay (ns):                  12.549
+  Slack (ns):                  -1.273
+  Arrival (ns):                15.999
+  Required (ns):               14.726
+
+Path 12
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[13]:D
+  Delay (ns):                  12.539
+  Slack (ns):                  -1.269
+  Arrival (ns):                15.989
+  Required (ns):               14.720
+
+Path 13
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[6]:D
+  Delay (ns):                  12.529
+  Slack (ns):                  -1.237
+  Arrival (ns):                15.979
+  Required (ns):               14.742
+
+Path 14
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[26]:D
+  Delay (ns):                  12.429
+  Slack (ns):                  -1.176
+  Arrival (ns):                15.879
+  Required (ns):               14.703
+
+Path 15
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[13]:D
+  Delay (ns):                  12.457
+  Slack (ns):                  -1.171
+  Arrival (ns):                15.907
+  Required (ns):               14.736
+
+Path 16
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[9]:D
+  Delay (ns):                  12.457
+  Slack (ns):                  -1.171
+  Arrival (ns):                15.907
+  Required (ns):               14.736
+
+Path 17
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[31]:D
+  Delay (ns):                  12.429
+  Slack (ns):                  -1.167
+  Arrival (ns):                15.879
+  Required (ns):               14.712
+
+Path 18
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[22]:D
+  Delay (ns):                  12.429
+  Slack (ns):                  -1.167
+  Arrival (ns):                15.879
+  Required (ns):               14.712
+
+Path 19
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[28]:D
+  Delay (ns):                  12.429
+  Slack (ns):                  -1.167
+  Arrival (ns):                15.879
+  Required (ns):               14.712
+
+Path 20
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[21]:D
+  Delay (ns):                  12.429
+  Slack (ns):                  -1.159
+  Arrival (ns):                15.879
+  Required (ns):               14.720
+
+Path 21
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[29]:D
+  Delay (ns):                  12.429
+  Slack (ns):                  -1.159
+  Arrival (ns):                15.879
+  Required (ns):               14.720
+
+Path 22
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[5]:D
+  Delay (ns):                  12.437
+  Slack (ns):                  -1.145
+  Arrival (ns):                15.887
+  Required (ns):               14.742
+
+Path 23
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[26]:D
+  Delay (ns):                  12.409
+  Slack (ns):                  -1.113
+  Arrival (ns):                15.859
+  Required (ns):               14.746
+
+Path 24
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[22]:D
+  Delay (ns):                  12.388
+  Slack (ns):                  -1.102
+  Arrival (ns):                15.838
+  Required (ns):               14.736
+
+Path 25
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[2]:D
+  Delay (ns):                  12.383
+  Slack (ns):                  -1.091
+  Arrival (ns):                15.833
+  Required (ns):               14.742
+
+Path 26
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[24]:D
+  Delay (ns):                  12.338
+  Slack (ns):                  -1.085
+  Arrival (ns):                15.788
+  Required (ns):               14.703
+
+Path 27
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[15]:D
+  Delay (ns):                  12.374
+  Slack (ns):                  -1.075
+  Arrival (ns):                15.824
+  Required (ns):               14.749
+
+Path 28
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[11]:D
+  Delay (ns):                  12.346
+  Slack (ns):                  -1.061
+  Arrival (ns):                15.796
+  Required (ns):               14.735
+
+Path 29
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[25]:D
+  Delay (ns):                  12.304
+  Slack (ns):                  -1.048
+  Arrival (ns):                15.754
+  Required (ns):               14.706
+
+Path 30
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[16]:D
+  Delay (ns):                  12.304
+  Slack (ns):                  -1.042
+  Arrival (ns):                15.754
+  Required (ns):               14.712
+
+Path 31
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[6]:D
+  Delay (ns):                  12.332
+  Slack (ns):                  -1.040
+  Arrival (ns):                15.782
+  Required (ns):               14.742
+
+Path 32
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[17]:D
+  Delay (ns):                  12.299
+  Slack (ns):                  -1.029
+  Arrival (ns):                15.749
+  Required (ns):               14.720
+
+Path 33
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[7]:D
+  Delay (ns):                  12.306
+  Slack (ns):                  -1.020
+  Arrival (ns):                15.756
+  Required (ns):               14.736
+
+Path 34
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[30]:D
+  Delay (ns):                  12.312
+  Slack (ns):                  -1.020
+  Arrival (ns):                15.762
+  Required (ns):               14.742
+
+Path 35
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[19]:D
+  Delay (ns):                  12.270
+  Slack (ns):                  -1.017
+  Arrival (ns):                15.720
+  Required (ns):               14.703
+
+Path 36
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[18]:D
+  Delay (ns):                  12.270
+  Slack (ns):                  -1.017
+  Arrival (ns):                15.720
+  Required (ns):               14.703
+
+Path 37
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[20]:D
+  Delay (ns):                  12.270
+  Slack (ns):                  -1.017
+  Arrival (ns):                15.720
+  Required (ns):               14.703
+
+Path 38
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[0]:D
+  Delay (ns):                  12.311
+  Slack (ns):                  -1.015
+  Arrival (ns):                15.761
+  Required (ns):               14.746
+
+Path 39
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[19]:D
+  Delay (ns):                  12.300
+  Slack (ns):                  -1.014
+  Arrival (ns):                15.750
+  Required (ns):               14.736
+
+Path 40
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[25]:D
+  Delay (ns):                  12.303
+  Slack (ns):                  -1.004
+  Arrival (ns):                15.753
+  Required (ns):               14.749
+
+Path 41
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[29]:D
+  Delay (ns):                  12.236
+  Slack (ns):                  -0.962
+  Arrival (ns):                15.686
+  Required (ns):               14.724
+
+Path 42
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[31]:D
+  Delay (ns):                  12.252
+  Slack (ns):                  -0.960
+  Arrival (ns):                15.702
+  Required (ns):               14.742
+
+Path 43
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[24]:D
+  Delay (ns):                  12.231
+  Slack (ns):                  -0.953
+  Arrival (ns):                15.681
+  Required (ns):               14.728
+
+Path 44
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[17]:D
+  Delay (ns):                  12.200
+  Slack (ns):                  -0.944
+  Arrival (ns):                15.650
+  Required (ns):               14.706
+
+Path 45
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[21]:D
+  Delay (ns):                  12.229
+  Slack (ns):                  -0.943
+  Arrival (ns):                15.679
+  Required (ns):               14.736
+
+Path 46
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[1]:D
+  Delay (ns):                  12.214
+  Slack (ns):                  -0.918
+  Arrival (ns):                15.664
+  Required (ns):               14.746
+
+Path 47
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[27]:D
+  Delay (ns):                  12.194
+  Slack (ns):                  -0.902
+  Arrival (ns):                15.644
+  Required (ns):               14.742
+
+Path 48
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width1[9]:D
+  Delay (ns):                  12.163
+  Slack (ns):                  -0.877
+  Arrival (ns):                15.613
+  Required (ns):               14.736
+
+Path 49
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[8]:D
+  Delay (ns):                  12.158
+  Slack (ns):                  -0.862
+  Arrival (ns):                15.608
+  Required (ns):               14.746
+
+Path 50
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width1[26]:D
+  Delay (ns):                  12.080
+  Slack (ns):                  -0.794
+  Arrival (ns):                15.530
+  Required (ns):               14.736
+
+Path 51
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[20]:D
+  Delay (ns):                  12.055
+  Slack (ns):                  -0.777
+  Arrival (ns):                15.505
+  Required (ns):               14.728
+
+Path 52
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[27]:D
+  Delay (ns):                  12.030
+  Slack (ns):                  -0.760
+  Arrival (ns):                15.480
+  Required (ns):               14.720
+
+Path 53
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[3]:D
+  Delay (ns):                  12.002
+  Slack (ns):                  -0.717
+  Arrival (ns):                15.452
+  Required (ns):               14.735
+
+Path 54
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width1[8]:D
+  Delay (ns):                  11.909
+  Slack (ns):                  -0.623
+  Arrival (ns):                15.359
+  Required (ns):               14.736
+
+Path 55
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[11]:D
+  Delay (ns):                  11.814
+  Slack (ns):                  -0.542
+  Arrival (ns):                15.264
+  Required (ns):               14.722
+
+Path 56
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[0]:D
+  Delay (ns):                  11.756
+  Slack (ns):                  -0.506
+  Arrival (ns):                15.206
+  Required (ns):               14.700
+
+Path 57
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[8]:D
+  Delay (ns):                  11.763
+  Slack (ns):                  -0.504
+  Arrival (ns):                15.213
+  Required (ns):               14.709
+
+Path 58
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[10]:D
+  Delay (ns):                  11.772
+  Slack (ns):                  -0.499
+  Arrival (ns):                15.222
+  Required (ns):               14.723
+
+Path 59
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[15]:D
+  Delay (ns):                  11.755
+  Slack (ns):                  -0.485
+  Arrival (ns):                15.205
+  Required (ns):               14.720
+
+Path 60
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width3[14]:D
+  Delay (ns):                  11.755
+  Slack (ns):                  -0.485
+  Arrival (ns):                15.205
+  Required (ns):               14.720
+
+Path 61
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[1]:D
+  Delay (ns):                  11.742
+  Slack (ns):                  -0.482
+  Arrival (ns):                15.192
+  Required (ns):               14.710
+
+Path 62
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[4]:D
+  Delay (ns):                  11.742
+  Slack (ns):                  -0.482
+  Arrival (ns):                15.192
+  Required (ns):               14.710
+
+Path 63
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[28]:D
+  Delay (ns):                  11.742
+  Slack (ns):                  -0.476
+  Arrival (ns):                15.192
+  Required (ns):               14.716
+
+Path 64
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[18]:D
+  Delay (ns):                  11.748
+  Slack (ns):                  -0.475
+  Arrival (ns):                15.198
+  Required (ns):               14.723
+
+Path 65
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[5]:D
+  Delay (ns):                  11.768
+  Slack (ns):                  -0.472
+  Arrival (ns):                15.218
+  Required (ns):               14.746
+
+Path 66
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[3]:D
+  Delay (ns):                  11.768
+  Slack (ns):                  -0.472
+  Arrival (ns):                15.218
+  Required (ns):               14.746
+
+Path 67
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width4[23]:D
+  Delay (ns):                  11.719
+  Slack (ns):                  -0.459
+  Arrival (ns):                15.169
+  Required (ns):               14.710
+
+Path 68
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width1[3]:D
+  Delay (ns):                  11.739
+  Slack (ns):                  -0.453
+  Arrival (ns):                15.189
+  Required (ns):               14.736
+
+Path 69
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width2[25]:D
+  Delay (ns):                  11.630
+  Slack (ns):                  -0.352
+  Arrival (ns):                15.080
+  Required (ns):               14.728
+
+Path 70
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width2[19]:D
+  Delay (ns):                  11.584
+  Slack (ns):                  -0.302
+  Arrival (ns):                15.034
+  Required (ns):               14.732
+
+Path 71
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width2[31]:D
+  Delay (ns):                  11.532
+  Slack (ns):                  -0.250
+  Arrival (ns):                14.982
+  Required (ns):               14.732
+
+Path 72
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width1[4]:D
+  Delay (ns):                  11.467
+  Slack (ns):                  -0.181
+  Arrival (ns):                14.917
+  Required (ns):               14.736
+
+Path 73
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width1[0]:D
+  Delay (ns):                  11.467
+  Slack (ns):                  -0.181
+  Arrival (ns):                14.917
+  Required (ns):               14.736
+
+Path 74
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width2[22]:D
+  Delay (ns):                  11.368
+  Slack (ns):                  -0.086
+  Arrival (ns):                14.818
+  Required (ns):               14.732
+
+Path 75
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width1[30]:D
+  Delay (ns):                  11.302
+  Slack (ns):                  -0.033
+  Arrival (ns):                14.752
+  Required (ns):               14.719
+
+Path 76
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width1[2]:D
+  Delay (ns):                  11.297
+  Slack (ns):                  -0.028
+  Arrival (ns):                14.747
+  Required (ns):               14.719
+
+Path 77
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width1[5]:D
+  Delay (ns):                  11.297
+  Slack (ns):                  -0.023
+  Arrival (ns):                14.747
+  Required (ns):               14.724
+
+Path 78
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width1[7]:D
+  Delay (ns):                  11.297
+  Slack (ns):                  -0.023
+  Arrival (ns):                14.747
+  Required (ns):               14.724
+
+Path 79
+  From:                        Project_373_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                          my_Project_373_1/pulse_width1[1]:D
+  Delay (ns):                  11.297
+  Slack (ns):                  -0.011
+  Arrival (ns):                14.747
+  Required (ns):               14.736
+

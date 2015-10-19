@@ -1,0 +1,1172 @@
+#Build: Synplify Pro I-2013.09M-SP1-1 , Build 034R, Jan 17 2014
+#install: C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1
+#OS: Windows 7 6.1
+#Hostname: EECS373-08
+
+#Implementation: synthesis
+
+$ Start of Compile
+#Tue Apr 14 16:13:56 2015
+
+Synopsys Verilog Compiler, version comp201309rcp1, Build 078R, built Jan 14 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v"
+@I::"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\vlog\umr_capim.v"
+@I::"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\vlog\scemi_objects.v"
+@I::"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\vlog\scemi_pipes.svh"
+@I::"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\vlog\hypermods.v"
+@I::"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\mss_tshell.v"
+@I::"N:\windat.V2\Documents\Project_373\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v"
+@I::"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v"
+@I::"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\Project_373_MSS.v"
+@I::"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v"
+@I::"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v"
+@I::"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v"
+@I::"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v"
+@I::"N:\windat.V2\Documents\Project_373\component\work\Project_373\Project_373.v"
+@W: CG775 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
+Verilog syntax check successful!
+Selecting top level module Project_373
+@W: CG775 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
+@N: CG364 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:5|Synthesizing module CAPB3l
+
+@N: CG364 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3
+
+	APB_DWIDTH=6'b100000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b0
+	APBSLOT2ENABLE=1'b0
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b1
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b001100
+	UPR_NIBBLE_POSN=4'b0010
+	CAPB3I1I=32'b00000000000000000000000000000000
+	CAPB3l1I=32'b00000000000000000000000000000001
+	CAPB3OOl=32'b00000000000000000000000000000010
+	CAPB3IOl=32'b00000000000000000000000000000011
+	CAPB3lOl=32'b00000000000000000000000000000100
+	CAPB3OIl=32'b00000000000000000000000000000101
+	CAPB3IIl=32'b00000000000000000000000000000110
+	CAPB3lIl=32'b00000000000000000000000000000111
+	CAPB3Oll=32'b00000000000000000000000000001000
+	CAPB3Ill=32'b00000000000000000000000000001001
+	CAPB3lll=32'b00000000000000000000000000001010
+	CAPB3O0l=32'b00000000000000000000000000001011
+	CAPB3I0l=32'b00000000000000000000000000001100
+	CAPB3l0l=32'b00000000000000000000000000001101
+	CAPB3O1l=32'b00000000000000000000000000001110
+	CAPB3I1l=32'b00000000000000000000000000001111
+	CAPB3l1l=32'b00000000000000000000000000010000
+	CAPB3OO0=32'b00000000000000000000000000010001
+	CAPB3IO0=16'b0000000000000001
+	CAPB3lO0=16'b0000000000000000
+	CAPB3OI0=16'b0000000000000000
+	CAPB3II0=16'b0000000000000000
+	CAPB3lI0=16'b0000000000000000
+	CAPB3Ol0=16'b0000000000000000
+	CAPB3Il0=16'b0000000000000000
+	CAPB3ll0=16'b0000000000000000
+	CAPB3O00=16'b0000000000000000
+	CAPB3I00=16'b0000000000000000
+	CAPB3l00=16'b0000000000000000
+	CAPB3O10=16'b0000000000000000
+	CAPB3I10=16'b0000000000000000
+	CAPB3l10=16'b0000000000000000
+	CAPB3OO1=16'b0000000000000000
+	CAPB3IO1=16'b1000000000000000
+	CAPB3lO1=16'b0000000000000000
+	CAPB3OI1=16'b0000000000000000
+   Generated name = CoreAPB3_Z1
+
+@W: CG360 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":1477:0:1477:8|No assignment to wire CAPB3lIOI
+
+@N: CG364 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":114:7:114:13|Synthesizing module pulsewm
+
+@N: CG364 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":133:7:133:9|Synthesizing module LED
+
+@N: CG364 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":3:7:3:20|Synthesizing module my_Project_373
+
+@W: CG133 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":23:18:23:23|No assignment to PRDATA
+@N: CG364 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\mss_tshell.v":1:7:1:13|Synthesizing module MSS_APB
+
+@N: CG364 :"N:\windat.V2\Documents\Project_373\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC
+
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":2620:7:2620:11|Synthesizing module RCOSC
+
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1141:7:1141:9|Synthesizing module GND
+
+@N: CG364 :"C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v":1868:7:1868:9|Synthesizing module VCC
+
+@N: CG364 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:43|Synthesizing module Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC
+
+@N: CG364 :"N:\windat.V2\Documents\Project_373\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS
+
+@N: CG364 :"N:\windat.V2\Documents\Project_373\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS
+
+@N: CG364 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\Project_373_MSS.v":9:7:9:21|Synthesizing module Project_373_MSS
+
+@N: CG364 :"N:\windat.V2\Documents\Project_373\component\work\Project_373\Project_373.v":9:7:9:17|Synthesizing module Project_373
+
+@W: CL157 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":36:7:36:10|Input CLKA is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":37:7:37:14|Input CLKA_PAD is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":38:7:38:15|Input CLKA_PADP is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":39:7:39:15|Input CLKA_PADN is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":40:7:40:10|Input CLKB is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":41:7:41:14|Input CLKB_PAD is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":42:7:42:15|Input CLKB_PADP is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":43:7:43:15|Input CLKB_PADN is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":44:7:44:10|Input CLKC is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":45:7:45:14|Input CLKC_PAD is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":46:7:46:15|Input CLKC_PADP is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":47:7:47:15|Input CLKC_PADN is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":48:7:48:13|Input MAINXIN is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":49:7:49:11|Input LPXIN is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\MSS_CCC_0\Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.v":50:7:50:13|Input MAC_CLK is unused
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":49:0:49:5|Register bit count[29] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":49:0:49:5|Register bit count[30] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":49:0:49:5|Register bit count[31] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":49:0:49:5|Register bit count2[25] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":49:0:49:5|Register bit count2[26] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":49:0:49:5|Register bit count2[27] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":49:0:49:5|Register bit count2[28] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":49:0:49:5|Register bit count2[29] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":49:0:49:5|Register bit count2[30] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":49:0:49:5|Register bit count2[31] is always 0, optimizing ...
+@W: CL279 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":49:0:49:5|Pruning register bits 31 to 25 of count2[31:0] 
+
+@W: CL279 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":49:0:49:5|Pruning register bits 31 to 29 of count[31:0] 
+
+@W: CL246 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":21:13:21:17|Input port bits 31 to 8 of PADDR[31:0] are unused
+
+@A: CL153 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":23:18:23:23|*Unassigned bits of PRDATA[31:0] are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[12] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[13] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[14] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[15] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[16] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[17] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[18] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[19] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[20] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[21] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[22] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[23] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[24] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[25] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[26] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[27] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[28] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[29] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[30] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Register bit counter[31] is always 0, optimizing ...
+@W: CL279 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":137:4:137:9|Pruning register bits 31 to 12 of counter[31:0] 
+
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[10] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[11] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[12] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[13] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[14] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[15] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[16] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[17] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[18] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[19] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[20] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[21] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[22] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[23] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[24] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[25] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[26] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[27] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[28] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[29] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[30] is always 0, optimizing ...
+@W: CL189 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Register bit count[31] is always 0, optimizing ...
+@W: CL279 :"N:\windat.V2\Documents\Project_373\hdl\my_Project_373.v":119:0:119:5|Pruning register bits 31 to 10 of count[31:0] 
+
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":378:0:378:4|Input IADDR is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":380:0:380:6|Input PRESETN is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":382:0:382:3|Input PCLK is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":503:0:503:7|Input PRDATAS1 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":510:0:510:7|Input PRDATAS2 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":517:0:517:7|Input PRDATAS3 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":524:0:524:7|Input PRDATAS4 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":531:0:531:7|Input PRDATAS5 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":538:0:538:7|Input PRDATAS6 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":545:0:545:7|Input PRDATAS7 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":552:0:552:7|Input PRDATAS8 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":559:0:559:7|Input PRDATAS9 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":566:0:566:8|Input PRDATAS10 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":573:0:573:8|Input PRDATAS11 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":580:0:580:8|Input PRDATAS12 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":587:0:587:8|Input PRDATAS13 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":594:0:594:8|Input PRDATAS14 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":612:0:612:7|Input PREADYS1 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":614:0:614:7|Input PREADYS2 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":616:0:616:7|Input PREADYS3 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":618:0:618:7|Input PREADYS4 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":620:0:620:7|Input PREADYS5 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":622:0:622:7|Input PREADYS6 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":624:0:624:7|Input PREADYS7 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":626:0:626:7|Input PREADYS8 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":628:0:628:7|Input PREADYS9 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":630:0:630:8|Input PREADYS10 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":632:0:632:8|Input PREADYS11 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":634:0:634:8|Input PREADYS12 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":636:0:636:8|Input PREADYS13 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":638:0:638:8|Input PREADYS14 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":646:0:646:8|Input PSLVERRS1 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":648:0:648:8|Input PSLVERRS2 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":650:0:650:8|Input PSLVERRS3 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":652:0:652:8|Input PSLVERRS4 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":654:0:654:8|Input PSLVERRS5 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":656:0:656:8|Input PSLVERRS6 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":658:0:658:8|Input PSLVERRS7 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":660:0:660:8|Input PSLVERRS8 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":662:0:662:8|Input PSLVERRS9 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":664:0:664:9|Input PSLVERRS10 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":666:0:666:9|Input PSLVERRS11 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":668:0:668:9|Input PSLVERRS12 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":670:0:670:9|Input PSLVERRS13 is unused
+@W: CL159 :"N:\windat.V2\Documents\Project_373\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":672:0:672:9|Input PSLVERRS14 is unused
+@END
+
+At c_ver Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 78MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+# Tue Apr 14 16:13:59 2015
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 004R, Built May 28 2014 16:40:10
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09M-SP1-1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+Reading constraint file: N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\mss_tshell_syn.sdc
+@L: N:\windat.V2\Documents\Project_373\synthesis\Project_373_scck.rpt 
+Printing clock  summary report in "N:\windat.V2\Documents\Project_373\synthesis\Project_373_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Clock Summary
+**************
+
+Start       Requested     Requested     Clock        Clock      
+Clock       Frequency     Period        Type         Group      
+----------------------------------------------------------------
+FAB_CLK     100.0 MHz     10.000        declared     clk_group_0
+FCLK        100.0 MHz     10.000        declared     clk_group_0
+================================================================
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file N:\windat.V2\Documents\Project_373\synthesis\Project_373.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 112MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Apr 14 16:14:03 2015
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 004R, Built May 28 2014 16:40:10
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09M-SP1-1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+@W: MO111 :"n:\windat.v2\documents\project_373\component\work\project_373_mss\mss_ccc_0\project_373_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"n:\windat.v2\documents\project_373\component\work\project_373_mss\mss_ccc_0\project_373_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"n:\windat.v2\documents\project_373\component\work\project_373_mss\mss_ccc_0\project_373_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@N: BN115 :"n:\windat.v2\documents\project_373\component\actel\directcore\coreapb3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":3794:0:3794:8|Removing instance CAPB3lOII of view:COREAPB3_LIB.CAPB3l(verilog) because there are no references to its outputs 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+@N:"n:\windat.v2\documents\project_373\hdl\my_project_373.v":49:0:49:5|Found counter in view:work.my_Project_373(verilog) inst count[28:0]
+@N:"n:\windat.v2\documents\project_373\hdl\my_project_373.v":49:0:49:5|Found counter in view:work.my_Project_373(verilog) inst count2[24:0]
+@N: MF238 :"n:\windat.v2\documents\project_373\hdl\my_project_373.v":124:17:124:26|Found 10-bit incrementor, 'un3_count_1[9:0]'
+@N: MF179 :"n:\windat.v2\documents\project_373\hdl\my_project_373.v":125:8:125:24|Found 32 bit by 32 bit '<' comparator, 'pwm6'
+@N: MF238 :"n:\windat.v2\documents\project_373\hdl\my_project_373.v":144:23:144:34|Found 12-bit incrementor, 'counter_2[11:0]'
+
+Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 118MB peak: 118MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 114MB peak: 118MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 116MB peak: 118MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 116MB peak: 118MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 124MB peak: 124MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 123MB peak: 124MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 123MB peak: 124MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 123MB peak: 125MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                               Fanout, notes
+----------------------------------------------------------------------
+Project_373_MSS_0.MSS_ADLIB_INST / MSSPADDR[2]           68           
+Project_373_MSS_0.MSS_ADLIB_INST / MSSPADDR[4]           35           
+my_Project_373_1.done / Q                                157          
+my_Project_373_1.count_1_sqmuxa / Y                      29           
+my_Project_373_1.count2_1_sqmuxa_i_0 / Y                 26           
+my_Project_373_1.un1_countlto28_2 / Y                    27           
+my_Project_373_1.pulse_width4_1_sqmuxa_i / Y             32           
+my_Project_373_1.pulse_width3_1_sqmuxa_i / Y             32           
+my_Project_373_1.pulse_width2_1_sqmuxa_i / Y             32           
+my_Project_373_1.pulse_width1_1_sqmuxa_i / Y             32           
+my_Project_373_1.IN4_write_0_a2_0 / Y                    66           
+my_Project_373_1.pulse_width2_1_sqmuxa_i_a2_0_10 / Y     33           
+my_Project_373_1.pulse_width2_1_sqmuxa_i_a2_1 / Y        33           
+my_Project_373_1.pulse_width1_1_sqmuxa_i_a2_0_0 / Y      33           
+======================================================================
+
+@N: FP130 |Promoting Net my_Project_373_1.done on CLKINT  I_79 
+@N: FP130 |Promoting Net CoreAPB3_0_APBmslave0_PADDR[2] on CLKINT  I_80 
+@N: FP130 |Promoting Net my_Project_373_1.N_225 on CLKINT  I_81 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 123MB peak: 125MB)
+
+Replicating Combinational Instance my_Project_373_1.pulse_width1_1_sqmuxa_i_a2_0_0, fanout 33 segments 2
+Replicating Combinational Instance my_Project_373_1.pulse_width2_1_sqmuxa_i_a2_1, fanout 33 segments 2
+Replicating Combinational Instance my_Project_373_1.pulse_width2_1_sqmuxa_i_a2_0_10, fanout 33 segments 2
+Replicating Combinational Instance my_Project_373_1.pulse_width1_1_sqmuxa_i, fanout 32 segments 2
+Replicating Combinational Instance my_Project_373_1.pulse_width2_1_sqmuxa_i, fanout 32 segments 2
+Replicating Combinational Instance my_Project_373_1.pulse_width3_1_sqmuxa_i, fanout 32 segments 2
+Replicating Combinational Instance my_Project_373_1.pulse_width4_1_sqmuxa_i, fanout 32 segments 2
+Replicating Combinational Instance my_Project_373_1.un1_countlto28_2, fanout 27 segments 2
+Replicating Combinational Instance my_Project_373_1.count2_1_sqmuxa_i_0, fanout 26 segments 2
+Replicating Combinational Instance my_Project_373_1.count_1_sqmuxa, fanout 29 segments 2
+Buffering CoreAPB3_0_APBmslave0_PADDR[4], fanout 37 segments 2
+
+Added 1 Buffers
+Added 10 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 10 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 123MB peak: 125MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 240 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+===================================== Non-Gated/Non-Generated Clocks ======================================
+Clock Tree ID     Driving Element       Drive Element Type     Fanout     Sample Instance                  
+-----------------------------------------------------------------------------------------------------------
+@K:CKID0001       Project_373_MSS_0     hierarchy              240        my_Project_373_1.pulse_width4[31]
+===========================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base N:\windat.V2\Documents\Project_373\synthesis\Project_373.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:04s; Memory used current: 121MB peak: 125MB)
+
+Writing EDIF Netlist and constraint files
+I-2013.09M-SP1-1 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:04s; Memory used current: 121MB peak: 125MB)
+
+Found clock FAB_CLK with period 10.00ns 
+Found clock FCLK with period 10.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Apr 14 16:14:15 2015
+#
+
+
+Top view:               Project_373
+Library name:           smartfusion
+Operating conditions:   COMWC-1 ( T = 70.0, V = 1.42, P = 1.48, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\mss_tshell_syn.sdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -0.914
+
+                   Requested     Estimated      Requested     Estimated                Clock        Clock          
+Starting Clock     Frequency     Frequency      Period        Period        Slack      Type         Group          
+-------------------------------------------------------------------------------------------------------------------
+FAB_CLK            100.0 MHz     94.7 MHz       10.000        10.555        -0.555     declared     clk_group_0    
+FCLK               100.0 MHz     NA             10.000        NA            NA         declared     clk_group_0    
+System             100.0 MHz     3655.0 MHz     10.000        0.274         9.726      system       system_clkgroup
+===================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+System    System   |  10.000      9.726   |  No paths    -      |  No paths    -      |  No paths    -    
+System    FAB_CLK  |  10.000      -0.915  |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   FAB_CLK  |  10.000      -0.555  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FAB_CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                Starting                                        Arrival           
+Instance                        Reference     Type       Pin     Net            Time        Slack 
+                                Clock                                                             
+--------------------------------------------------------------------------------------------------
+my_Project_373_1.count2[18]     FAB_CLK       DFN1E1     Q       count2[18]     0.494       -0.555
+my_Project_373_1.count2[23]     FAB_CLK       DFN1E1     Q       count2[23]     0.494       -0.426
+my_Project_373_1.count2[15]     FAB_CLK       DFN1E1     Q       count2[15]     0.627       0.044 
+my_Project_373_1.count[22]      FAB_CLK       DFN1E0     Q       count[22]      0.494       0.212 
+my_Project_373_1.count2[20]     FAB_CLK       DFN1E1     Q       count2[20]     0.494       0.223 
+my_Project_373_1.count[8]       FAB_CLK       DFN1E0     Q       count[8]       0.627       0.233 
+my_Project_373_1.count2[21]     FAB_CLK       DFN1E1     Q       count2[21]     0.494       0.247 
+my_Project_373_1.count2[17]     FAB_CLK       DFN1E1     Q       count2[17]     0.494       0.335 
+my_Project_373_1.count2[9]      FAB_CLK       DFN1E1     Q       count2[9]      0.494       0.441 
+my_Project_373_1.count2[22]     FAB_CLK       DFN1E1     Q       count2[22]     0.494       0.443 
+==================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                Starting                                        Required           
+Instance                        Reference     Type       Pin     Net            Time         Slack 
+                                Clock                                                              
+---------------------------------------------------------------------------------------------------
+my_Project_373_1.count2[1]      FAB_CLK       DFN1E1     D       N_855          9.512        -0.555
+my_Project_373_1.count2[3]      FAB_CLK       DFN1E1     D       N_857          9.512        -0.555
+my_Project_373_1.count2[4]      FAB_CLK       DFN1E1     D       N_864          9.512        -0.555
+my_Project_373_1.count2[6]      FAB_CLK       DFN1E1     D       N_866          9.512        -0.555
+my_Project_373_1.count2[9]      FAB_CLK       DFN1E1     D       N_869          9.512        -0.555
+my_Project_373_1.count2[10]     FAB_CLK       DFN1E1     D       N_870          9.512        -0.555
+my_Project_373_1.count2[16]     FAB_CLK       DFN1E1     D       count2_n16     9.512        -0.555
+my_Project_373_1.count2[17]     FAB_CLK       DFN1E1     D       count2_n17     9.512        -0.555
+my_Project_373_1.count2[18]     FAB_CLK       DFN1E1     D       count2_n18     9.512        -0.555
+my_Project_373_1.count2[22]     FAB_CLK       DFN1E1     D       count2_n22     9.512        -0.555
+===================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.488
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.512
+
+    - Propagation time:                      10.067
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.555
+
+    Number of logic level(s):                7
+    Starting point:                          my_Project_373_1.count2[18] / Q
+    Ending point:                            my_Project_373_1.count2[1] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                     Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+my_Project_373_1.count2[18]              DFN1E1     Q        Out     0.494     0.494       -         
+count2[18]                               Net        -        -       1.007     -           4         
+my_Project_373_1.count2_RNI0S16[18]      NOR2       B        In      -         1.501       -         
+my_Project_373_1.count2_RNI0S16[18]      NOR2       Y        Out     0.438     1.939       -         
+un1_count2lto24_0_a3_1                   Net        -        -       0.328     -           2         
+my_Project_373_1.count2_RNIHA29[17]      NOR2A      A        In      -         2.267       -         
+my_Project_373_1.count2_RNIHA29[17]      NOR2A      Y        Out     0.534     2.801       -         
+un1_count2lto24_0_0                      Net        -        -       0.274     -           1         
+my_Project_373_1.count2_RNIH64F[19]      NOR3A      A        In      -         3.075       -         
+my_Project_373_1.count2_RNIH64F[19]      NOR3A      Y        Out     0.546     3.620       -         
+un1_count2lto24_0_1_0                    Net        -        -       0.274     -           1         
+my_Project_373_1.count2_RNICFCA1[13]     AO1A       B        In      -         3.894       -         
+my_Project_373_1.count2_RNICFCA1[13]     AO1A       Y        Out     0.509     4.403       -         
+un1_count2lto24_1                        Net        -        -       0.274     -           1         
+my_Project_373_1.count2_RNIU74T2[11]     OR2        A        In      -         4.676       -         
+my_Project_373_1.count2_RNIU74T2[11]     OR2        Y        Out     0.432     5.108       -         
+un1_count2                               Net        -        -       1.696     -           12        
+my_Project_373_1.done_RNI85PC3           NOR2B      B        In      -         6.804       -         
+my_Project_373_1.done_RNI85PC3           NOR2B      Y        Out     0.534     7.338       -         
+N_426_i_0                                Net        -        -       1.849     -           16        
+my_Project_373_1.count2_RNO[1]           XA1        C        In      -         9.187       -         
+my_Project_373_1.count2_RNO[1]           XA1        Y        Out     0.606     9.793       -         
+N_855                                    Net        -        -       0.274     -           1         
+my_Project_373_1.count2[1]               DFN1E1     D        In      -         10.067      -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 10.555 is 4.580(43.4%) logic and 5.975(56.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.488
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.512
+
+    - Propagation time:                      10.067
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.555
+
+    Number of logic level(s):                7
+    Starting point:                          my_Project_373_1.count2[18] / Q
+    Ending point:                            my_Project_373_1.count2[3] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                     Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+my_Project_373_1.count2[18]              DFN1E1     Q        Out     0.494     0.494       -         
+count2[18]                               Net        -        -       1.007     -           4         
+my_Project_373_1.count2_RNI0S16[18]      NOR2       B        In      -         1.501       -         
+my_Project_373_1.count2_RNI0S16[18]      NOR2       Y        Out     0.438     1.939       -         
+un1_count2lto24_0_a3_1                   Net        -        -       0.328     -           2         
+my_Project_373_1.count2_RNIHA29[17]      NOR2A      A        In      -         2.267       -         
+my_Project_373_1.count2_RNIHA29[17]      NOR2A      Y        Out     0.534     2.801       -         
+un1_count2lto24_0_0                      Net        -        -       0.274     -           1         
+my_Project_373_1.count2_RNIH64F[19]      NOR3A      A        In      -         3.075       -         
+my_Project_373_1.count2_RNIH64F[19]      NOR3A      Y        Out     0.546     3.620       -         
+un1_count2lto24_0_1_0                    Net        -        -       0.274     -           1         
+my_Project_373_1.count2_RNICFCA1[13]     AO1A       B        In      -         3.894       -         
+my_Project_373_1.count2_RNICFCA1[13]     AO1A       Y        Out     0.509     4.403       -         
+un1_count2lto24_1                        Net        -        -       0.274     -           1         
+my_Project_373_1.count2_RNIU74T2[11]     OR2        A        In      -         4.676       -         
+my_Project_373_1.count2_RNIU74T2[11]     OR2        Y        Out     0.432     5.108       -         
+un1_count2                               Net        -        -       1.696     -           12        
+my_Project_373_1.done_RNI85PC3           NOR2B      B        In      -         6.804       -         
+my_Project_373_1.done_RNI85PC3           NOR2B      Y        Out     0.534     7.338       -         
+N_426_i_0                                Net        -        -       1.849     -           16        
+my_Project_373_1.count2_RNO[3]           XA1A       C        In      -         9.187       -         
+my_Project_373_1.count2_RNO[3]           XA1A       Y        Out     0.606     9.793       -         
+N_857                                    Net        -        -       0.274     -           1         
+my_Project_373_1.count2[3]               DFN1E1     D        In      -         10.067      -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 10.555 is 4.580(43.4%) logic and 5.975(56.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.488
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.512
+
+    - Propagation time:                      10.067
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.555
+
+    Number of logic level(s):                7
+    Starting point:                          my_Project_373_1.count2[18] / Q
+    Ending point:                            my_Project_373_1.count2[10] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                     Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+my_Project_373_1.count2[18]              DFN1E1     Q        Out     0.494     0.494       -         
+count2[18]                               Net        -        -       1.007     -           4         
+my_Project_373_1.count2_RNI0S16[18]      NOR2       B        In      -         1.501       -         
+my_Project_373_1.count2_RNI0S16[18]      NOR2       Y        Out     0.438     1.939       -         
+un1_count2lto24_0_a3_1                   Net        -        -       0.328     -           2         
+my_Project_373_1.count2_RNIHA29[17]      NOR2A      A        In      -         2.267       -         
+my_Project_373_1.count2_RNIHA29[17]      NOR2A      Y        Out     0.534     2.801       -         
+un1_count2lto24_0_0                      Net        -        -       0.274     -           1         
+my_Project_373_1.count2_RNIH64F[19]      NOR3A      A        In      -         3.075       -         
+my_Project_373_1.count2_RNIH64F[19]      NOR3A      Y        Out     0.546     3.620       -         
+un1_count2lto24_0_1_0                    Net        -        -       0.274     -           1         
+my_Project_373_1.count2_RNICFCA1[13]     AO1A       B        In      -         3.894       -         
+my_Project_373_1.count2_RNICFCA1[13]     AO1A       Y        Out     0.509     4.403       -         
+un1_count2lto24_1                        Net        -        -       0.274     -           1         
+my_Project_373_1.count2_RNIU74T2[11]     OR2        A        In      -         4.676       -         
+my_Project_373_1.count2_RNIU74T2[11]     OR2        Y        Out     0.432     5.108       -         
+un1_count2                               Net        -        -       1.696     -           12        
+my_Project_373_1.done_RNI85PC3           NOR2B      B        In      -         6.804       -         
+my_Project_373_1.done_RNI85PC3           NOR2B      Y        Out     0.534     7.338       -         
+N_426_i_0                                Net        -        -       1.849     -           16        
+my_Project_373_1.count2_RNO[10]          XA1A       C        In      -         9.187       -         
+my_Project_373_1.count2_RNO[10]          XA1A       Y        Out     0.606     9.793       -         
+N_870                                    Net        -        -       0.274     -           1         
+my_Project_373_1.count2[10]              DFN1E1     D        In      -         10.067      -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 10.555 is 4.580(43.4%) logic and 5.975(56.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.488
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.512
+
+    - Propagation time:                      10.067
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.555
+
+    Number of logic level(s):                7
+    Starting point:                          my_Project_373_1.count2[18] / Q
+    Ending point:                            my_Project_373_1.count2[22] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                     Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+my_Project_373_1.count2[18]              DFN1E1     Q        Out     0.494     0.494       -         
+count2[18]                               Net        -        -       1.007     -           4         
+my_Project_373_1.count2_RNI0S16[18]      NOR2       B        In      -         1.501       -         
+my_Project_373_1.count2_RNI0S16[18]      NOR2       Y        Out     0.438     1.939       -         
+un1_count2lto24_0_a3_1                   Net        -        -       0.328     -           2         
+my_Project_373_1.count2_RNIHA29[17]      NOR2A      A        In      -         2.267       -         
+my_Project_373_1.count2_RNIHA29[17]      NOR2A      Y        Out     0.534     2.801       -         
+un1_count2lto24_0_0                      Net        -        -       0.274     -           1         
+my_Project_373_1.count2_RNIH64F[19]      NOR3A      A        In      -         3.075       -         
+my_Project_373_1.count2_RNIH64F[19]      NOR3A      Y        Out     0.546     3.620       -         
+un1_count2lto24_0_1_0                    Net        -        -       0.274     -           1         
+my_Project_373_1.count2_RNICFCA1[13]     AO1A       B        In      -         3.894       -         
+my_Project_373_1.count2_RNICFCA1[13]     AO1A       Y        Out     0.509     4.403       -         
+un1_count2lto24_1                        Net        -        -       0.274     -           1         
+my_Project_373_1.count2_RNIU74T2[11]     OR2        A        In      -         4.676       -         
+my_Project_373_1.count2_RNIU74T2[11]     OR2        Y        Out     0.432     5.108       -         
+un1_count2                               Net        -        -       1.696     -           12        
+my_Project_373_1.done_RNI85PC3           NOR2B      B        In      -         6.804       -         
+my_Project_373_1.done_RNI85PC3           NOR2B      Y        Out     0.534     7.338       -         
+N_426_i_0                                Net        -        -       1.849     -           16        
+my_Project_373_1.count2_RNO[22]          XA1A       C        In      -         9.187       -         
+my_Project_373_1.count2_RNO[22]          XA1A       Y        Out     0.606     9.793       -         
+count2_n22                               Net        -        -       0.274     -           1         
+my_Project_373_1.count2[22]              DFN1E1     D        In      -         10.067      -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 10.555 is 4.580(43.4%) logic and 5.975(56.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.488
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.512
+
+    - Propagation time:                      10.067
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.555
+
+    Number of logic level(s):                7
+    Starting point:                          my_Project_373_1.count2[18] / Q
+    Ending point:                            my_Project_373_1.count2[16] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                     Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+my_Project_373_1.count2[18]              DFN1E1     Q        Out     0.494     0.494       -         
+count2[18]                               Net        -        -       1.007     -           4         
+my_Project_373_1.count2_RNI0S16[18]      NOR2       B        In      -         1.501       -         
+my_Project_373_1.count2_RNI0S16[18]      NOR2       Y        Out     0.438     1.939       -         
+un1_count2lto24_0_a3_1                   Net        -        -       0.328     -           2         
+my_Project_373_1.count2_RNIHA29[17]      NOR2A      A        In      -         2.267       -         
+my_Project_373_1.count2_RNIHA29[17]      NOR2A      Y        Out     0.534     2.801       -         
+un1_count2lto24_0_0                      Net        -        -       0.274     -           1         
+my_Project_373_1.count2_RNIH64F[19]      NOR3A      A        In      -         3.075       -         
+my_Project_373_1.count2_RNIH64F[19]      NOR3A      Y        Out     0.546     3.620       -         
+un1_count2lto24_0_1_0                    Net        -        -       0.274     -           1         
+my_Project_373_1.count2_RNICFCA1[13]     AO1A       B        In      -         3.894       -         
+my_Project_373_1.count2_RNICFCA1[13]     AO1A       Y        Out     0.509     4.403       -         
+un1_count2lto24_1                        Net        -        -       0.274     -           1         
+my_Project_373_1.count2_RNIU74T2[11]     OR2        A        In      -         4.676       -         
+my_Project_373_1.count2_RNIU74T2[11]     OR2        Y        Out     0.432     5.108       -         
+un1_count2                               Net        -        -       1.696     -           12        
+my_Project_373_1.done_RNI85PC3           NOR2B      B        In      -         6.804       -         
+my_Project_373_1.done_RNI85PC3           NOR2B      Y        Out     0.534     7.338       -         
+N_426_i_0                                Net        -        -       1.849     -           16        
+my_Project_373_1.count2_RNO[16]          XA1A       C        In      -         9.187       -         
+my_Project_373_1.count2_RNO[16]          XA1A       Y        Out     0.606     9.793       -         
+count2_n16                               Net        -        -       0.274     -           1         
+my_Project_373_1.count2[16]              DFN1E1     D        In      -         10.067      -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 10.555 is 4.580(43.4%) logic and 5.975(56.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                     Starting                                                                                  Arrival           
+Instance                             Reference     Type        Pin              Net                                            Time        Slack 
+                                     Clock                                                                                                       
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Project_373_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[4]      CoreAPB3_0_APBmslave0_PADDR[4]                 0.000       -0.914
+Project_373_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPENABLE       CoreAPB3_0_APBmslave0_PENABLE                  0.000       -0.268
+Project_373_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[1]      CoreAPB3_0_APBmslave0_PADDR[1]                 0.000       -0.188
+Project_373_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPSEL          Project_373_MSS_0_MSS_MASTER_APB_PSELx         0.000       -0.172
+Project_373_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[7]      CoreAPB3_0_APBmslave0_PADDR[7]                 0.000       -0.070
+Project_373_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[10]     Project_373_MSS_0_MSS_MASTER_APB_PADDR[10]     0.000       -0.070
+Project_373_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[11]     Project_373_MSS_0_MSS_MASTER_APB_PADDR[11]     0.000       0.048 
+Project_373_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[9]      Project_373_MSS_0_MSS_MASTER_APB_PADDR[9]      0.000       0.539 
+Project_373_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[6]      CoreAPB3_0_APBmslave0_PADDR[6]                 0.000       0.569 
+Project_373_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPWRITE        CoreAPB3_0_APBmslave0_PWRITE                   0.000       0.690 
+=================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                     Starting                                               Required           
+Instance                             Reference     Type     Pin     Net                     Time         Slack 
+                                     Clock                                                                     
+---------------------------------------------------------------------------------------------------------------
+my_Project_373_1.pulse_width3[0]     System        DFN1     D       pulse_width3_RNO[0]     9.512        -0.914
+my_Project_373_1.pulse_width3[1]     System        DFN1     D       pulse_width3_RNO[1]     9.512        -0.914
+my_Project_373_1.pulse_width3[2]     System        DFN1     D       pulse_width3_RNO[2]     9.512        -0.914
+my_Project_373_1.pulse_width3[3]     System        DFN1     D       pulse_width3_RNO[3]     9.512        -0.914
+my_Project_373_1.pulse_width3[4]     System        DFN1     D       pulse_width3_RNO[4]     9.512        -0.914
+my_Project_373_1.pulse_width3[5]     System        DFN1     D       pulse_width3_RNO[5]     9.512        -0.914
+my_Project_373_1.pulse_width3[6]     System        DFN1     D       pulse_width3_RNO[6]     9.512        -0.914
+my_Project_373_1.pulse_width3[7]     System        DFN1     D       pulse_width3_RNO[7]     9.512        -0.914
+my_Project_373_1.pulse_width3[8]     System        DFN1     D       pulse_width3_RNO[8]     9.512        -0.914
+my_Project_373_1.pulse_width3[9]     System        DFN1     D       pulse_width3_RNO[9]     9.512        -0.914
+===============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.488
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.512
+
+    - Propagation time:                      10.427
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -0.915
+
+    Number of logic level(s):                6
+    Starting point:                          Project_373_MSS_0.MSS_ADLIB_INST / MSSPADDR[4]
+    Ending point:                            my_Project_373_1.pulse_width3[16] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                             Pin             Pin               Arrival     No. of    
+Name                                           Type        Name            Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+Project_373_MSS_0.MSS_ADLIB_INST               MSS_APB     MSSPADDR[4]     Out     0.000     0.000       -         
+CoreAPB3_0_APBmslave0_PADDR[4]                 Net         -               -       1.964     -           19        
+Project_373_MSS_0.MSS_ADLIB_INST_RNIDEC3_0     BUFF        A               In      -         1.964       -         
+Project_373_MSS_0.MSS_ADLIB_INST_RNIDEC3_0     BUFF        Y               Out     0.424     2.389       -         
+CoreAPB3_0_APBmslave0_PADDR_0[4]               Net         -               -       1.964     -           19        
+my_Project_373_1.IN4_write_0_a2_0              NOR3B       B               In      -         4.353       -         
+my_Project_373_1.IN4_write_0_a2_0              NOR3B       Y               Out     0.516     4.869       -         
+IN4_write_0_a2_0                               Net         -               -       0.274     -           1         
+I_81                                           CLKINT      A               In      -         5.142       -         
+I_81                                           CLKINT      Y               Out     0.148     5.290       -         
+my_Project_373_1.N_225                         Net         -               -       1.362     -           68        
+my_Project_373_1.pulse_width3_1_sqmuxa_i       AO1C        B               In      -         6.652       -         
+my_Project_373_1.pulse_width3_1_sqmuxa_i       AO1C        Y               Out     0.507     7.160       -         
+N_853                                          Net         -               -       1.849     -           16        
+my_Project_373_1.pulse_width3_RNO_0[16]        MX2         S               In      -         9.008       -         
+my_Project_373_1.pulse_width3_RNO_0[16]        MX2         Y               Out     0.337     9.345       -         
+N_584                                          Net         -               -       0.274     -           1         
+my_Project_373_1.pulse_width3_RNO[16]          NOR2A       A               In      -         9.619       -         
+my_Project_373_1.pulse_width3_RNO[16]          NOR2A       Y               Out     0.534     10.153      -         
+pulse_width3_RNO[16]                           Net         -               -       0.274     -           1         
+my_Project_373_1.pulse_width3[16]              DFN1        D               In      -         10.427      -         
+===================================================================================================================
+Total path delay (propagation time + setup) of 10.915 is 2.955(27.1%) logic and 7.960(72.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.488
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.512
+
+    - Propagation time:                      10.427
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -0.915
+
+    Number of logic level(s):                6
+    Starting point:                          Project_373_MSS_0.MSS_ADLIB_INST / MSSPADDR[4]
+    Ending point:                            my_Project_373_1.pulse_width3[0] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                             Pin             Pin               Arrival     No. of    
+Name                                           Type        Name            Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+Project_373_MSS_0.MSS_ADLIB_INST               MSS_APB     MSSPADDR[4]     Out     0.000     0.000       -         
+CoreAPB3_0_APBmslave0_PADDR[4]                 Net         -               -       1.964     -           19        
+Project_373_MSS_0.MSS_ADLIB_INST_RNIDEC3_0     BUFF        A               In      -         1.964       -         
+Project_373_MSS_0.MSS_ADLIB_INST_RNIDEC3_0     BUFF        Y               Out     0.424     2.389       -         
+CoreAPB3_0_APBmslave0_PADDR_0[4]               Net         -               -       1.964     -           19        
+my_Project_373_1.IN4_write_0_a2_0              NOR3B       B               In      -         4.353       -         
+my_Project_373_1.IN4_write_0_a2_0              NOR3B       Y               Out     0.516     4.869       -         
+IN4_write_0_a2_0                               Net         -               -       0.274     -           1         
+I_81                                           CLKINT      A               In      -         5.142       -         
+I_81                                           CLKINT      Y               Out     0.148     5.290       -         
+my_Project_373_1.N_225                         Net         -               -       1.362     -           68        
+my_Project_373_1.pulse_width3_1_sqmuxa_i_0     AO1C        B               In      -         6.652       -         
+my_Project_373_1.pulse_width3_1_sqmuxa_i_0     AO1C        Y               Out     0.507     7.160       -         
+N_853_0                                        Net         -               -       1.849     -           16        
+my_Project_373_1.pulse_width3_RNO_0[0]         MX2         S               In      -         9.008       -         
+my_Project_373_1.pulse_width3_RNO_0[0]         MX2         Y               Out     0.337     9.345       -         
+N_568                                          Net         -               -       0.274     -           1         
+my_Project_373_1.pulse_width3_RNO[0]           NOR2A       A               In      -         9.619       -         
+my_Project_373_1.pulse_width3_RNO[0]           NOR2A       Y               Out     0.534     10.153      -         
+pulse_width3_RNO[0]                            Net         -               -       0.274     -           1         
+my_Project_373_1.pulse_width3[0]               DFN1        D               In      -         10.427      -         
+===================================================================================================================
+Total path delay (propagation time + setup) of 10.915 is 2.955(27.1%) logic and 7.960(72.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.488
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.512
+
+    - Propagation time:                      10.427
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -0.915
+
+    Number of logic level(s):                6
+    Starting point:                          Project_373_MSS_0.MSS_ADLIB_INST / MSSPADDR[4]
+    Ending point:                            my_Project_373_1.pulse_width3[31] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                             Pin             Pin               Arrival     No. of    
+Name                                           Type        Name            Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+Project_373_MSS_0.MSS_ADLIB_INST               MSS_APB     MSSPADDR[4]     Out     0.000     0.000       -         
+CoreAPB3_0_APBmslave0_PADDR[4]                 Net         -               -       1.964     -           19        
+Project_373_MSS_0.MSS_ADLIB_INST_RNIDEC3_0     BUFF        A               In      -         1.964       -         
+Project_373_MSS_0.MSS_ADLIB_INST_RNIDEC3_0     BUFF        Y               Out     0.424     2.389       -         
+CoreAPB3_0_APBmslave0_PADDR_0[4]               Net         -               -       1.964     -           19        
+my_Project_373_1.IN4_write_0_a2_0              NOR3B       B               In      -         4.353       -         
+my_Project_373_1.IN4_write_0_a2_0              NOR3B       Y               Out     0.516     4.869       -         
+IN4_write_0_a2_0                               Net         -               -       0.274     -           1         
+I_81                                           CLKINT      A               In      -         5.142       -         
+I_81                                           CLKINT      Y               Out     0.148     5.290       -         
+my_Project_373_1.N_225                         Net         -               -       1.362     -           68        
+my_Project_373_1.pulse_width3_1_sqmuxa_i       AO1C        B               In      -         6.652       -         
+my_Project_373_1.pulse_width3_1_sqmuxa_i       AO1C        Y               Out     0.507     7.160       -         
+N_853                                          Net         -               -       1.849     -           16        
+my_Project_373_1.pulse_width3_RNO_0[31]        MX2         S               In      -         9.008       -         
+my_Project_373_1.pulse_width3_RNO_0[31]        MX2         Y               Out     0.337     9.345       -         
+N_599                                          Net         -               -       0.274     -           1         
+my_Project_373_1.pulse_width3_RNO[31]          NOR2A       A               In      -         9.619       -         
+my_Project_373_1.pulse_width3_RNO[31]          NOR2A       Y               Out     0.534     10.153      -         
+pulse_width3_RNO[31]                           Net         -               -       0.274     -           1         
+my_Project_373_1.pulse_width3[31]              DFN1        D               In      -         10.427      -         
+===================================================================================================================
+Total path delay (propagation time + setup) of 10.915 is 2.955(27.1%) logic and 7.960(72.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.488
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.512
+
+    - Propagation time:                      10.427
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -0.915
+
+    Number of logic level(s):                6
+    Starting point:                          Project_373_MSS_0.MSS_ADLIB_INST / MSSPADDR[4]
+    Ending point:                            my_Project_373_1.pulse_width3[30] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                             Pin             Pin               Arrival     No. of    
+Name                                           Type        Name            Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+Project_373_MSS_0.MSS_ADLIB_INST               MSS_APB     MSSPADDR[4]     Out     0.000     0.000       -         
+CoreAPB3_0_APBmslave0_PADDR[4]                 Net         -               -       1.964     -           19        
+Project_373_MSS_0.MSS_ADLIB_INST_RNIDEC3_0     BUFF        A               In      -         1.964       -         
+Project_373_MSS_0.MSS_ADLIB_INST_RNIDEC3_0     BUFF        Y               Out     0.424     2.389       -         
+CoreAPB3_0_APBmslave0_PADDR_0[4]               Net         -               -       1.964     -           19        
+my_Project_373_1.IN4_write_0_a2_0              NOR3B       B               In      -         4.353       -         
+my_Project_373_1.IN4_write_0_a2_0              NOR3B       Y               Out     0.516     4.869       -         
+IN4_write_0_a2_0                               Net         -               -       0.274     -           1         
+I_81                                           CLKINT      A               In      -         5.142       -         
+I_81                                           CLKINT      Y               Out     0.148     5.290       -         
+my_Project_373_1.N_225                         Net         -               -       1.362     -           68        
+my_Project_373_1.pulse_width3_1_sqmuxa_i       AO1C        B               In      -         6.652       -         
+my_Project_373_1.pulse_width3_1_sqmuxa_i       AO1C        Y               Out     0.507     7.160       -         
+N_853                                          Net         -               -       1.849     -           16        
+my_Project_373_1.pulse_width3_RNO_0[30]        MX2         S               In      -         9.008       -         
+my_Project_373_1.pulse_width3_RNO_0[30]        MX2         Y               Out     0.337     9.345       -         
+N_598                                          Net         -               -       0.274     -           1         
+my_Project_373_1.pulse_width3_RNO[30]          NOR2A       A               In      -         9.619       -         
+my_Project_373_1.pulse_width3_RNO[30]          NOR2A       Y               Out     0.534     10.153      -         
+pulse_width3_RNO[30]                           Net         -               -       0.274     -           1         
+my_Project_373_1.pulse_width3[30]              DFN1        D               In      -         10.427      -         
+===================================================================================================================
+Total path delay (propagation time + setup) of 10.915 is 2.955(27.1%) logic and 7.960(72.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.488
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.512
+
+    - Propagation time:                      10.427
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -0.915
+
+    Number of logic level(s):                6
+    Starting point:                          Project_373_MSS_0.MSS_ADLIB_INST / MSSPADDR[4]
+    Ending point:                            my_Project_373_1.pulse_width3[29] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                             Pin             Pin               Arrival     No. of    
+Name                                           Type        Name            Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+Project_373_MSS_0.MSS_ADLIB_INST               MSS_APB     MSSPADDR[4]     Out     0.000     0.000       -         
+CoreAPB3_0_APBmslave0_PADDR[4]                 Net         -               -       1.964     -           19        
+Project_373_MSS_0.MSS_ADLIB_INST_RNIDEC3_0     BUFF        A               In      -         1.964       -         
+Project_373_MSS_0.MSS_ADLIB_INST_RNIDEC3_0     BUFF        Y               Out     0.424     2.389       -         
+CoreAPB3_0_APBmslave0_PADDR_0[4]               Net         -               -       1.964     -           19        
+my_Project_373_1.IN4_write_0_a2_0              NOR3B       B               In      -         4.353       -         
+my_Project_373_1.IN4_write_0_a2_0              NOR3B       Y               Out     0.516     4.869       -         
+IN4_write_0_a2_0                               Net         -               -       0.274     -           1         
+I_81                                           CLKINT      A               In      -         5.142       -         
+I_81                                           CLKINT      Y               Out     0.148     5.290       -         
+my_Project_373_1.N_225                         Net         -               -       1.362     -           68        
+my_Project_373_1.pulse_width3_1_sqmuxa_i       AO1C        B               In      -         6.652       -         
+my_Project_373_1.pulse_width3_1_sqmuxa_i       AO1C        Y               Out     0.507     7.160       -         
+N_853                                          Net         -               -       1.849     -           16        
+my_Project_373_1.pulse_width3_RNO_0[29]        MX2         S               In      -         9.008       -         
+my_Project_373_1.pulse_width3_RNO_0[29]        MX2         Y               Out     0.337     9.345       -         
+N_597                                          Net         -               -       0.274     -           1         
+my_Project_373_1.pulse_width3_RNO[29]          NOR2A       A               In      -         9.619       -         
+my_Project_373_1.pulse_width3_RNO[29]          NOR2A       Y               Out     0.534     10.153      -         
+pulse_width3_RNO[29]                           Net         -               -       0.274     -           1         
+my_Project_373_1.pulse_width3[29]              DFN1        D               In      -         10.427      -         
+===================================================================================================================
+Total path delay (propagation time + setup) of 10.915 is 2.955(27.1%) logic and 7.960(72.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: A2F200M3F_FBGA484_-1
+Report for cell Project_373.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2    26      1.0       26.0
+              AND3    56      1.0       56.0
+               AO1    25      1.0       25.0
+              AO1A     2      1.0        2.0
+              AO1B     5      1.0        5.0
+              AO1C    28      1.0       28.0
+              AO1D     2      1.0        2.0
+              AOI1     1      1.0        1.0
+             AOI1B     1      1.0        1.0
+               AX1     1      1.0        1.0
+              AX1A     1      1.0        1.0
+              AX1C    13      1.0       13.0
+              AX1E     3      1.0        3.0
+              BUFF     1      1.0        1.0
+            CLKINT     3      0.0        0.0
+               GND     9      0.0        0.0
+           MSS_APB     1      0.0        0.0
+           MSS_CCC     1      0.0        0.0
+               MX2   128      1.0      128.0
+              MX2B     1      1.0        1.0
+              NOR2    23      1.0       23.0
+             NOR2A   156      1.0      156.0
+             NOR2B    51      1.0       51.0
+              NOR3    42      1.0       42.0
+             NOR3A    11      1.0       11.0
+             NOR3B    95      1.0       95.0
+             NOR3C   119      1.0      119.0
+               OA1    35      1.0       35.0
+              OA1A    23      1.0       23.0
+              OA1B     6      1.0        6.0
+              OA1C     5      1.0        5.0
+              OAI1     1      1.0        1.0
+               OR2    62      1.0       62.0
+              OR2A    39      1.0       39.0
+              OR2B    12      1.0       12.0
+               OR3     2      1.0        2.0
+              OR3B     9      1.0        9.0
+              OR3C    12      1.0       12.0
+             RCOSC     1      0.0        0.0
+               VCC     9      0.0        0.0
+               XA1     9      1.0        9.0
+              XA1A     9      1.0        9.0
+             XNOR2    21      1.0       21.0
+              XOR2    52      1.0       52.0
+
+
+              DFN1   186      1.0      186.0
+            DFN1E0    29      1.0       29.0
+            DFN1E1    25      1.0       25.0
+                   -----          ----------
+             TOTAL  1352              1328.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     1
+         INBUF_MSS     3
+            OUTBUF     6
+        OUTBUF_MSS     2
+                   -----
+             TOTAL    12
+
+
+Core Cells         : 1328 of 4608 (29%)
+IO Cells           : 12
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:04s; Memory used current: 51MB peak: 125MB)
+
+Process took 0h:00m:11s realtime, 0h:00m:04s cputime
+# Tue Apr 14 16:14:16 2015
+
+###########################################################]

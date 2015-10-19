@@ -1,0 +1,47 @@
+FlashPro
+Version: 11.4.0.112
+Release: v11.4
+
+Software Version: 11.4.0.112
+PDB file 'J:\Project_373\designer\impl1\Project_373_fp\Project_373.pdb' has been loaded
+successfully.
+DESIGN : Project_373;  CHECKSUM : A79F;  PDB_VERSION : 1.8
+Driver : 3.0.0 build 1
+programmer '71728' : FlashPro3
+Warning: The programmer with id '79901' in the project file cannot be detected and connected.
+Opened 'J:/Project_373/designer/impl1/Project_373_fp/Project_373.pro'
+The 'open_project' command succeeded.
+The 'set_programming_file' command succeeded.
+The 'set_device_type' command succeeded.
+The 'set_device_package' command succeeded.
+Info: Adding Flash Memory data from file
+      J:\Project_373\component\work\Project_373_MSS\MSS_ENVM_0\MSS_ENVM_0.efc.
+Info: Adding FPGA Array data from file J:\Project_373\designer\impl1\Project_373.fdb.
+PDB file 'J:\Project_373\designer\impl1\Project_373_fp\Project_373.pdb' has been loaded
+successfully.
+DESIGN : Project_373;  CHECKSUM : A79F;  PDB_VERSION : 1.8
+The 'update_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '71728' : Scan Chain...
+Warning: programmer '71728' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '71728' : Scan Chain PASSED.
+programmer '71728' : Executing action PROGRAM
+programmer '71728' : EXPORT FSN[48] = 0114ab208c88
+programmer '71728' : Erase ...
+programmer '71728' : Completed erase
+programmer '71728' : EXPORT CHECKSUM: [16] = a79f
+programmer '71728' : Programming FPGA Array
+programmer '71728' : Verifying FPGA Array
+programmer '71728' :         Verifying FPGA Array -- pass
+programmer '71728' : Program System Init and Boot Clients...
+programmer '71728' : Verify System Init and Boot Clients...
+programmer '71728' : Finished: Thu Apr 16 13:30:33 2015 (Elapsed time 00:00:37)
+programmer '71728' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

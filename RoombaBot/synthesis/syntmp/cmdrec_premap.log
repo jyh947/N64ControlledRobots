@@ -1,0 +1,14 @@
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\m_proasic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  N:\windat.V2\Documents\Project_373\synthesis  -part A2F200M3F  -package FBGA484  -grade -1   -globalthreshold 50 -maxfan 24 -opcond COMWC     -report_path 0   -RWCheckOnRam 0     -summaryfile N:\windat.V2\Documents\Project_373\synthesis\synlog\report\Project_373_premap.xml -top_level_module  Project_373  -oedif  N:\windat.V2\Documents\Project_373\synthesis\Project_373.edn  -conchk_prepass  N:\windat.V2\Documents\Project_373\synthesis\Project_373_cck_prepass.rpt  -freq 100.000  -tcl  N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\mss_tshell_syn.sdc  N:\windat.V2\Documents\Project_373\synthesis\synwork\Project_373_comp.srs  -flow prepass  -gcc_prepass  -osrd  N:\windat.V2\Documents\Project_373\synthesis\synwork\Project_373_prem.srd  -qsap  N:\windat.V2\Documents\Project_373\synthesis\Project_373.sap  -devicelib  C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v  -ologparam  N:\windat.V2\Documents\Project_373\synthesis\syntmp\Project_373.plg  -osyn  N:\windat.V2\Documents\Project_373\synthesis\synwork\Project_373_prem.srd  -prjdir  N:\windat.V2\Documents\Project_373\synthesis\  -prjname  Project_373_syn  -log  N:\windat.V2\Documents\Project_373\synthesis\synlog\Project_373_premap.srr 
+rc:0 success:1
+N:\windat.V2\Documents\Project_373\synthesis\Project_373.edn|o|0|0
+N:\windat.V2\Documents\Project_373\synthesis\Project_373_cck_prepass.rpt|o|0|0
+N:\windat.V2\Documents\Project_373\component\work\Project_373_MSS\mss_tshell_syn.sdc|i|1428526229|202
+N:\windat.V2\Documents\Project_373\synthesis\synwork\Project_373_comp.srs|i|1429042438|52600
+N:\windat.V2\Documents\Project_373\synthesis\synwork\Project_373_prem.srd|o|1429042442|46484
+N:\windat.V2\Documents\Project_373\synthesis\Project_373.sap|o|1429042442|4291
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\lib\proasic\smartfusion.v|i|1389708296|72817
+N:\windat.V2\Documents\Project_373\synthesis\syntmp\Project_373.plg|o|1429042441|0
+N:\windat.V2\Documents\Project_373\synthesis\synwork\Project_373_prem.srd|o|1429042442|46484
+N:\windat.V2\Documents\Project_373\synthesis\synlog\Project_373_premap.srr|o|1429042442|2079
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin64\m_proasic.exe|i|1401309616|14819328
+C:\Microsemi\Libero_v11.4\Synopsys\synplify_I201309MSP1-1\bin\m_proasic.exe|i|1401306976|12178944

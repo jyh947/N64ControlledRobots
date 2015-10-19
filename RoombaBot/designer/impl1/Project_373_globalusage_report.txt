@@ -1,0 +1,27 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.4
+Version: 11.4.0.112
+Date: Tue Apr 14 16:15:27 2015
+Design Name: Project_373  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    72                Net   : CoreAPB3_0_APBmslave0_PADDR[2]
+                      Driver: Project_373_MSS_0/MSS_ADLIB_INST_RNIDEC3/U_CLKSRC/U_GL
+    241               Net   : FAB_CLK
+                      Driver: Project_373_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1
+    68                Net   : my_Project_373_1.N_225
+                      Driver: I_81/U_CLKSRC/U_GL
+    159               Net   : my_Project_373_1/done
+                      Driver: my_Project_373_1/done_RNIS3G7/U_CLKSRC/U_GL
+
+
+
+

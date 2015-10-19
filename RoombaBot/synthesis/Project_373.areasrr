@@ -1,0 +1,221 @@
+----------------------------------------------------------------------
+Report for cell Project_373.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKINT         1       0.0        0.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                             OUTBUF         6       0.0        0.0
+                    Project_373_MSS         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                     my_Project_373         1    1327.0     1327.0
+                            
+                         TOTAL             12               1328.0
+----------------------------------------------------------------------
+Report for cell Project_373_MSS.netlist
+     Instance path:  Project_373_MSS_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               BUFF         1       1.0        1.0
+                             CLKINT         1       0.0        0.0
+                                GND         1       0.0        0.0
+                          INBUF_MSS         3       0.0        0.0
+                            MSS_APB         1       0.0        0.0
+                         OUTBUF_MSS         2       0.0        0.0
+          Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             11                  1.0
+----------------------------------------------------------------------
+Report for cell Project_373_MSS_tmp_MSS_CCC_0_MSS_CCC.netlist
+     Instance path:  Project_373_MSS_0.MSS_CCC_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                            MSS_CCC         1       0.0        0.0
+                              RCOSC         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  0.0
+----------------------------------------------------------------------
+Report for cell my_Project_373.netlist
+     Instance path:  my_Project_373_1
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1A         2       1.0        2.0
+                               AO1B         5       1.0        5.0
+                               AO1C         4       1.0        4.0
+                               AO1D         2       1.0        2.0
+                               AOI1         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                                AX1         1       1.0        1.0
+                               AX1A         1       1.0        1.0
+                               AX1C        13       1.0       13.0
+                               AX1E         3       1.0        3.0
+                             CLKINT         1       0.0        0.0
+                               DFN1       129       1.0      129.0
+                             DFN1E0        29       1.0       29.0
+                             DFN1E1        25       1.0       25.0
+                                GND         1       0.0        0.0
+                                LED         1      55.0       55.0
+                                MX2       128       1.0      128.0
+                               MX2B         1       1.0        1.0
+                               NOR2         9       1.0        9.0
+                              NOR2A       140       1.0      140.0
+                              NOR2B        36       1.0       36.0
+                              NOR3A        11       1.0       11.0
+                              NOR3B        95       1.0       95.0
+                              NOR3C       119       1.0      119.0
+                                OA1         3       1.0        3.0
+                               OA1A         1       1.0        1.0
+                               OA1B         2       1.0        2.0
+                               OA1C         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                               OR2A         3       1.0        3.0
+                               OR2B        12       1.0       12.0
+                                OR3         2       1.0        2.0
+                               OR3B         5       1.0        5.0
+                               OR3C         8       1.0        8.0
+                                VCC         1       0.0        0.0
+                                XA1         9       1.0        9.0
+                               XA1A         9       1.0        9.0
+                              XNOR2         1       1.0        1.0
+                               XOR2         5       1.0        5.0
+                       pulsewm_pwm1         1     113.0      113.0
+                     pulsewm_pwm1_0         1     113.0      113.0
+                     pulsewm_pwm1_1         1     113.0      113.0
+                     pulsewm_pwm1_2         1     113.0      113.0
+                            
+                         TOTAL            828               1327.0
+----------------------------------------------------------------------
+Report for cell LED.netlist
+     Instance path:  my_Project_373_1.led1
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AND3        12       1.0       12.0
+                               DFN1        13       1.0       13.0
+                                GND         1       0.0        0.0
+                               NOR2         2       1.0        2.0
+                              NOR2B         3       1.0        3.0
+                               NOR3         2       1.0        2.0
+                               OA1A         6       1.0        6.0
+                               OA1C         4       1.0        4.0
+                                VCC         1       0.0        0.0
+                               XOR2        11       1.0       11.0
+                            
+                         TOTAL             57                 55.0
+----------------------------------------------------------------------
+Report for cell pulsewm_pwm1_2.netlist
+  Original Cell name pulsewm_pwm1
+     Instance path:  my_Project_373_1.pwm4
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         6       1.0        6.0
+                               AND3        11       1.0       11.0
+                                AO1         6       1.0        6.0
+                               AO1C         6       1.0        6.0
+                               DFN1        11       1.0       11.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         3       1.0        3.0
+                               NOR3        10       1.0       10.0
+                                OA1         8       1.0        8.0
+                               OA1A         4       1.0        4.0
+                               OA1B         1       1.0        1.0
+                                OR2        15       1.0       15.0
+                               OR2A         9       1.0        9.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         5       1.0        5.0
+                               XOR2         9       1.0        9.0
+                            
+                         TOTAL            115                113.0
+----------------------------------------------------------------------
+Report for cell pulsewm_pwm1_1.netlist
+  Original Cell name pulsewm_pwm1
+     Instance path:  my_Project_373_1.pwm3
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         6       1.0        6.0
+                               AND3        11       1.0       11.0
+                                AO1         6       1.0        6.0
+                               AO1C         6       1.0        6.0
+                               DFN1        11       1.0       11.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         3       1.0        3.0
+                               NOR3        10       1.0       10.0
+                                OA1         8       1.0        8.0
+                               OA1A         4       1.0        4.0
+                               OA1B         1       1.0        1.0
+                                OR2        15       1.0       15.0
+                               OR2A         9       1.0        9.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         5       1.0        5.0
+                               XOR2         9       1.0        9.0
+                            
+                         TOTAL            115                113.0
+----------------------------------------------------------------------
+Report for cell pulsewm_pwm1_0.netlist
+  Original Cell name pulsewm_pwm1
+     Instance path:  my_Project_373_1.pwm2
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         6       1.0        6.0
+                               AND3        11       1.0       11.0
+                                AO1         6       1.0        6.0
+                               AO1C         6       1.0        6.0
+                               DFN1        11       1.0       11.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         3       1.0        3.0
+                               NOR3        10       1.0       10.0
+                                OA1         8       1.0        8.0
+                               OA1A         4       1.0        4.0
+                               OA1B         1       1.0        1.0
+                                OR2        15       1.0       15.0
+                               OR2A         9       1.0        9.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         5       1.0        5.0
+                               XOR2         9       1.0        9.0
+                            
+                         TOTAL            115                113.0
+----------------------------------------------------------------------
+Report for cell pulsewm_pwm1.netlist
+  Original Cell name pulsewm
+     Instance path:  my_Project_373_1.pwm1
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         6       1.0        6.0
+                               AND3        11       1.0       11.0
+                                AO1         6       1.0        6.0
+                               AO1C         6       1.0        6.0
+                               DFN1        11       1.0       11.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         3       1.0        3.0
+                               NOR3        10       1.0       10.0
+                                OA1         8       1.0        8.0
+                               OA1A         4       1.0        4.0
+                               OA1B         1       1.0        1.0
+                                OR2        15       1.0       15.0
+                               OR2A         9       1.0        9.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         5       1.0        5.0
+                               XOR2         9       1.0        9.0
+                            
+                         TOTAL            115                113.0
